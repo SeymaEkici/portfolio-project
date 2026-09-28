@@ -1,8 +1,8 @@
 import { Router } from 'express';
+import authRoutes from './auth.routes.js';
 
 const router = Router();
 
-// Health Check Endpoint (Sunucu ayakta mı kontrolü)
 router.get('/health', (req, res) => {
   res.status(200).json({
     status: 'success',
@@ -10,5 +10,8 @@ router.get('/health', (req, res) => {
     timestamp: new Date().toISOString(),
   });
 });
+
+// Auth modülü rotaları
+router.use('/auth', authRoutes);
 
 export default router;
