@@ -1,6 +1,8 @@
 import { Router } from 'express';
 import authRoutes from './auth.routes.js';
 import projectRoutes from './project.routes.js';
+import skillRoutes from './skill.routes.js';
+import messageRoutes from './message.routes.js';
 
 const router = Router();
 
@@ -13,7 +15,8 @@ router.get('/health', (req, res) => {
 });
 
 router.use('/auth', authRoutes);
-
 router.use('/projects', projectRoutes);
+router.use('/skills', skillRoutes);
+router.use('/messages', messageRoutes);
 
 export default router;
