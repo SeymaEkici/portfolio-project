@@ -3,9 +3,9 @@ import { SkillCategory } from '@prisma/client';
 
 export const createSkillSchema = z.object({
   body: z.object({
-    name: z.string({ required_error: 'Yetenek adı zorunludur.' }),
+    name: z.string().min(1, 'Yetenek adı zorunludur.'),
     level: z.number().min(1).max(100).default(50),
-    category: z.nativeEnum(SkillCategory, { required_error: 'Geçerli bir kategori seçiniz.' }),
+    category: z.nativeEnum(SkillCategory, { message: 'Geçerli bir kategori seçiniz.' }),
     iconUrl: z.string().url().optional().or(z.literal('')),
     order: z.number().int().default(0),
   }),

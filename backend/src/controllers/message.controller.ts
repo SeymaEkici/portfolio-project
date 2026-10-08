@@ -13,11 +13,11 @@ export const createMessage = asyncHandler(async (req: Request, res: Response) =>
 });
 
 export const markMessageAsRead = asyncHandler(async (req: Request, res: Response) => {
-  const message = await messageService.markAsRead(req.params.id);
+  const message = await messageService.markAsRead(req.params.id as string);
   res.status(200).json({ status: 'success', data: { message } });
 });
 
 export const deleteMessage = asyncHandler(async (req: Request, res: Response) => {
-  await messageService.deleteMessage(req.params.id);
+  await messageService.deleteMessage(req.params.id as string);
   res.status(204).json({ status: 'success', data: null });
 });

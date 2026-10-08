@@ -2,9 +2,9 @@ import { z } from 'zod';
 
 export const createMessageSchema = z.object({
   body: z.object({
-    name: z.string({ required_error: 'Ad alanı zorunludur.' }).min(2),
-    email: z.string({ required_error: 'Email zorunludur.' }).email('Geçerli bir email giriniz.'),
-    subject: z.string({ required_error: 'Konu zorunludur.' }).min(3),
-    message: z.string({ required_error: 'Mesaj zorunludur.' }).min(10),
+    name: z.string().min(2, 'Ad alanı en az 2 karakter olmalıdır.'),
+    email: z.string().min(1, 'Email zorunludur.').email('Geçerli bir email giriniz.'),
+    subject: z.string().min(3, 'Konu en az 3 karakter olmalıdır.'),
+    message: z.string().min(10, 'Mesaj en az 10 karakter olmalıdır.'),
   }),
 });
