@@ -3,6 +3,7 @@ import authRoutes from './auth.routes.js';
 import projectRoutes from './project.routes.js';
 import skillRoutes from './skill.routes.js';
 import messageRoutes from './message.routes.js';
+import uploadRoutes from './upload.routes.js';
 
 const router = Router();
 
@@ -18,5 +19,6 @@ router.use('/auth', authRoutes);
 router.use('/projects', projectRoutes);
 router.use('/skills', skillRoutes);
 router.use('/messages', messageRoutes);
+router.use('/upload', uploadRoutes);
 
 export default router;
