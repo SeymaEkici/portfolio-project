@@ -83,39 +83,51 @@ export default async function HomePage() {
 
         {featuredProjects.length === 0 ? (
           <div className="p-8 text-center rounded-xl border border-dashed border-zinc-800 text-zinc-500 font-mono text-sm">
-            Backend sunucusu kapalı veya henüz öne çıkarılan proje eklenmedi. (Admin panelinden ekleyebilirsin).
+            Backend sunucusu kapalı veya henüz öne çıkarılan proje eklenmedi.
           </div>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {featuredProjects.map((project: any) => (
               <div 
                 key={project.id}
-                className="group p-6 rounded-2xl bg-zinc-900/40 border border-zinc-800 hover:border-zinc-700 transition-all duration-300 flex flex-col justify-between space-y-6"
+                className="group p-6 rounded-2xl bg-zinc-900/40 border border-zinc-800 hover:border-zinc-700 transition-all duration-300 flex flex-col justify-between space-y-6 overflow-hidden"
               >
-                <div className="space-y-3">
-                  <div className="flex items-center justify-between">
-                    <span className="text-xs font-mono text-zinc-500">#{project.slug}</span>
-                    {project.githubUrl && (
-                      <a 
-                        href={project.githubUrl} 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                        className="text-zinc-400 hover:text-zinc-100 transition-colors"
-                      >
-                        <GitBranch className="w-4 h-4" />
-                      </a>
-                    )}
+                <div className="space-y-4">
+                  {/* Proje Görseli (Eğer yüklendiyse burada görünecek) */}
+                  {project.imageUrl && (
+                    <div className="relative w-full h-48 rounded-xl overflow-hidden border border-zinc-800/80 bg-zinc-950">
+                      <img 
+                        src={project.imageUrl} 
+                        alt={project.title}
+                        className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-500"
+                      />
+                    </div>
+                  )}
+
+                  <div className="space-y-3">
+                    <div className="flex items-center justify-between">
+                      <span className="text-xs font-mono text-zinc-500">#{project.slug}</span>
+                      {project.githubUrl && (
+                        <a 
+                          href={project.githubUrl} 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="text-zinc-400 hover:text-zinc-100 transition-colors"
+                        >
+                          <GitBranch className="w-4 h-4" />
+                        </a>
+                      )}
+                    </div>
+                    <h3 className="text-xl font-semibold text-zinc-100 group-hover:text-amber-500 transition-colors">
+                      {project.title}
+                    </h3>
+                    <p className="text-sm text-zinc-400 line-clamp-3 leading-relaxed">
+                      {project.description}
+                    </p>
                   </div>
-                  <h3 className="text-xl font-semibold text-zinc-100 group-hover:text-amber-500 transition-colors">
-                    {project.title}
-                  </h3>
-                  <p className="text-sm text-zinc-400 line-clamp-3 leading-relaxed">
-                    {project.description}
-                  </p>
                 </div>
 
                 <div className="space-y-4 pt-4 border-t border-zinc-800/80">
-                  {/* Teknolojiler */}
                   <div className="flex flex-wrap gap-2">
                     {project.technologies?.map((pt: any) => (
                       <span 

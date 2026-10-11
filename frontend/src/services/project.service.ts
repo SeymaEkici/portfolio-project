@@ -11,3 +11,8 @@ export async function getProjectBySlug(slug: string): Promise<Project> {
   const response = await api.get(`/projects/${slug}`);
   return response.data.data.project;
 }
+
+export async function createProject(data: any): Promise<any> {
+  const response = await api.post('/projects', data);
+  return response.data.data.project;
+}
