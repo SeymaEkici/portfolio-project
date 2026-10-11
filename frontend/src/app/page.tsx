@@ -133,8 +133,8 @@ export default async function HomePage() {
         )}
       </section>
 
-      {/* 4. DIGITAL GARDEN / NOW SECTION (Senin Özgün Dokunuşun İçin Açık Alan) */}
-      <section className="p-8 rounded-2xl bg-gradient-to-br from-zinc-900/80 to-zinc-900/30 border border-zinc-800 space-y-4">
+      {/* 4. DIGITAL GARDEN / NOW SECTION (Açık Alan) */}
+      <section className="p-8 rounded-2xl bg-linear-to-br from-zinc-900/80 to-zinc-900/30 border border-zinc-800 space-y-4">
         <div className="flex items-center gap-2 text-amber-500 font-mono text-xs uppercase tracking-wider">
           <Cpu className="w-4 h-4" />
           Digital Garden / Şimdi Ne Yapıyorum?
