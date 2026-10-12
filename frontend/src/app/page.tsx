@@ -1,10 +1,11 @@
 import Link from 'next/link';
 import { ArrowUpRight, GitBranch, Mail, Layers, Cpu } from 'lucide-react';
 import { getProjects } from '@/services/project.service';
+import ContactForm from '@/components/ContactForm';
+
+//export const dynamic = 'force-dynamic';
 
 export default async function HomePage() {
-  // Backend'den öne çıkarılmış projeleri çekiyoruz.
-  // Sunucu kapalıysa veya henüz veri yoksa uygulamanın çökmemesi için try-catch kullanıyoruz.
   let featuredProjects: any[] = [];
   try {
     featuredProjects = await getProjects(true);
@@ -93,7 +94,6 @@ export default async function HomePage() {
                 className="group p-6 rounded-2xl bg-zinc-900/40 border border-zinc-800 hover:border-zinc-700 transition-all duration-300 flex flex-col justify-between space-y-6 overflow-hidden"
               >
                 <div className="space-y-4">
-                  {/* Proje Görseli (Eğer yüklendiyse burada görünecek) */}
                   {project.imageUrl && (
                     <div className="relative w-full h-48 rounded-xl overflow-hidden border border-zinc-800/80 bg-zinc-950">
                       <img 
@@ -145,7 +145,7 @@ export default async function HomePage() {
         )}
       </section>
 
-      {/* 4. DIGITAL GARDEN / NOW SECTION (Açık Alan) */}
+      {/* 4. DIGITAL GARDEN / NOW SECTION */}
       <section className="p-8 rounded-2xl bg-linear-to-br from-zinc-900/80 to-zinc-900/30 border border-zinc-800 space-y-4">
         <div className="flex items-center gap-2 text-amber-500 font-mono text-xs uppercase tracking-wider">
           <Cpu className="w-4 h-4" />
@@ -156,6 +156,9 @@ export default async function HomePage() {
           Şu aralar ileri düzey TypeScript pattern&apos;leri, PostgreSQL performans optimizasyonları ve CI/CD pipeline yapıları üzerine çalışıyorum. Bu portfolyo projesi de bu sürecin canlı bir ürünüdür.
         </p>
       </section>
+
+      {/* 5. CONTACT FORM SECTION */}
+      <ContactForm />
 
     </div>
   );
