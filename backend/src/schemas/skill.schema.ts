@@ -5,7 +5,7 @@ export const createSkillSchema = z.object({
   body: z.object({
     name: z.string().min(1, 'Yetenek adı zorunludur.'),
     level: z.number().min(1).max(100).default(50),
-    category: z.nativeEnum(SkillCategory, { message: 'Geçerli bir kategori seçiniz.' }),
+    category: z.nativeEnum(SkillCategory),
     iconUrl: z.string().url().optional().or(z.literal('')),
     order: z.number().int().default(0),
   }),
