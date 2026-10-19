@@ -3,7 +3,7 @@ import { ArrowUpRight, GitBranch, Mail, Layers, Cpu } from 'lucide-react';
 import { getProjects } from '@/services/project.service';
 import ContactForm from '@/components/ContactForm';
 
-//export const dynamic = 'force-dynamic';
+export const dynamic = 'force-dynamic';
 
 export default async function HomePage() {
   let featuredProjects: any[] = [];
