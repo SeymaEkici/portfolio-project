@@ -3,8 +3,6 @@ import { ArrowUpRight, GitBranch, Mail, Layers, Cpu } from 'lucide-react';
 import { getProjects } from '@/services/project.service';
 import ContactForm from '@/components/ContactForm';
 
-export const dynamic = 'force-dynamic';
-
 export default async function HomePage() {
   let featuredProjects: any[] = [];
   try {
@@ -114,7 +112,7 @@ export default async function HomePage() {
                           rel="noopener noreferrer"
                           className="text-zinc-400 hover:text-zinc-100 transition-colors"
                         >
-                          <GitBranch className="w-4 h-4" />
+                          <Branch className="w-4 h-4" />
                         </a>
                       )}
                     </div>
