@@ -112,7 +112,7 @@ export default async function HomePage() {
                           rel="noopener noreferrer"
                           className="text-zinc-400 hover:text-zinc-100 transition-colors"
                         >
-                          <Branch className="w-4 h-4" />
+                          <GitBranch className="w-4 h-4" />
                         </a>
                       )}
                     </div>
