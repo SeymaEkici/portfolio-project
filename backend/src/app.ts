@@ -9,7 +9,7 @@ const app: Application = express();
 
 // 1. Global Middlewares
 app.use(cors({
-  origin: process.env.CLIENT_URL || 'http://localhost:3000',
+  origin: [process.env.CLIENT_URL || 'http://localhost:3000', 'portfolio-project-delta-navy.vercel.app'],
   credentials: true, // HTTP-Only cookie taşıyabilmek için kritik
 }));
 app.use(express.json());
