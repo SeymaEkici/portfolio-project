@@ -14,8 +14,18 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Full-Stack Developer Portfolio",
-  description: "Technical Editorial & Modern Studio Portfolio",
+  title: 'Şeyma Nur Ekici | Full-Stack Developer Portfolio',
+  description: 'Next.js, Node.js ve PostgreSQL mimarisiyle geliştirilmiş, modern ve ölçeklenebilir full-stack portfolyo projesi.',
+  keywords: ['Full-Stack Developer', 'Next.js', 'Node.js', 'TypeScript', 'PostgreSQL', 'Portfolio'],
+  authors: [{ name: 'Şeyma Nur Ekici' }],
+  openGraph: {
+    title: 'Şeyma Nur Ekici | Full-Stack Developer Portfolio',
+    description: 'Clean architecture ve modern full-stack teknolojileriyle geliştirilmiş projelerimi inceleyin.',
+    url: 'https://portfolio-project-delta-navy.vercel.app',
+    siteName: 'Portfolyo',
+    locale: 'tr_TR',
+    type: 'website',
+  },
 };
 
 export default function RootLayout({
@@ -25,12 +35,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="tr" className="dark">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-zinc-950 text-zinc-100 min-h-screen`}
-      >
-        <QueryProvider>
+      <body className="bg-zinc-950 text-zinc-100 antialiased selection:bg-amber-500/20 selection:text-amber-400">
+        <main className="min-h-screen flex flex-col justify-between">
           {children}
-        </QueryProvider>
+          
+          {/* Footer */}
+          <footer className="w-full border-t border-zinc-900 py-8 text-center text-xs font-mono text-zinc-600">
+            <p>© {new Date().getFullYear()} — Built with Next.js, Node.js & PostgreSQL.</p>
+          </footer>
+        </main>
       </body>
     </html>
   );
