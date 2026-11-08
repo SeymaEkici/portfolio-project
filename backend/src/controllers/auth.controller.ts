@@ -7,10 +7,10 @@ export const loginController = asyncHandler(async (req: Request, res: Response) 
 
   // Token'ı httpOnly Cookie olarak tarayıcıya yazıyoruz
   res.cookie('jwt', token, {
-    httpOnly: true, // JS erişimini engeller (XSS koruması)
-    secure: process.env.NODE_ENV === 'production', // Production ortamında HTTPS zorunluluğu
-    sameSite: 'lax', // CSRF koruması
-    maxAge: 24 * 60 * 60 * 1000, // 1 gün (milisaniye cinsinden)
+    httpOnly: true, // JS erişimini engeller (XSS koruması)[cite: 6]
+    secure: true, // Farklı domainler (cross-site) için HTTPS ve secure: true zorunludur
+    sameSite: 'none', // Vercel ve Render gibi farklı domainler arası cookie gönderimine izin verir
+    maxAge: 24 * 60 * 60 * 1000, // 1 gün[cite: 6]
   });
 
   res.status(200).json({
