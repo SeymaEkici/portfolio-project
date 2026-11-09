@@ -1,5 +1,7 @@
 'use client';
 
+export const dynamic = 'force-dynamic';
+
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import Link from 'next/link';
 import { Layers, MessageSquare, Briefcase, Plus, Loader2, Trash2, Mail, ExternalLink } from 'lucide-react';
@@ -79,7 +81,7 @@ export default function AdminDashboardPage() {
         </div>
       </div>
 
-      {/* İLETİŞİM MESAJLARI BÖLÜMÜ (YENİ) */}
+      {/* İLETİŞİM MESAJLARI BÖLÜMÜ */}
       <div className="p-8 rounded-2xl bg-zinc-900/20 border border-zinc-800/80 space-y-6">
         <div className="flex items-center justify-between">
           <h2 className="text-lg font-semibold text-zinc-100 flex items-center gap-2">
