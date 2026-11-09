@@ -41,7 +41,7 @@ export default function RootLayout({
           
           {/* Footer */}
           <footer className="w-full border-t border-zinc-900 py-8 text-center text-xs font-mono text-zinc-600">
-            <p>© {new Date().getFullYear()} — Built with Next.js, Node.js & PostgreSQL.</p>
+            <p>© 2026 — Built with Next.js, Node.js & PostgreSQL.</p>
           </footer>
         </main>
       </body>
