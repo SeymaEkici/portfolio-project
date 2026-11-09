@@ -1,7 +1,5 @@
 'use client';
 
-export const dynamic = 'force-dynamic';
-
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import Link from 'next/link';
 import { Layers, MessageSquare, Briefcase, Plus, Loader2, Trash2, Mail, ExternalLink } from 'lucide-react';
