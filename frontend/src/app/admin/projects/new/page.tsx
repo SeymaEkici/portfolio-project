@@ -1,7 +1,5 @@
 'use client';
 
-export const dynamic = 'force-dynamic';
-
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
@@ -53,7 +51,7 @@ export default function NewProjectPage() {
       setFormData((prev) => ({ ...prev, imageUrl: url }));
     } catch (err: any) {
       setError(err.response?.data?.message || 'Görsel yüklenirken bir hata oluştu.');
-    } finally{
+    } finally {
       setUploadingImage(false);
     }
   };
