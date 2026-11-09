@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { QueryProvider } from "@/components/providers/QueryProvider";
+import Providers from "./providers";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -36,14 +36,16 @@ export default function RootLayout({
   return (
     <html lang="tr" className="dark">
       <body className="bg-zinc-950 text-zinc-100 antialiased selection:bg-amber-500/20 selection:text-amber-400">
-        <main className="min-h-screen flex flex-col justify-between">
-          {children}
-          
-          {/* Footer */}
-          <footer className="w-full border-t border-zinc-900 py-8 text-center text-xs font-mono text-zinc-600">
-            <p>© 2026 — Built with Next.js, Node.js & PostgreSQL.</p>
-          </footer>
-        </main>
+        <Providers>
+          <main className="min-h-screen flex flex-col justify-between">
+            {children}
+
+            {/* Footer */}
+            <footer className="w-full border-t border-zinc-900 py-8 text-center text-xs font-mono text-zinc-600">
+              <p>© 2026 — Built with Next.js, Node.js & PostgreSQL.</p>
+            </footer>
+          </main>
+        </Providers>
       </body>
     </html>
   );
