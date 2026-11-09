@@ -30,9 +30,9 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="tr" className="dark">
       <body className="bg-zinc-950 text-zinc-100 antialiased selection:bg-amber-500/20 selection:text-amber-400">
