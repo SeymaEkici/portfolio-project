@@ -1,94 +1,108 @@
 import { Suspense } from 'react';
-import { ArrowUpRight, Mail, Cpu } from 'lucide-react';
+import { ArrowDown, ArrowUpRight, BookOpen, Braces, Cpu, Layers3, MapPin } from 'lucide-react';
 import ContactForm from '@/components/ContactForm';
 import FeaturedProjects from '@/components/FeaturedProjects';
+import SiteHeader from '@/components/SiteHeader';
+import MiniTerminal from '@/components/MiniTerminal';
+
+const stats = [
+  { label: 'EXPERIENCE', value: '1+ years' },
+  { label: 'FOCUS', value: 'Node.js · Next.js' },
+  { label: 'ARCHITECTURE', value: 'Clean · layered' },
+  { label: 'LOCATION', value: 'Türkiye · Remote', icon: MapPin },
+];
+
+const skills = [
+  { group: 'LANGUAGES', items: ['TypeScript', 'JavaScript', 'SQL', 'HTML / CSS'] },
+  { group: 'FRONTEND', items: ['React', 'Next.js', 'Tailwind CSS', 'TanStack Query'] },
+  { group: 'BACKEND', items: ['Node.js', 'Express', 'REST APIs', 'PostgreSQL'] },
+  { group: 'PRACTICE', items: ['Clean architecture', 'Testing', 'Git', 'CI / CD'] },
+];
 
 export default function HomePage() {
   return (
-    <div className="max-w-4xl mx-auto px-6 py-16 md:py-24 space-y-24">
-
-      {/* 1. HERO SECTION */}
-      <section className="space-y-8">
-        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-zinc-900 border border-zinc-800 text-xs text-zinc-400 font-mono">
-          <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-          System Status: Operational & Ready
-        </div>
-
-        <div className="space-y-4">
-          <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-zinc-100">
-            Full-Stack Geliştirici & Mühendislik Disiplini.
-          </h1>
-          <p className="text-lg md:text-xl text-zinc-400 max-w-2xl leading-relaxed">
-            Görsel olarak şık olmanın ötesinde; temiz mimari, tip güvenliği (type-safety) ve ölçeklenebilir altyapılarla gerçek dünya problemleri çözen sistemler inşa ediyorum.
-          </p>
-        </div>
-
-        <div className="flex flex-wrap items-center gap-4 pt-2">
-          <a
-            href="#projects"
-            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-zinc-100 text-zinc-950 font-medium text-sm hover:bg-zinc-200 transition-colors"
-          >
-            Projeleri İncele
-            <ArrowUpRight className="w-4 h-4" />
-          </a>
-          <a
-            href="mailto:iletisim@portfolio.dev"
-            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-zinc-900 border border-zinc-800 text-zinc-300 font-medium text-sm hover:bg-zinc-800 transition-colors"
-          >
-            <Mail className="w-4 h-4 text-zinc-400" />
-            İletişime Geç
-          </a>
-        </div>
-      </section>
-
-      {/* 2. STATS / QUICK INFO BAR */}
-      <section className="grid grid-cols-2 md:grid-cols-4 gap-4 p-6 rounded-2xl bg-zinc-900/50 border border-zinc-800/60 font-mono text-sm">
-        <div>
-          <div className="text-zinc-500 text-xs">DENEYİM</div>
-          <div className="text-zinc-100 font-semibold mt-1">1+ Yıl (Junior/Mid)</div>
-        </div>
-        <div>
-          <div className="text-zinc-500 text-xs">ODAK ALANI</div>
-          <div className="text-zinc-100 font-semibold mt-1">Node & Next.js</div>
-        </div>
-        <div>
-          <div className="text-zinc-500 text-xs">MİMARİ</div>
-          <div className="text-zinc-100 font-semibold mt-1">Clean / Layered</div>
-        </div>
-        <div>
-          <div className="text-zinc-500 text-xs">KONUM</div>
-          <div className="text-zinc-100 font-semibold mt-1">Türkiye / Remote</div>
-        </div>
-      </section>
-
-      {/* 3. FEATURED PROJECTS SECTION */}
-      <section id="projects" className="space-y-8">
-        <Suspense
-          fallback={
-            <div className="p-8 text-center rounded-xl border border-dashed border-zinc-800 text-zinc-500 font-mono text-sm animate-pulse">
-              Projeler yükleniyor...
+    <>
+      <SiteHeader />
+      <main id="top" className="mx-auto w-full max-w-6xl px-5 sm:px-8">
+        <section className="grid min-h-[620px] items-center gap-12 border-b border-zinc-200 py-20 dark:border-zinc-800 lg:grid-cols-[1.2fr_.8fr] lg:py-28">
+          <div>
+            <div className="mb-8 flex items-center gap-2 font-mono text-xs text-zinc-500">
+              <span className="size-2 rounded-full bg-emerald-500" aria-hidden="true" />
+              SYSTEM STATUS <span className="text-zinc-300 dark:text-zinc-700">/</span> OPERATIONAL
             </div>
-          }
-        >
-          <FeaturedProjects />
-        </Suspense>
-      </section>
+            <p className="mb-5 font-mono text-xs uppercase tracking-[.22em] text-zinc-500">Independent developer · Türkiye</p>
+            <h1 className="max-w-3xl text-5xl font-medium leading-[1.05] tracking-[-.055em] sm:text-6xl lg:text-7xl">
+              Full-stack engineer <span className="text-zinc-400 dark:text-zinc-500">&amp; system builder.</span>
+            </h1>
+            <p className="mt-7 max-w-xl text-base leading-7 text-zinc-600 dark:text-zinc-400 sm:text-lg">
+              I build thoughtful digital products with clean architecture, reliable type-safety, and systems designed to scale.
+            </p>
+            <div className="mt-9 flex flex-wrap gap-3">
+              <a href="#projects" className="inline-flex items-center gap-2 bg-zinc-950 px-5 py-3 text-sm font-medium text-white transition hover:bg-zinc-700 dark:bg-white dark:text-zinc-950 dark:hover:bg-zinc-200">Explore projects <ArrowUpRight size={15} /></a>
+              <a href="#contact" className="inline-flex items-center gap-2 border border-zinc-300 px-5 py-3 text-sm font-medium transition hover:border-zinc-500 dark:border-zinc-700 dark:hover:border-zinc-400">Get in touch <ArrowDown size={15} /></a>
+            </div>
+          </div>
+          <div className="relative hidden aspect-square max-h-[360px] border border-zinc-200 p-6 dark:border-zinc-800 lg:block" aria-label="Architectural system diagram">
+            <div className="absolute inset-6 grid grid-cols-6 grid-rows-6 border-l border-t border-zinc-200 dark:border-zinc-800">
+              {Array.from({ length: 36 }, (_, index) => <span key={index} className="border-b border-r border-zinc-200/70 dark:border-zinc-800/70" />)}
+            </div>
+            <div className="absolute left-[28%] top-[22%] flex size-28 items-center justify-center border border-zinc-400 bg-background font-mono text-xs tracking-widest shadow-[8px_8px_0_var(--color-zinc-200)] dark:border-zinc-600 dark:shadow-[8px_8px_0_var(--color-zinc-800)]">SYSTEM<br />01</div>
+            <div className="absolute bottom-[20%] right-[20%] flex size-20 items-center justify-center border border-zinc-300 bg-background font-mono text-[10px] text-zinc-500 dark:border-zinc-700">BUILD<br />DEPLOY</div>
+            <span className="absolute bottom-7 left-7 font-mono text-[10px] uppercase tracking-widest text-zinc-500">Fig. 01 — A considered system</span>
+          </div>
+        </section>
 
-      {/* 4. DIGITAL GARDEN / NOW SECTION */}
-      <section className="p-8 rounded-2xl bg-linear-to-br from-zinc-900/80 to-zinc-900/30 border border-zinc-800 space-y-4">
-        <div className="flex items-center gap-2 text-amber-500 font-mono text-xs uppercase tracking-wider">
-          <Cpu className="w-4 h-4" />
-          Digital Garden / Şimdi Ne Yapıyorum?
-        </div>
-        <h3 className="text-xl font-semibold text-zinc-100">Sürekli Öğrenme & Geliştirme Döngüsü</h3>
-        <p className="text-sm text-zinc-400 leading-relaxed">
-          Şu aralar ileri düzey TypeScript pattern&apos;leri, PostgreSQL performans optimizasyonları ve CI/CD pipeline yapıları üzerine çalışıyorum. Bu portfolyo projesi de bu sürecin canlı bir ürünüdür.
-        </p>
-      </section>
+        <section aria-label="Quick information" className="grid grid-cols-2 border-b border-zinc-200 py-8 dark:border-zinc-800 md:grid-cols-4">
+          {stats.map(({ label, value, icon: Icon }) => <div key={label} className="border-l border-zinc-200 py-2 pl-4 first:border-0 first:pl-0 dark:border-zinc-800 sm:pl-6"><p className="font-mono text-[10px] tracking-[.15em] text-zinc-500">{label}</p><p className="mt-2 flex items-center gap-2 text-sm font-medium">{Icon && <Icon size={14} className="text-zinc-500" />}{value}</p></div>)}
+        </section>
 
-      {/* 5. CONTACT FORM SECTION */}
-      <ContactForm />
+        <section id="projects" className="scroll-mt-24 py-20 sm:py-24">
+          <SectionHeading index="01" title="Selected work" note="A selection of things built with purpose." />
+          <Suspense fallback={<div className="border border-zinc-200 p-8 font-mono text-xs text-zinc-500 dark:border-zinc-800">Loading projects…</div>}><FeaturedProjects /></Suspense>
+        </section>
 
-    </div>
+        <section id="experience" className="scroll-mt-24 border-t border-zinc-200 py-20 dark:border-zinc-800 sm:py-24">
+          <SectionHeading index="02" title="Experience & capabilities" note="How I think, what I use, and where I add value." />
+          <div className="grid gap-12 lg:grid-cols-[.8fr_1.2fr]">
+            <div className="border-l border-zinc-300 pl-6 dark:border-zinc-700">
+              <p className="font-mono text-xs text-zinc-500">CURRENT PRACTICE</p>
+              <h3 className="mt-3 text-lg font-medium">Full-stack developer</h3>
+              <p className="mt-2 text-sm leading-6 text-zinc-600 dark:text-zinc-400">Building end-to-end web experiences: from thoughtful interfaces to dependable APIs and data models.</p>
+              <div className="mt-5 flex items-center gap-2 text-xs text-zinc-500"><Braces size={14} /> Product engineering · Remote</div>
+            </div>
+            <div id="skills" className="scroll-mt-24 grid gap-7 sm:grid-cols-2">
+              {skills.map(({ group, items }) => <div key={group} className="border-t border-zinc-200 pt-4 dark:border-zinc-800"><h3 className="font-mono text-[10px] tracking-[.16em] text-zinc-500">{group}</h3><ul className="mt-4 flex flex-wrap gap-2">{items.map(item => <li key={item} className="border border-zinc-200 px-2.5 py-1.5 text-xs dark:border-zinc-800">{item}</li>)}</ul></div>)}
+            </div>
+          </div>
+        </section>
+
+        <section className="grid gap-5 border-t border-zinc-200 py-20 dark:border-zinc-800 md:grid-cols-[1fr_1fr] sm:py-24">
+          <div><SectionHeading index="03" title="Currently exploring" note="A living log of what has my attention right now." /><p className="max-w-md text-sm leading-7 text-zinc-600 dark:text-zinc-400">A little space for the ideas, tools, and questions shaping my work beyond the day-to-day.</p></div>
+          <div className="grid gap-0 border border-zinc-200 dark:border-zinc-800">
+            <GardenRow icon={<Cpu size={16} />} label="BUILDING" title="Reliable, observable backend systems" number="01" />
+            <GardenRow icon={<Layers3 size={16} />} label="LEARNING" title="Advanced TypeScript & domain modeling" number="02" />
+            <GardenRow icon={<BookOpen size={16} />} label="READING" title="Designing Data-Intensive Applications" number="03" />
+          </div>
+        </section>
+
+        <section id="lab" className="scroll-mt-24 border-t border-zinc-200 py-20 dark:border-zinc-800 sm:py-24">
+          <SectionHeading index="04" title="A small sandbox" note="A few commands, if you are curious." />
+          <MiniTerminal />
+        </section>
+
+        <section id="contact" className="scroll-mt-24 border-t border-zinc-200 py-20 dark:border-zinc-800 sm:py-24">
+          <SectionHeading index="05" title="Start a conversation" note="Have a thoughtful project in mind? I would love to hear about it." />
+          <ContactForm />
+        </section>
+      </main>
+    </>
   );
+}
+
+function SectionHeading({ index, title, note }: { index: string; title: string; note: string }) {
+  return <div className="mb-9 flex flex-col justify-between gap-3 sm:flex-row sm:items-end"><div><p className="mb-3 font-mono text-[10px] tracking-[.2em] text-zinc-500">{index} / PORTFOLIO</p><h2 className="text-3xl font-medium tracking-tight sm:text-4xl">{title}</h2></div><p className="max-w-sm text-sm text-zinc-500">{note}</p></div>;
+}
+
+function GardenRow({ icon, label, title, number }: { icon: React.ReactNode; label: string; title: string; number: string }) {
+  return <div className="flex items-center gap-4 border-b border-zinc-200 p-5 last:border-b-0 dark:border-zinc-800"><span className="text-zinc-500">{icon}</span><div className="flex-1"><p className="font-mono text-[10px] tracking-widest text-zinc-500">{label}</p><p className="mt-1 text-sm">{title}</p></div><span className="font-mono text-xs text-zinc-400">{number}</span></div>;
 }

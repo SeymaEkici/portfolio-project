@@ -14,16 +14,15 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Şeyma Nur Ekici | Full-Stack Developer Portfolio',
-  description: 'Next.js, Node.js ve PostgreSQL mimarisiyle geliştirilmiş, modern ve ölçeklenebilir full-stack portfolyo projesi.',
-  keywords: ['Full-Stack Developer', 'Next.js', 'Node.js', 'TypeScript', 'PostgreSQL', 'Portfolio'],
-  authors: [{ name: 'Şeyma Nur Ekici' }],
+  title: 'Şeyma Ekici — Full-Stack Engineer',
+  description: 'Full-stack engineer building thoughtful digital products with clean architecture, reliable type-safety, and scalable systems.',
+  keywords: ['Full-Stack Engineer', 'Next.js', 'Node.js', 'TypeScript', 'PostgreSQL', 'Portfolio'],
+  authors: [{ name: 'Şeyma Ekici' }],
   openGraph: {
-    title: 'Şeyma Nur Ekici | Full-Stack Developer Portfolio',
-    description: 'Clean architecture ve modern full-stack teknolojileriyle geliştirilmiş projelerimi inceleyin.',
-    url: 'https://portfolio-project-delta-navy.vercel.app',
-    siteName: 'Portfolyo',
-    locale: 'tr_TR',
+    title: 'Şeyma Ekici — Full-Stack Engineer',
+    description: 'Selected work, engineering practice, and current explorations.',
+    siteName: 'Şeyma Ekici',
+    locale: 'en_US',
     type: 'website',
   },
 };
@@ -34,17 +33,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="tr" className="dark">
-      <body className="bg-zinc-950 text-zinc-100 antialiased selection:bg-amber-500/20 selection:text-amber-400">
+    <html lang="en" className="dark">
+      <body className={`${geistSans.variable} ${geistMono.variable} bg-background text-foreground antialiased transition-colors duration-300 selection:bg-zinc-300 dark:selection:bg-zinc-700`}>
         <Providers>
-          <main className="min-h-screen flex flex-col justify-between">
-            {children}
-
-            {/* Footer */}
-            <footer className="w-full border-t border-zinc-900 py-8 text-center text-xs font-mono text-zinc-600">
-              <p>© 2026 — Built with Next.js, Node.js & PostgreSQL.</p>
-            </footer>
-          </main>
+          {children}
+          <footer className="border-t border-zinc-200 dark:border-zinc-800">
+            <div className="mx-auto flex max-w-6xl flex-col gap-4 px-5 py-7 text-xs text-zinc-500 sm:flex-row sm:items-center sm:justify-between sm:px-8">
+              <p>© 2026 Şeyma Ekici. Built with Next.js, TypeScript &amp; care.</p>
+              <div className="flex gap-5"><a href="https://github.com" target="_blank" rel="noreferrer" className="hover:text-foreground">GitHub</a><a href="https://linkedin.com" target="_blank" rel="noreferrer" className="hover:text-foreground">LinkedIn</a><a href="https://x.com" target="_blank" rel="noreferrer" className="hover:text-foreground">X / Twitter</a></div>
+            </div>
+          </footer>
         </Providers>
       </body>
     </html>
