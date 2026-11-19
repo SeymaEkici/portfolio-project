@@ -29,6 +29,8 @@
   --color-destructive: var(--destructive);
   --color-accent-foreground: var(--accent-foreground);
   --color-accent: var(--accent);
+  --color-burst: var(--burst);
+  --color-burst-foreground: var(--burst-foreground);
   --color-muted-foreground: var(--muted-foreground);
   --color-muted: var(--muted);
   --color-secondary-foreground: var(--secondary-foreground);
@@ -50,6 +52,8 @@
 
 :root {
   color-scheme: light;
+  --burst: oklch(0.810 0.068 46.4);
+  --burst-foreground: oklch(0.351 0.077 36.6);
   --background: oklch(0.980 0.017 88);
   --foreground: oklch(0.267 0.013 51.6);
   --card: oklch(0.991 0.010 87.5);
@@ -86,6 +90,8 @@
 
 .dark {
   color-scheme: dark;
+  --burst: oklch(0.692 0.087 45.9);
+  --burst-foreground: oklch(0.230 0.044 40.3);
   --background: oklch(0.238 0.011 73.4);
   --foreground: oklch(0.937 0.025 81.1);
   --card: oklch(0.268 0.012 67.3);
