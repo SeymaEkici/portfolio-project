@@ -3,11 +3,12 @@
 import { useState } from 'react';
 import { Menu, Moon, Sun, X } from 'lucide-react';
 import { useLanguage } from '@/components/providers/LanguageProvider';
+import { useTheme } from '@/components/providers/ThemeProvider';
 
 export default function SiteHeader() {
   const { lang, toggleLang, t } = useLanguage();
+  const { theme, toggleTheme } = useTheme();
   const [open, setOpen] = useState(false);
-  const [dark, setDark] = useState(false);
 
   const links: [string, string][] = [
     [t('header.nav.projects'), '#projects'],
@@ -16,12 +17,6 @@ export default function SiteHeader() {
     [t('header.nav.lab'), '#lab'],
     [t('header.nav.contact'), '#contact'],
   ];
-
-  function toggleTheme() {
-    const next = !document.documentElement.classList.contains('dark');
-    document.documentElement.classList.toggle('dark', next);
-    setDark(next);
-  }
 
   return <header className="sticky top-0 z-40 border-b border-border/80 bg-background/90 backdrop-blur-md">
     <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-5 sm:px-8">
@@ -33,7 +28,7 @@ export default function SiteHeader() {
       <div className="flex items-center gap-2">
         <span className="hidden items-center gap-2 text-[10px] text-muted-foreground lg:flex"><span className="size-1.5 rounded-full bg-emerald-500" />{t('header.availableForWork')}</span>
         <button type="button" onClick={toggleLang} aria-label={lang === 'tr' ? t('header.switchToEnglish') : t('header.switchToTurkish')} className="flex size-9 items-center justify-center rounded-sm border border-border font-mono text-[10px] font-semibold uppercase text-muted-foreground transition hover:bg-muted">{lang}</button>
-        <button type="button" onClick={toggleTheme} aria-label={dark ? t('header.switchToLight') : t('header.switchToDark')} className="flex size-9 items-center justify-center rounded-sm border border-border text-muted-foreground transition hover:bg-muted">{dark ? <Sun size={15} /> : <Moon size={15} />}</button>
+        <button type="button" onClick={toggleTheme} aria-label={theme === 'dark' ? t('header.switchToLight') : t('header.switchToDark')} className="flex size-9 items-center justify-center rounded-sm border border-border text-muted-foreground transition hover:bg-muted">{theme === 'dark' ? <Sun size={15} /> : <Moon size={15} />}</button>
         <button type="button" onClick={() => setOpen(!open)} aria-label={open ? t('header.closeMenu') : t('header.openMenu')} aria-expanded={open} className="flex size-9 items-center justify-center border border-border transition-colors hover:bg-muted md:hidden">{open ? <X size={16} /> : <Menu size={16} />}</button>
       </div>
     </div>

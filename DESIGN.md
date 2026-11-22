@@ -1,552 +1,153 @@
-<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="preload" as="image" href="https://github.com/VoltAgent.png?size=32"/><link rel="preload" href="/fonts/Geist-Variable.woff2" as="font" type="font/woff2" crossorigin="anonymous"/><link rel="preload" href="/fonts/GeistMono-Variable.woff2" as="font" type="font/woff2" crossorigin="anonymous"/><link rel="preload" href="/fonts/GeistPixel-Line.woff2" as="font" type="font/woff2" crossorigin="anonymous"/><title>Linear DESIGN.md for AI Coding Agents | getdesign.md</title><meta name="description" content="Free Linear DESIGN.md for AI coding agents. A near-black product-focused marketing canvas built around #010102 (the deepest dark surface of any tool in this…"/><meta property="og:title" content="Linear DESIGN.md for AI Coding Agents | getdesign.md"/><meta property="og:description" content="Free Linear DESIGN.md for AI coding agents. A near-black product-focused marketing canvas built around #010102 (the deepest dark surface of any tool in this…"/><meta property="og:type" content="article"/><meta property="og:url" content="https://getdesign.md/linear.app/design-md"/><meta property="og:image" content="https://getdesign.md/api/og/linear.app/design-md?v=2"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Linear DESIGN.md for AI Coding Agents | getdesign.md"/><meta name="twitter:description" content="Free Linear DESIGN.md for AI coding agents. A near-black product-focused marketing canvas built around #010102 (the deepest dark surface of any tool in this…"/><meta name="twitter:image" content="https://getdesign.md/api/og/linear.app/design-md?v=2"/><link rel="modulepreload" href="/assets/main-BHxFPVi4.js"/><link rel="modulepreload" href="/assets/_owner.design-md.index-ByczZbv2.js"/><link rel="modulepreload" href="/assets/SaveDesignButton-Bzmuekzw.js"/><link rel="modulepreload" href="/assets/design-stars-B_qAispf.js"/><link rel="modulepreload" href="/assets/AuthMethodsCard-D6bwyy2e.js"/><link rel="icon" type="image/svg+xml" href="/favicon.svg?v=2"/><link rel="icon" type="image/png" href="/favicon-32.png?v=2" sizes="32x32"/><link rel="icon" type="image/png" href="/favicon-16.png?v=2" sizes="16x16"/><link rel="apple-touch-icon" href="/apple-touch-icon.png?v=2" sizes="180x180"/><link rel="manifest" href="/site.webmanifest?v=2"/><link rel="canonical" href="https://getdesign.md/linear.app/design-md"/><script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://getdesign.md/"},{"@type":"ListItem","position":2,"name":"Productivity \u0026 SaaS","item":"https://getdesign.md/designs/productivity-saas"},{"@type":"ListItem","position":3,"name":"Linear DESIGN.md","item":"https://getdesign.md/linear.app/design-md"}]}</script><script type="application/ld+json">{"@context":"https://schema.org","@type":"CreativeWork","name":"Linear DESIGN.md","description":"Free Linear DESIGN.md for AI coding agents. A near-black product-focused marketing canvas built around #010102 (the deepest dark surface of any tool in this…","url":"https://getdesign.md/linear.app/design-md","encodingFormat":"text/markdown","image":"https://getdesign.md/api/og/linear.app/design-md?v=2","isAccessibleForFree":true,"about":{"@type":"Brand","name":"Linear"},"genre":"Productivity \u0026 SaaS","dateModified":"2026-05-12"}</script><link rel="stylesheet" href="/assets/styles-42vvTbUa.css"/><link rel="stylesheet" href="/assets/main-tiW_yGhv.css" type="text/css"/></head><body class="antialiased"><a aria-label="Video Templates: Get all editable template files for $29, one time." href="/video-studio" style="font-family:var(--font-sans);background:var(--color-announcement-banner);color:var(--color-announcement-banner-foreground);border-bottom:1px solid var(--color-announcement-banner-border)" class="group/banner relative flex touch-manipulation items-center justify-center gap-2.5 px-4 py-2.5 text-label-14 focus-visible:outline-2 focus-visible:outline-offset-[-2px] focus-visible:outline-[var(--color-announcement-banner-accent)] sm:gap-3"><span class="shrink-0 rounded-full px-2 py-1 text-label-12 uppercase leading-none" style="color:var(--color-amber-text);border:1px solid color-mix(in srgb, var(--color-amber-text) 55%, transparent);font-family:var(--font-mono);letter-spacing:0.06em">New</span><span class="truncate" style="font-weight:600">Video Templates — $<!-- -->29</span><span class="hidden truncate lg:inline" style="color:var(--color-announcement-banner-muted);font-weight:500">Pay once. Get every template. Make your next launch video with your AI tool.</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" data-slot="icon" class="size-3.5 shrink-0 transition-transform duration-150 group-hover/banner:translate-x-1 motion-reduce:transition-none motion-reduce:group-hover/banner:translate-x-0"><path fill-rule="evenodd" d="M2 8a.75.75 0 0 1 .75-.75h8.69L8.22 4.03a.75.75 0 0 1 1.06-1.06l4.5 4.5a.75.75 0 0 1 0 1.06l-4.5 4.5a.75.75 0 0 1-1.06-1.06l3.22-3.22H2.75A.75.75 0 0 1 2 8Z" clip-rule="evenodd"></path></svg></a><header style="border-bottom:1px solid var(--color-border);background-color:var(--sidebar-surface)" class="sticky top-0 z-50"><div class="relative min-[2200px]:max-w-[2000px] min-[2200px]:mx-auto w-full px-4 sm:px-6 h-[68px] flex items-center justify-between lg:pl-3 lg:pr-16"><div aria-hidden="true" class="pointer-events-none absolute left-0 top-0 bottom-0 hidden lg:block w-[248px]" style="background:var(--sidebar-surface);border-right:1px solid var(--color-border)"></div><div class="relative flex min-w-0 flex-1 items-center gap-4 sm:gap-6 lg:gap-0"><div class="flex items-center gap-0 lg:w-[236px] lg:shrink-0 lg:pl-2.5"><a href="/" style="font-family:&#x27;GeistPixel-Square&#x27;, monospace;color:var(--color-gray-1000);letter-spacing:0.12em;font-weight:600;line-height:1.2" class="inline-flex items-center tracking-widest text-[19px]">get<span style="color:var(--color-accent)">design</span>.md</a></div><div class="hidden lg:flex items-center gap-2 lg:pl-16"><a href="/request" style="background:var(--color-request-cta);color:var(--color-request-cta-foreground);font-weight:600" class="inline-flex items-center rounded-[4px] border border-transparent px-3 py-1.5 text-label-13 whitespace-nowrap transition-opacity duration-150 cursor-pointer hover:opacity-90 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-request-cta)]"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="margin-right:6px"><path d="m22 2-7 20-4-9-9-4Z"></path><path d="M22 2 11 13"></path></svg>Request a DESIGN.md</a><a href="/design-md" style="color:var(--color-gray-1000);font-weight:600" class="inline-flex items-center rounded-[4px] border border-[var(--color-gray-500)] px-3 py-1.5 text-label-13 whitespace-nowrap transition-colors duration-150 cursor-pointer hover:bg-[var(--color-gray-100)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-gray-700)]"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="margin-right:6px"><circle cx="11" cy="11" r="7"></circle><path d="m21 21-4.3-4.3"></path></svg>Browse website catalog<span style="margin-left:8px;color:var(--color-gray-600)">550+</span></a></div></div><div class="flex shrink-0 items-center gap-3"><a href="https://github.com/VoltAgent/awesome-design-md" target="_blank" rel="noopener noreferrer" class="flex items-stretch rounded-sm overflow-hidden transition-opacity duration-150 hover:opacity-90" style="border:1px solid var(--color-border)"><span class="flex items-center gap-1.5 px-3 py-1.5" style="background:var(--color-gray-100);color:var(--color-gray-900)"><svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg></span><span class="flex items-center gap-1.5 px-3 py-1.5" style="background:var(--color-background);color:var(--color-gray-800);border-left:1px solid var(--color-border)"><svg width="11" height="11" viewBox="0 0 16 16" fill="#F5A623" style="flex-shrink:0"><path d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"></path></svg><span class="text-label-12" style="font-family:var(--font-mono);min-width:32px;text-align:center">...</span></span></a><a href="https://x.com/intent/follow?screen_name=getdesignmd" target="_blank" rel="noopener noreferrer" aria-label="Follow @getdesignmd on X" title="Follow @getdesignmd on X" class="hidden size-8 cursor-pointer items-center justify-center rounded-sm transition-colors duration-150 hover:bg-[var(--color-gray-200)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent)] sm:inline-flex" style="background:var(--color-gray-100);border:1px solid var(--color-border);color:var(--color-gray-900)"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg></a><div class="hidden xl:flex items-center gap-3"><a href="/auth?next=%2Fsaved" style="background:transparent;border:1px solid var(--color-border);color:var(--color-gray-1000)" class="inline-flex items-center rounded-sm px-3 py-1.5 text-[12px] whitespace-nowrap transition-colors duration-150 cursor-pointer hover:bg-[var(--color-gray-alpha-200)]">Sign in</a></div><button type="button" class="xl:hidden flex items-center justify-center size-8 rounded-lg transition-colors duration-100" style="color:var(--color-gray-700)"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button></div></div></header><div class="min-[2200px]:max-w-[2000px] min-[2200px]:mx-auto lg:grid lg:grid-cols-[248px_minmax(0,1fr)] lg:items-start"><aside class="hidden lg:flex sticky top-[68px] shrink-0 flex-col overflow-hidden" style="width:248px;height:calc(100dvh - 68px);border-right:1px solid var(--color-border);background:var(--sidebar-surface)"><nav class="min-h-0 flex-1 overflow-y-auto px-3 pb-4 pt-4"><div class="flex flex-col gap-0.5"><a href="/request" style="background:transparent;color:var(--color-gray-1000);font-family:var(--font-sans);font-weight:400;border:1px solid transparent" class="group flex items-center gap-2.5 rounded-[4px] px-2.5 py-[7px] text-[13.5px] leading-tight transition-colors duration-150"><span class="flex items-center justify-center" style="color:var(--sidebar-icon)"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex-shrink:0"><path d="m22 2-7 20-4-9-9-4Z"></path><path d="M22 2 11 13"></path></svg></span><span class="flex min-w-0 flex-1 flex-col"><span class="flex items-center gap-1.5 truncate text-[13.5px] leading-tight">Private DESIGN.md</span></span></a><a href="/design-md" style="background:transparent;color:var(--color-gray-1000);font-family:var(--font-sans);font-weight:400;border:1px solid transparent" class="group flex items-center gap-2.5 rounded-[4px] px-2.5 py-[7px] text-[13.5px] leading-tight transition-colors duration-150"><span class="flex items-center justify-center" style="color:var(--sidebar-icon)"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex-shrink:0"><rect x="3" y="3" width="7" height="7" rx="1.5"></rect><rect x="14" y="3" width="7" height="7" rx="1.5"></rect><rect x="3" y="14" width="7" height="7" rx="1.5"></rect><rect x="14" y="14" width="7" height="7" rx="1.5"></rect></svg></span><span class="flex min-w-0 flex-1 flex-col"><span class="flex items-center gap-1.5 truncate text-[13.5px] leading-tight">Website catalog</span></span><span class="text-[11px] leading-none" style="color:var(--color-gray-700);font-family:var(--font-mono);letter-spacing:0.02em">550+</span></a><a href="/design-md-pass" style="background:transparent;color:var(--color-gray-1000);font-family:var(--font-sans);font-weight:400;border:1px solid transparent" class="group flex items-center gap-2.5 rounded-[4px] px-2.5 py-[7px] text-[13.5px] leading-tight transition-colors duration-150"><span class="flex items-center justify-center" style="color:var(--sidebar-icon)"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex-shrink:0"><path d="M3 9a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2 2 2 0 0 0 0 4 2 2 0 0 1-2 2H5a2 2 0 0 1-2-2 2 2 0 0 0 0-4Z"></path><path d="M13 7v2M13 15v2M13 11v2"></path></svg></span><span class="flex min-w-0 flex-1 flex-col"><span class="flex items-center gap-1.5 truncate text-[13.5px] leading-tight">Catalog Pass</span></span></a></div><div class="mt-4 flex flex-col gap-0.5 border-t pt-4" style="border-color:var(--color-border)"><div class="mb-1.5 px-2.5"><span class="text-[10.5px] uppercase" style="color:var(--color-gray-700);font-family:var(--font-mono);letter-spacing:0.1em">Creative assets</span></div><a href="/video-studio" style="background:transparent;color:var(--color-gray-1000);font-family:var(--font-sans);font-weight:400;border:1px solid transparent" class="group flex items-center gap-2.5 rounded-[4px] px-2.5 py-[7px] text-[13.5px] leading-tight transition-colors duration-150"><span class="flex items-center justify-center" style="color:var(--sidebar-icon)"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex-shrink:0"><path d="M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.5 2.5M15.5 15.5 18 18M18 6l-2.5 2.5M8.5 15.5 6 18"></path></svg></span><span class="flex min-w-0 flex-1 flex-col"><span class="flex items-center gap-1.5 truncate text-[13.5px] leading-tight">Video Templates</span></span><span class="-ml-1.5 -mr-1 shrink-0 rounded px-[3px] py-px text-[9px] uppercase leading-none" style="color:var(--color-amber-text);border:1px solid color-mix(in srgb, var(--color-amber-text) 55%, transparent);font-family:var(--font-mono)">New</span></a><a href="/backgrounds" style="background:transparent;color:var(--color-gray-1000);font-family:var(--font-sans);font-weight:400;border:1px solid transparent" class="group flex items-center gap-2.5 rounded-[4px] px-2.5 py-[7px] text-[13.5px] leading-tight transition-colors duration-150"><span class="flex items-center justify-center" style="color:var(--sidebar-icon)"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex-shrink:0"><rect x="3" y="3" width="18" height="18" rx="2"></rect><circle cx="9" cy="9" r="2"></circle><path d="m21 15-4-4L5 21"></path></svg></span><span class="flex min-w-0 flex-1 flex-col"><span class="flex items-center gap-1.5 truncate text-[13.5px] leading-tight">Backgrounds</span></span></a></div><div class="mt-4 flex flex-col gap-0.5 border-t pt-4" style="border-color:var(--color-border)"><div class="mb-1.5 px-2.5"><span class="text-[10.5px] uppercase" style="color:var(--color-gray-700);font-family:var(--font-mono);letter-spacing:0.1em">Pro templates</span></div><a href="/website-starter-kit" style="background:transparent;color:var(--color-gray-1000);font-family:var(--font-sans);font-weight:400;border:1px solid transparent" class="group flex items-center gap-2.5 rounded-[4px] px-2.5 py-[7px] text-[13.5px] leading-tight transition-colors duration-150"><span class="flex items-center justify-center" style="color:var(--sidebar-icon)"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex-shrink:0"><rect x="3" y="4" width="18" height="16" rx="2"></rect><path d="M3 9h18"></path><path d="M6.5 6.5h.01M9 6.5h.01"></path></svg></span><span class="flex min-w-0 flex-1 flex-col"><span class="flex items-center gap-1.5 truncate text-[13.5px] leading-tight">Website Starter Kit</span></span></a><a href="/mobile-starter-kit" style="background:transparent;color:var(--color-gray-1000);font-family:var(--font-sans);font-weight:400;border:1px solid transparent" class="group flex items-center gap-2.5 rounded-[4px] px-2.5 py-[7px] text-[13.5px] leading-tight transition-colors duration-150"><span class="flex items-center justify-center" style="color:var(--sidebar-icon)"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex-shrink:0"><rect x="6.5" y="2.5" width="11" height="19" rx="2.5"></rect><path d="M10.5 18.5h3"></path></svg></span><span class="flex min-w-0 flex-1 flex-col"><span class="flex items-center gap-1.5 truncate text-[13.5px] leading-tight">Mobile App Starter Kit</span></span></a></div><div class="mt-4 border-y py-2.5" style="border-color:var(--color-border)"><a href="/affiliate" style="background:transparent;color:var(--color-gray-1000);font-family:var(--font-sans);font-weight:400;border:1px solid transparent" class="group flex items-center gap-2.5 rounded-[4px] px-2.5 py-[7px] text-[13.5px] leading-tight transition-colors duration-150"><span class="flex items-center justify-center" style="color:var(--sidebar-icon)"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex-shrink:0"><path d="M3 3v18h18"></path><path d="M7 15l3-3 3 2 4-5"></path></svg></span><span class="flex min-w-0 flex-1 flex-col"><span class="flex items-center gap-1.5 truncate text-[13.5px] leading-tight">Share &amp; Earn</span></span></a></div></nav><div class="shrink-0 border-t px-3 pt-3" style="border-color:var(--color-border)"><div class="flex flex-col gap-3"><div class="flex items-center justify-between gap-2 px-2.5"><span class="text-[10.5px] uppercase" style="color:var(--color-gray-700);font-family:var(--font-mono);letter-spacing:0.1em">Vibecoder tools</span><a href="https://sponsors.voltagent.dev/#getdesign.md" target="_blank" rel="noopener noreferrer" class="inline-flex shrink-0 items-center gap-1 text-[11px] transition-colors duration-150 hover:text-[var(--color-gray-1000)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent)]" style="color:var(--color-gray-800)">Add your tool<svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex-shrink:0"><path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path></svg></a></div><a href="https://everyfeed.ai/" target="_blank" rel="sponsored noopener noreferrer" aria-label="EveryFeed.ai — AI social media management. Post to 35+ channels on autopilot. Try it free." class="group/rail-promo -mx-3 block touch-manipulation focus-visible:outline-2 focus-visible:outline-offset-[-2px] focus-visible:outline-[var(--color-accent)]"><span class="block px-3 py-2.5" style="background:#c7ff00;color:#111111"><span class="block text-[13.5px] leading-[1.4] text-pretty" style="font-weight:600">AI social media management</span><span class="mt-1 block text-[12px] leading-snug" style="color:rgba(17,17,17,0.86);font-weight:500">EveryFeed.ai posts to 35+ channels on autopilot.</span></span><span class="flex items-center gap-2 px-3 py-2.5" style="background:#ffffff"><span aria-hidden="true" class="relative block min-w-0 flex-1 overflow-hidden" style="mask-image:linear-gradient(90deg, #000 74%, transparent);-webkit-mask-image:linear-gradient(90deg, #000 74%, transparent)"><span class="marquee-track flex items-center" style="width:max-content"><img src="/logos/channels/x.svg" alt="" width="17" height="17" loading="lazy" style="margin-right:12px;flex-shrink:0"/><img src="/logos/channels/instagram.svg" alt="" width="17" height="17" loading="lazy" style="margin-right:12px;flex-shrink:0"/><img src="/logos/channels/tiktok.svg" alt="" width="17" height="17" loading="lazy" style="margin-right:12px;flex-shrink:0"/><img src="/logos/channels/youtube.svg" alt="" width="17" height="17" loading="lazy" style="margin-right:12px;flex-shrink:0"/><img src="/logos/channels/linkedin.svg" alt="" width="17" height="17" loading="lazy" style="margin-right:12px;flex-shrink:0"/><img src="/logos/channels/reddit.svg" alt="" width="17" height="17" loading="lazy" style="margin-right:12px;flex-shrink:0"/><img src="/logos/channels/discord.svg" alt="" width="17" height="17" loading="lazy" style="margin-right:12px;flex-shrink:0"/><img src="/logos/channels/telegram.svg" alt="" width="17" height="17" loading="lazy" style="margin-right:12px;flex-shrink:0"/><img src="/logos/channels/pinterest.svg" alt="" width="17" height="17" loading="lazy" style="margin-right:12px;flex-shrink:0"/><img src="/logos/channels/bluesky.svg" alt="" width="17" height="17" loading="lazy" style="margin-right:12px;flex-shrink:0"/><img src="/logos/channels/facebook.svg" alt="" width="17" height="17" loading="lazy" style="margin-right:12px;flex-shrink:0"/><img src="/logos/channels/x.svg" alt="" width="17" height="17" loading="lazy" style="margin-right:12px;flex-shrink:0"/><img src="/logos/channels/instagram.svg" alt="" width="17" height="17" loading="lazy" style="margin-right:12px;flex-shrink:0"/><img src="/logos/channels/tiktok.svg" alt="" width="17" height="17" loading="lazy" style="margin-right:12px;flex-shrink:0"/><img src="/logos/channels/youtube.svg" alt="" width="17" height="17" loading="lazy" style="margin-right:12px;flex-shrink:0"/><img src="/logos/channels/linkedin.svg" alt="" width="17" height="17" loading="lazy" style="margin-right:12px;flex-shrink:0"/><img src="/logos/channels/reddit.svg" alt="" width="17" height="17" loading="lazy" style="margin-right:12px;flex-shrink:0"/><img src="/logos/channels/discord.svg" alt="" width="17" height="17" loading="lazy" style="margin-right:12px;flex-shrink:0"/><img src="/logos/channels/telegram.svg" alt="" width="17" height="17" loading="lazy" style="margin-right:12px;flex-shrink:0"/><img src="/logos/channels/pinterest.svg" alt="" width="17" height="17" loading="lazy" style="margin-right:12px;flex-shrink:0"/><img src="/logos/channels/bluesky.svg" alt="" width="17" height="17" loading="lazy" style="margin-right:12px;flex-shrink:0"/><img src="/logos/channels/facebook.svg" alt="" width="17" height="17" loading="lazy" style="margin-right:12px;flex-shrink:0"/></span></span><span class="inline-flex shrink-0 items-center gap-1 rounded-[5px] px-2.5 py-1 text-[11.5px] whitespace-nowrap transition-[filter] duration-150 group-hover/rail-promo:brightness-125" style="background:#111111;color:#ffffff;font-weight:600">Try free<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" data-slot="icon" class="size-3"><path fill-rule="evenodd" d="M4.22 11.78a.75.75 0 0 1 0-1.06L9.44 5.5H5.75a.75.75 0 0 1 0-1.5h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V6.56l-5.22 5.22a.75.75 0 0 1-1.06 0Z" clip-rule="evenodd"></path></svg></span></span></a></div></div></aside><div class="min-w-0"><!--$--><div style="background:var(--color-background);min-height:100vh"><div style="border-bottom:1px solid var(--color-border)"><div class="max-w-7xl mx-auto px-3 sm:px-6 py-6 sm:py-8"><div class="flex flex-col gap-5 lg:flex-row lg:items-center lg:justify-between lg:gap-8"><div class="min-w-0 flex-1"><nav aria-label="Breadcrumb" class="mb-3 flex min-w-0 flex-wrap items-center gap-2 text-label-12" style="color:var(--color-gray-700);font-family:var(--font-mono)"><a href="/" class="shrink-0 transition-colors duration-150 hover:text-[var(--color-gray-1000)] hover:underline">Designs</a><span aria-hidden="true" style="opacity:0.5">/</span><a href="/designs/productivity-saas" class="shrink-0 transition-colors duration-150 hover:text-[var(--color-gray-1000)] hover:underline">Productivity &amp; SaaS</a><span aria-hidden="true" style="opacity:0.5">/</span><span aria-current="page" class="min-w-0 truncate" style="color:var(--color-gray-1000)">Linear<!-- --> DESIGN.md</span></nav><h1 class="text-[18px] sm:text-heading-32 mb-3 flex items-center gap-3" style="font-family:var(--font-mono);color:var(--color-gray-1000)"><span>Linear<!-- --> DESIGN.md</span></h1><p class="text-[14px] sm:text-[16px]" style="color:var(--color-gray-900)">A near-black product-focused marketing canvas built around #010102 (the deepest dark surface of any tool in this collection), light gray text (#f7f8f8), and the signature Linear lavender-blue (#5e6ad2) used as the single chromatic accent. The system reads as software-craft documentation: dense, technical, and quietly luxurious. Display type is set in the Linear custom sans (SF Pro Display fallback) at 500–700 with measured negative tracking. Cards live as charcoal panels (#0f1011) with hairline borders. The accent lavender appears on the brand mark, focus rings, and a few intentional CTAs — never decoratively. Page rhythm leans on product UI screenshots framed in dark panels rather than atmospheric color.</p></div></div></div></div><div class="max-w-7xl mx-auto px-3 sm:px-6 py-6 sm:py-8"><div class="grid grid-cols-1 gap-8"><main class="min-w-0"><section class="mt-8 mb-8 lg:mb-0"><h2 class="text-heading-20 mb-4" style="color:var(--color-gray-1000)">Usage</h2><div class="flex flex-col lg:flex-row lg:items-start gap-3 lg:gap-4"><div class="w-full lg:w-[56%]"><div class="rounded-sm p-5 w-full" style="background:var(--color-background-100);border:1px solid var(--color-border)"><div class="flex items-center gap-2 rounded-sm px-4 py-3 mb-4" style="background:var(--color-code-bg);border:1px solid var(--color-border)"><span class="text-[14px] flex-1 truncate" style="font-family:var(--font-mono);color:var(--color-gray-1000)">npx getdesign@latest add linear.app</span><button class="flex-shrink-0 p-1 rounded transition-colors duration-150 cursor-pointer" style="color:var(--color-gray-600)" title="Copy command"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"></path></svg></button></div><p class="text-[13px] leading-relaxed" style="color:var(--color-gray-900)">Run this command from your project root, then ask your AI assistant to use<!-- --> <span style="font-family:var(--font-mono)">DESIGN.md</span> <!-- -->for UI work.</p></div><div class="mt-5"><section class="mb-8"><div class="mb-5"><p class="text-copy-14 mb-3" style="color:var(--color-gray-900);font-size:16px">Linear takes project management as its base, then sharpens it through ultra-minimal, precise, purple accent. You will get the best results in project management tools, ultra-minimal dark UIs, and SaaS product pages.</p></div></section></div></div><div class="w-full lg:flex-1 lg:min-w-[320px] flex flex-col gap-2.5"><div class="grid grid-cols-2 gap-2"><div class="rounded-sm px-3 h-[44px] flex items-center justify-between gap-2" style="background:var(--color-background-100);border:1px solid var(--color-border)"><p class="text-[11px] uppercase tracking-[0.08em] mb-0" style="color:var(--color-gray-900);font-family:var(--font-mono)">Installs</p><p class="text-[15px] leading-none mb-0" style="color:var(--color-accent);font-family:var(--font-mono)">—</p></div><div class="rounded-sm px-3 h-[44px] flex items-center justify-between gap-2" style="background:var(--color-background-100);border:1px solid var(--color-border)"><p class="text-[11px] uppercase tracking-[0.08em] mb-0" style="color:var(--color-gray-900);font-family:var(--font-mono)">Bookmarked</p><p class="text-[15px] leading-none mb-0" style="color:var(--color-accent);font-family:var(--font-mono)">—</p></div></div><div class="grid grid-cols-2 gap-2"><div class="h-[44px]"><button type="button" disabled="" aria-haspopup="dialog" aria-expanded="false" title="Save" class="inline-flex items-center justify-center gap-1 rounded-sm px-4 py-2.5 text-label-13 transition-colors duration-150 cursor-pointer w-full h-full" style="background:var(--color-background-100);border:1px solid var(--color-border);color:var(--color-btn-label);opacity:0.8;cursor:wait"><span aria-hidden="true" style="width:18px;height:18px;display:inline-flex;align-items:center;justify-content:center"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12a1 1 0 0 1 1 1v17l-7-4-7 4V4a1 1 0 0 1 1-1z"></path></svg></span><span class="text-[12px] font-medium leading-none tracking-[-0.01em]">SAVE</span></button></div><button type="button" class="group inline-flex items-center justify-center gap-2 h-[44px] w-full rounded-sm px-4 text-[13px] font-medium transition-colors duration-150" style="color:var(--color-btn-label);border:1px solid var(--color-border);background:var(--color-background-100);cursor:wait;opacity:0.8" disabled="" aria-haspopup="dialog" aria-expanded="false"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg><span>Download DESIGN.md</span></button></div><a href="/linear.app/design-md/kit" style="background:#f5a623;border:1px solid #f5a623;color:#0a0a0a;font-weight:600" class="group inline-flex items-center justify-center gap-2 h-[44px] w-full rounded-sm px-4 text-[13px] font-medium transition-colors duration-150"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg><span>Get the full website starter kit</span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="transition-transform duration-200 group-hover:translate-x-0.5" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a><div class="flex items-start gap-2 pt-1"><span aria-hidden="true" class="text-[12px] leading-[1.6] flex-shrink-0" style="color:var(--color-accent)">✦</span><p class="text-[12px] leading-relaxed mb-0" style="color:var(--color-gray-900)">Independent analysis of publicly observable patterns, curated as a starting point for inspiration. Not affiliated with or endorsed by <!-- -->Linear<!-- -->; <!-- -->Linear<!-- --> and its logo are trademarks of their respective owner.</p></div></div></div></section><section class="mb-8"><div class="flex flex-wrap items-center justify-between gap-2 mb-4"><h2 class="text-heading-20" style="color:var(--color-gray-1000)">Preview</h2><div class="flex flex-wrap items-center gap-2 sm:gap-3"><div class="flex rounded-sm overflow-hidden" style="border:1px solid var(--color-border)"><button type="button" class="flex items-center gap-1.5 px-2.5 py-1.5 text-[12px] transition-colors duration-150 cursor-pointer whitespace-nowrap" style="background:var(--color-gray-100);color:var(--color-gray-1000);font-weight:600"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg><span class="sm:hidden">Preview</span><span class="hidden sm:inline">Live Preview</span></button><button type="button" class="flex items-center gap-1.5 px-2.5 py-1.5 text-[12px] transition-colors duration-150 cursor-pointer whitespace-nowrap" style="background:transparent;color:var(--color-accent);font-weight:400;border-left:1px solid var(--color-border)"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>DESIGN.md</button></div><div class="flex rounded-sm overflow-hidden" style="border:1px solid var(--color-border)"><button type="button" class="flex items-center gap-1.5 px-2.5 py-1.5 text-[12px] transition-colors duration-150 cursor-pointer whitespace-nowrap" style="background:var(--color-gray-100);color:var(--color-gray-1000);font-weight:600"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>Light</button><button type="button" class="flex items-center gap-1.5 px-2.5 py-1.5 text-[12px] transition-colors duration-150 cursor-pointer whitespace-nowrap" style="background:transparent;color:var(--color-gray-700);font-weight:400;border-left:1px solid var(--color-border)"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path></svg>Dark</button></div></div></div><div class="rounded-lg overflow-hidden" style="border:1px solid var(--color-border)"><div style="min-height:600px"><iframe src="/design-md/linear.app/preview.html" title="Linear design preview (light)" class="w-full border-0" style="height:800px;background:#ffffff;display:block" sandbox="allow-same-origin"></iframe></div><div hidden="" style="background:var(--color-code-bg)"><article class="py-4 px-5 min-w-0" style="overflow-wrap:break-word;word-break:normal;width:100%;max-width:100%;overflow-x:auto"><div class="w-full max-w-full min-w-0 skill-md-render"><pre class="mb-4 overflow-x-auto text-[13px] w-full max-w-full rounded-sm p-4" style="margin:0;background:var(--color-background);border:1px solid var(--color-border);line-height:1.45"><code class="hljs language-markdown" style="display:block;background:transparent;padding:0;line-height:inherit;white-space:pre;word-break:normal;overflow-wrap:normal">---
-version: alpha
-name: Linear-design-analysis
-description: &quot;A near-black product-focused marketing canvas built around #010102 (the deepest dark surface of any tool in this collection), light gray text (#f7f8f8), and the signature Linear lavender-blue (#5e6ad2) used as the single chromatic accent. The system reads as software-craft documentation: dense, technical, and quietly luxurious. Display type is set in the Linear custom sans (SF Pro Display fallback) at 500–700 with measured negative tracking. Cards live as charcoal panels (#0f1011) with hairline borders. The accent lavender appears on the brand mark, focus rings, and a few intentional CTAs — never decoratively. Page rhythm leans on product UI screenshots framed in dark panels rather than atmospheric color.&quot;
+---
+version: 1.0
+name: seyma-ekici-portfolio-design
+description: "Siyah-beyazdan uzaklaşan, butter yellow'u ana nota alan, sıcak nötrlerle desteklenmiş bir portfolyo sistemi. İskelet (nav, footer, grid, kart yapısı) kurumsal ve derli toplu kalır; 'patlama' sadece 2-3 stratejik noktada (hero rozeti, proje kartı köşe etiketi) görünür — nav ve footer'a asla taşmaz. Gece modu saf siyah değil, sıcak espresso tonundadır."
 
 colors:
-  primary: &quot;#5e6ad2&quot;
-  on-primary: &quot;#ffffff&quot;
-  primary-hover: &quot;#828fff&quot;
-  primary-focus: &quot;#5e69d1&quot;
-  ink: &quot;#f7f8f8&quot;
-  ink-muted: &quot;#d0d6e0&quot;
-  ink-subtle: &quot;#8a8f98&quot;
-  ink-tertiary: &quot;#62666d&quot;
-  canvas: &quot;#010102&quot;
-  surface-1: &quot;#0f1011&quot;
-  surface-2: &quot;#141516&quot;
-  surface-3: &quot;#18191a&quot;
-  surface-4: &quot;#191a1b&quot;
-  hairline: &quot;#23252a&quot;
-  hairline-strong: &quot;#34343a&quot;
-  hairline-tertiary: &quot;#3e3e44&quot;
-  inverse-canvas: &quot;#ffffff&quot;
-  inverse-surface-1: &quot;#f5f6f6&quot;
-  inverse-surface-2: &quot;#f6f7f7&quot;
-  inverse-ink: &quot;#000000&quot;
-  brand-secure: &quot;#7a7fad&quot;
-  semantic-success: &quot;#27a644&quot;
-  semantic-overlay: &quot;#000000&quot;
+  light:
+    background: "#FDF8EC"
+    surface: "#FFFCF5"
+    text-primary: "#2B2420"
+    text-muted: "#6B5D45"
+    text-subtle: "#8A7A5C"
+    border: "#E3D7B8"
+    accent-primary: "#E8C547"
+    accent-primary-ink: "#3A2B06"
+    accent-burst: "#E7B49C"
+    accent-burst-ink: "#5C2A1C"
+  dark:
+    background: "#221E19"
+    surface: "#2A2520"
+    text-primary: "#F3E9D8"
+    text-muted: "#C9BDA3"
+    text-subtle: "#A89878"
+    border: "#3A332B"
+    accent-primary: "#E8C547"
+    accent-primary-ink: "#3A2B06"
+    accent-burst: "#C98B6E"
+    accent-burst-ink: "#2E150C"
 
 typography:
-  display-xl:
-<span class="hljs-code">    fontFamily: Linear Display
-    fontSize: 80px
-    fontWeight: 600
-    lineHeight: 1.05
-    letterSpacing: -3.0px
-  display-lg:
-    fontFamily: Linear Display
-    fontSize: 56px
-    fontWeight: 600
-    lineHeight: 1.10
-    letterSpacing: -1.8px
-  display-md:
-    fontFamily: Linear Display
-    fontSize: 40px
-    fontWeight: 600
-    lineHeight: 1.15
-    letterSpacing: -1.0px
-  headline:
-    fontFamily: Linear Display
-    fontSize: 28px
-    fontWeight: 600
-    lineHeight: 1.20
-    letterSpacing: -0.6px
-  card-title:
-    fontFamily: Linear Display
-    fontSize: 22px
-    fontWeight: 500
-    lineHeight: 1.25
-    letterSpacing: -0.4px
-  subhead:
-    fontFamily: Linear Display
-    fontSize: 20px
-    fontWeight: 400
-    lineHeight: 1.40
-    letterSpacing: -0.2px
-  body-lg:
-    fontFamily: Linear Text
-    fontSize: 18px
-    fontWeight: 400
-    lineHeight: 1.50
-    letterSpacing: -0.1px
-  body:
-    fontFamily: Linear Text
-    fontSize: 16px
-    fontWeight: 400
-    lineHeight: 1.50
-    letterSpacing: -0.05px
-  body-sm:
-    fontFamily: Linear Text
-    fontSize: 14px
-    fontWeight: 400
-    lineHeight: 1.50
-    letterSpacing: 0
-  caption:
-    fontFamily: Linear Text
-    fontSize: 12px
-    fontWeight: 400
-    lineHeight: 1.40
-    letterSpacing: 0
-  button:
-    fontFamily: Linear Text
-    fontSize: 14px
-    fontWeight: 500
-    lineHeight: 1.20
-    letterSpacing: 0
-  eyebrow:
-    fontFamily: Linear Text
-    fontSize: 13px
-    fontWeight: 500
-    lineHeight: 1.30
-    letterSpacing: 0.4px
-  mono:
-    fontFamily: Linear Mono
-    fontSize: 13px
-    fontWeight: 400
-    lineHeight: 1.50
-    letterSpacing: 0
-</span>
-rounded:
-  xs: 4px
-  sm: 6px
-  md: 8px
-  lg: 12px
-  xl: 16px
-  xxl: 24px
-  pill: 9999px
-  full: 9999px
+  family-sans: "Geist Sans, system-ui, sans-serif"
+  family-mono: "Geist Mono, ui-monospace, monospace"
+  scale:
+    hero: { size: "clamp(2.75rem, 5vw, 4.5rem)", weight: 500, lineHeight: 1.05, letterSpacing: "-0.02em" }
+    h1: { size: "2.25rem", weight: 500, lineHeight: 1.15, letterSpacing: "-0.015em" }
+    h2: { size: "1.5rem", weight: 500, lineHeight: 1.2 }
+    h3: { size: "1.125rem", weight: 500, lineHeight: 1.3 }
+    body-lg: { size: "1.125rem", weight: 400, lineHeight: 1.6 }
+    body: { size: "1rem", weight: 400, lineHeight: 1.6 }
+    body-sm: { size: "0.875rem", weight: 400, lineHeight: 1.55 }
+    label-mono: { size: "0.6875rem", weight: 500, lineHeight: 1.3, letterSpacing: "0.08em", family: mono }
+
+radius:
+  sm: "8px"
+  md: "12px"
+  lg: "20px"
+  pill: "999px"
 
 spacing:
-  xxs: 4px
-  xs: 8px
-  sm: 12px
-  md: 16px
-  lg: 24px
-  xl: 32px
-  xxl: 48px
-  section: 96px
+  xxs: "4px"
+  xs: "8px"
+  sm: "12px"
+  md: "16px"
+  lg: "24px"
+  xl: "32px"
+  xxl: "48px"
+  section: "96px"
 
 components:
   button-primary:
-<span class="hljs-code">    backgroundColor: &quot;{colors.primary}&quot;
-    textColor: &quot;{colors.on-primary}&quot;
-    typography: &quot;{typography.button}&quot;
-    rounded: &quot;{rounded.md}&quot;
-    padding: 8px 14px
-  button-primary-pressed:
-    backgroundColor: &quot;{colors.primary-focus}&quot;
-    textColor: &quot;{colors.on-primary}&quot;
-    typography: &quot;{typography.button}&quot;
-    rounded: &quot;{rounded.md}&quot;
-  button-primary-hover:
-    backgroundColor: &quot;{colors.primary-hover}&quot;
-    textColor: &quot;{colors.on-primary}&quot;
-    typography: &quot;{typography.button}&quot;
-    rounded: &quot;{rounded.md}&quot;
+    background: "{colors.accent-primary}"
+    color: "{colors.accent-primary-ink}"
+    radius: "{radius.md}"
+    padding: "10px 18px"
   button-secondary:
-    backgroundColor: &quot;{colors.surface-1}&quot;
-    textColor: &quot;{colors.ink}&quot;
-    typography: &quot;{typography.button}&quot;
-    rounded: &quot;{rounded.md}&quot;
-    padding: 8px 14px
-  button-tertiary:
-    backgroundColor: &quot;{colors.canvas}&quot;
-    textColor: &quot;{colors.ink}&quot;
-    typography: &quot;{typography.button}&quot;
-    rounded: &quot;{rounded.md}&quot;
-    padding: 8px 14px
-  button-inverse:
-    backgroundColor: &quot;{colors.inverse-canvas}&quot;
-    textColor: &quot;{colors.inverse-ink}&quot;
-    typography: &quot;{typography.button}&quot;
-    rounded: &quot;{rounded.md}&quot;
-    padding: 8px 14px
-  pricing-card:
-    backgroundColor: &quot;{colors.surface-1}&quot;
-    textColor: &quot;{colors.ink}&quot;
-    typography: &quot;{typography.body}&quot;
-    rounded: &quot;{rounded.lg}&quot;
-    padding: 24px
-  pricing-card-featured:
-    backgroundColor: &quot;{colors.surface-2}&quot;
-    textColor: &quot;{colors.ink}&quot;
-    typography: &quot;{typography.body}&quot;
-    rounded: &quot;{rounded.lg}&quot;
-    padding: 24px
-  feature-card:
-    backgroundColor: &quot;{colors.surface-1}&quot;
-    textColor: &quot;{colors.ink}&quot;
-    typography: &quot;{typography.body}&quot;
-    rounded: &quot;{rounded.lg}&quot;
-    padding: 24px
-  product-screenshot-card:
-    backgroundColor: &quot;{colors.surface-1}&quot;
-    textColor: &quot;{colors.ink}&quot;
-    typography: &quot;{typography.body}&quot;
-    rounded: &quot;{rounded.xl}&quot;
-    padding: 24px
-  testimonial-card:
-    backgroundColor: &quot;{colors.surface-1}&quot;
-    textColor: &quot;{colors.ink}&quot;
-    typography: &quot;{typography.body-lg}&quot;
-    rounded: &quot;{rounded.lg}&quot;
-    padding: 32px
-  customer-logo-tile:
-    backgroundColor: &quot;{colors.canvas}&quot;
-    textColor: &quot;{colors.ink-subtle}&quot;
-    typography: &quot;{typography.caption}&quot;
-    rounded: &quot;{rounded.xs}&quot;
-    padding: 16px
-  text-input:
-    backgroundColor: &quot;{colors.surface-1}&quot;
-    textColor: &quot;{colors.ink}&quot;
-    typography: &quot;{typography.body}&quot;
-    rounded: &quot;{rounded.md}&quot;
-    padding: 8px 12px
-  text-input-focused:
-    backgroundColor: &quot;{colors.surface-1}&quot;
-    textColor: &quot;{colors.ink}&quot;
-    typography: &quot;{typography.body}&quot;
-    rounded: &quot;{rounded.md}&quot;
-    padding: 8px 12px
-  pricing-tab-default:
-    backgroundColor: &quot;{colors.canvas}&quot;
-    textColor: &quot;{colors.ink-subtle}&quot;
-    typography: &quot;{typography.button}&quot;
-    rounded: &quot;{rounded.pill}&quot;
-    padding: 6px 14px
-  pricing-tab-selected:
-    backgroundColor: &quot;{colors.surface-2}&quot;
-    textColor: &quot;{colors.ink}&quot;
-    typography: &quot;{typography.button}&quot;
-    rounded: &quot;{rounded.pill}&quot;
-    padding: 6px 14px
-  cta-banner:
-    backgroundColor: &quot;{colors.surface-1}&quot;
-    textColor: &quot;{colors.ink}&quot;
-    typography: &quot;{typography.headline}&quot;
-    rounded: &quot;{rounded.lg}&quot;
-    padding: 48px
-  changelog-row:
-    backgroundColor: &quot;{colors.canvas}&quot;
-    textColor: &quot;{colors.ink}&quot;
-    typography: &quot;{typography.body}&quot;
-    rounded: &quot;{rounded.xs}&quot;
-    padding: 24px 0
-  status-badge:
-    backgroundColor: &quot;{colors.surface-2}&quot;
-    textColor: &quot;{colors.ink-muted}&quot;
-    typography: &quot;{typography.caption}&quot;
-    rounded: &quot;{rounded.pill}&quot;
-    padding: 2px 8px
-  top-nav:
-    backgroundColor: &quot;{colors.canvas}&quot;
-    textColor: &quot;{colors.ink}&quot;
-    typography: &quot;{typography.body-sm}&quot;
-    rounded: &quot;{rounded.xs}&quot;
-    height: 56px
-  footer:
-    backgroundColor: &quot;{colors.canvas}&quot;
-    textColor: &quot;{colors.ink-subtle}&quot;
-    typography: &quot;{typography.caption}&quot;
-    rounded: &quot;{rounded.xs}&quot;
-    padding: 64px 32px
+    background: transparent
+    border: "1px solid {colors.border}"
+    color: "{colors.text-primary}"
+    radius: "{radius.md}"
+    padding: "10px 18px"
+  card-project:
+    background: "{colors.surface}"
+    border: "1px solid {colors.border}"
+    radius: "{radius.lg}"
+    padding: "24px"
+    shadow: none
+  badge-burst:
+    background: "{colors.accent-burst}"
+    color: "{colors.accent-burst-ink}"
+    radius: "{radius.pill}"
+    padding: "4px 12px"
+    rotation: "-4deg to -6deg"
+    usage: "SADECE hero'daki 'işe açığım' göstergesi ve öne çıkan proje kartlarının köşesi. Nav, footer, form veya her kartta kullanılmaz."
+  nav-footer:
+    background: "{colors.background}"
+    color: "{colors.text-muted}"
+    burst: false
+    note: "Kurumsal/sakin alan. Buraya rozet, eğik eleman veya patlama rengi eklenmez."
+  terminal-widget:
+    background: "{colors.surface}"
+    border: "1px solid {colors.border}"
+    family: mono
+    note: "Mevcut imza eleman; korunuyor, sadece radius ve border rengi yeni tokenlere geçiyor. Mono + etiket kullanımının sitede meşru olduğu TEK yer burası ve proje kartı slug'ı — başka hiçbir yerde dekoratif mono/caps etiket veya bölüm numarası yok."
 ---
-</span>
-<span class="hljs-section">## Overview</span>
-
-Linear&#x27;s marketing canvas is the deepest dark surface in this collection — <span class="hljs-code">`{colors.canvas}`</span> is #010102, essentially pure black with a faint blue tint. On top sits a four-step surface ladder (<span class="hljs-code">`{colors.surface-1}`</span> through <span class="hljs-code">`{colors.surface-4}`</span>) for cards, panels, and lifted tiles, with hairline borders running from <span class="hljs-code">`{colors.hairline}`</span> (#23252a) up through <span class="hljs-code">`{colors.hairline-strong}`</span> and <span class="hljs-code">`{colors.hairline-tertiary}`</span>. Light gray text (<span class="hljs-code">`{colors.ink}`</span> #f7f8f8) carries the body and headlines.
 
-The single chromatic accent is <span class="hljs-strong">**Linear lavender-blue**</span> <span class="hljs-code">`{colors.primary}`</span> (#5e6ad2) — used on the brand mark, focus rings, and the primary CTA button. A lighter hover state (<span class="hljs-code">`{colors.primary-hover}`</span> #828fff) and a focus-tinted variant (<span class="hljs-code">`{colors.primary-focus}`</span> #5e69d1) extend the same hue. Linear avoids saturated greens, oranges, reds, etc. on the marketing canvas — the only semantic color is <span class="hljs-code">`{colors.semantic-success}`</span> (#27a644) for status pills and the rare success indicator.
-
-Display type runs Linear&#x27;s custom sans (with <span class="hljs-code">`SF Pro Display`</span> fallback) at weight 500–700 with negative letter-spacing scaling from -3.0px at 80px down to 0 at body. The body family is Linear&#x27;s text cut, and a Linear Mono is reserved for code snippets in product screenshots.
-
-The page rhythm is <span class="hljs-strong">**dense product screenshots**</span> — Linear&#x27;s marketing leads with high-fidelity captures of the product UI (issue list, project view, dashboard) framed in <span class="hljs-code">`{colors.surface-1}`</span> panels with <span class="hljs-code">`{rounded.xl}`</span> 16px corners. The chrome is intentionally minimal so the app screenshots can do the heavy lifting.
-
-<span class="hljs-strong">**Key Characteristics:**</span>
-<span class="hljs-bullet">-</span> <span class="hljs-strong">**Dark-canvas marketing system**</span> — <span class="hljs-code">`{colors.canvas}`</span> (#010102) is the deepest dark in this collection.
-<span class="hljs-bullet">-</span> <span class="hljs-strong">**Lavender-blue brand accent**</span> (<span class="hljs-code">`{colors.primary}`</span> #5e6ad2) — used scarcely on brand mark, focus, and the primary CTA.
-<span class="hljs-bullet">-</span> Four-step surface ladder (canvas → surface-1 → surface-2 → surface-3 → surface-4) carries hierarchy without shadow.
-<span class="hljs-bullet">-</span> Display tracking pulls aggressively negative (-3.0px at 80px); body holds at -0.05px.
-<span class="hljs-bullet">-</span> Cards use <span class="hljs-code">`{rounded.lg}`</span> 12px corners with 1px hairline borders — never pill, rarely 16px.
-<span class="hljs-bullet">-</span> <span class="hljs-strong">**Product UI screenshots**</span> dominate the page. The marketing chrome is a dark frame for the app.
-<span class="hljs-bullet">-</span> No second chromatic color. No atmospheric gradients. No spotlight cards.
+## Genel Bakış
 
-<span class="hljs-section">## Colors</span>
-
-<span class="hljs-quote">&gt; Source pages: linear.app (home), /intake, /pricing, /contact/sales, /build.</span>
+Bu doküman, portfolyonun siyah-beyaz/keskin-border estetiğinden **sıcak, butter-yellow ağırlıklı** bir dile geçişinin referans kaynağıdır. Amaç: ziyaretçi hem kurumsal yetkinliğini hem de kişiliğini (dinamik/enerjik, "clean girl" havası) aynı anda hissetsin. Bunu iki katmanla sağlıyoruz:
 
-<span class="hljs-section">### Brand &amp; Accent</span>
-<span class="hljs-bullet">-</span> <span class="hljs-strong">**Lavender-Blue**</span> ({colors.primary}): The signature Linear accent — primary CTA, brand mark, link emphasis.
-<span class="hljs-bullet">-</span> <span class="hljs-strong">**Lavender Hover**</span> ({colors.primary-hover}): Lighter lavender (#828fff) — hovered state of the primary CTA.
-<span class="hljs-bullet">-</span> <span class="hljs-strong">**Lavender Focus**</span> ({colors.primary-focus}): Focus-ring tint (#5e69d1) — focused inputs, focused buttons.
-<span class="hljs-bullet">-</span> <span class="hljs-strong">**Brand Secure**</span> ({colors.brand-secure}): Muted lavender-gray (#7a7fad) — used in &quot;Linear Security&quot; surfaces.
+- **İskelet (kurumsal katman):** grid, nav, footer, form, proje kartlarının yapısı — sakin, öngörülebilir, temiz.
+- **Patlama (kişisel katman):** sadece 2-3 noktada görünen, hafif eğik rozet/etiketler — hero'daki durum göstergesi ve proje kartı köşesi. Bilinçli olarak **nav ve footer'a taşınmaz.**
 
-<span class="hljs-section">### Surface</span>
-<span class="hljs-bullet">-</span> <span class="hljs-strong">**Canvas**</span> ({colors.canvas}): Default page background — #010102, near-pure black with a faint blue tint.
-<span class="hljs-bullet">-</span> <span class="hljs-strong">**Surface 1**</span> ({colors.surface-1}): One step above canvas — feature cards, pricing cards, product screenshot panels.
-<span class="hljs-bullet">-</span> <span class="hljs-strong">**Surface 2**</span> ({colors.surface-2}): Two steps above — featured pricing card, hovered cards.
-<span class="hljs-bullet">-</span> <span class="hljs-strong">**Surface 3**</span> ({colors.surface-3}): Three steps above — line-tertiary backgrounds, sub-nav.
-<span class="hljs-bullet">-</span> <span class="hljs-strong">**Surface 4**</span> ({colors.surface-4}): Four steps above — bg-level-3, deepest lifted surface.
-<span class="hljs-bullet">-</span> <span class="hljs-strong">**Hairline**</span> ({colors.hairline}): 1px borders on cards and dividers.
-<span class="hljs-bullet">-</span> <span class="hljs-strong">**Hairline Strong**</span> ({colors.hairline-strong}): Stronger 1px borders — input focus rings.
-<span class="hljs-bullet">-</span> <span class="hljs-strong">**Hairline Tertiary**</span> ({colors.hairline-tertiary}): Tertiary borders for nested surfaces.
-<span class="hljs-bullet">-</span> <span class="hljs-strong">**Inverse Canvas**</span> ({colors.inverse-canvas}): Pure white — surface of the inverse pill CTA on a small set of section openers.
-<span class="hljs-bullet">-</span> <span class="hljs-strong">**Inverse Surface 1**</span> ({colors.inverse-surface-1}): One step above inverse canvas.
-<span class="hljs-bullet">-</span> <span class="hljs-strong">**Inverse Surface 2**</span> ({colors.inverse-surface-2}): Two steps above inverse canvas.
+## Renkler
 
-<span class="hljs-section">### Text</span>
-<span class="hljs-bullet">-</span> <span class="hljs-strong">**Ink**</span> ({colors.ink}): All headlines and emphasized body type — light gray #f7f8f8.
-<span class="hljs-bullet">-</span> <span class="hljs-strong">**Ink Muted**</span> ({colors.ink-muted}): Secondary type at #d0d6e0 — meta info on hero panels.
-<span class="hljs-bullet">-</span> <span class="hljs-strong">**Ink Subtle**</span> ({colors.ink-subtle}): Tertiary type at #8a8f98 — deselected pricing tabs, footer columns.
-<span class="hljs-bullet">-</span> <span class="hljs-strong">**Ink Tertiary**</span> ({colors.ink-tertiary}): Quaternary at #62666d — disabled, footnotes.
+**Gündüz:** Zemin `#FDF8EC` saf beyaz değil, krem — metin `#2B2420` saf siyah değil, sıcak kömür. Ana aksan `#E8C547` (butter yellow) tüm CTA ve vurgularda kullanılır. `#E7B49C` sadece burst rozetlerinde.
 
-<span class="hljs-section">### Semantic</span>
-<span class="hljs-bullet">-</span> <span class="hljs-strong">**Success Green**</span> ({colors.semantic-success}): Status pills, success indicators. The only semantic color on marketing.
-<span class="hljs-bullet">-</span> <span class="hljs-strong">**Overlay**</span> ({colors.semantic-overlay}): Pure black overlay scrim for modals.
+**Gece:** Zemin `#221E19` — mavi-siyah değil, sıcak espresso. "İç karartıcı" hissi buradan kaçınılıyor: ton siyaha değil kahveye yakın. Metin `#F3E9D8` sıcak krem. Aynı `#E8C547` aksanı koyu zeminde de aynen kullanılır — iki modda da marka tanınabilirliği korunur.
 
-<span class="hljs-section">## Typography</span>
+> Not: Burst rengi (`#E7B49C` / `#C98B6E`), "AI tasarımı" klişelerinden biri olan krem-zemin + terracotta-aksan kombinasyonuna (~`#D97757`, Claude'un kendi arayüz rengi) yakın bir aile. Bizim versiyonumuz daha soluk/pembemsi ve sadece küçük rozetlerde kullanıldığı için baskın bir "tell" olmuyor, ama ileride biri "bu siteyi AI yaptı" hissi verirse ilk bakılacak yer burası.
 
-<span class="hljs-section">### Font Family</span>
+## Tipografi
 
-<span class="hljs-bullet">-</span> <span class="hljs-strong">**Linear Display**</span> — Linear&#x27;s custom display sans; fallback <span class="hljs-code">`SF Pro Display, -apple-system, system-ui, Segoe UI, Roboto`</span>. Carries display-xl through subhead.
-<span class="hljs-bullet">-</span> <span class="hljs-strong">**Linear Text**</span> — Linear&#x27;s custom text sans (a slightly different cut tuned for body sizes); same fallback stack. Carries body sizes, button labels, captions.
-<span class="hljs-bullet">-</span> <span class="hljs-strong">**Linear Mono**</span> — Linear&#x27;s custom mono; fallback <span class="hljs-code">`ui-monospace, SF Mono, Menlo`</span>. Used for code snippets in product screenshots and for status / ID tokens.
+Mevcut Geist Sans / Geist Mono ikilisi korunuyor — font değişmiyor, sadece ölçek daha kasıtlı tanımlandı (yukarıdaki `scale`).
 
-The marketing surface treats Display and Text as one continuous voice; the family change is silent.
+**Karar (kesinleşti): Dekoratif eyebrow etiketleri ve bölüm numaraları tamamen kaldırılıyor.** Gerekçe: `01/02/03/04/05` gerçek bir sıra/süreç ifade etmiyor, bu yüzden anlamsız bir süsleme; her başlığın üstüne ALL-CAPS mono etiket koymak da mono fontu "imza eleman" olmaktan çıkarıp her yerde görülen bir şablon tikine çeviriyor — asıl imza olan terminal widget'ını sıradanlaştırıyor.
 
-<span class="hljs-section">### Hierarchy</span>
+Somut olarak kaldırılanlar:
+- `SectionHeading` içindeki `01 / PORTFOLYO` türü index+etiket satırı → başlık artık sadece kendi tipografik ağırlığıyla (`h1`/`h2` scale + boşluk) hiyerarşisini kuruyor, önüne hiçbir şey eklenmiyor.
+- Hero'daki `SİSTEM DURUMU / ÇALIŞIYOR` durum etiketi ve `hero.eyebrow` (`Bağımsız yazılımcı · Türkiye`) satırı → yeşil nokta gösterge istenirse kalabilir ama metin etiketi olmadan; hero direkt başlıkla açılabilir.
+- `stats` bölümündeki `DENEYİM / ODAK / MİMARİ / KONUM` mono caps etiketleri → değer büyük ve net kalır, üstündeki kategori etiketi caps/mono olmayan sade bir alt yazıya döner ya da tamamen kalkar.
+- `skillsGroups` başlıkları, `experienceBlock.currentPractice`, `garden` satırlarındaki hem numara (`01/02/03`) hem caps etiket → aynı mantıkla sadeleşiyor.
+- `featuredProjects.heading` ve `entries` sayacı (`00 ENTRIES`) → başlık normal ağırlıkta, sayaç istenirse düz metin.
 
-| Token | Size | Weight | Line Height | Letter Spacing | Use |
-|---|---|---|---|---|---|
-| <span class="hljs-code">`{typography.display-xl}`</span> | 80px | 600 | 1.05 | -3.0px | Largest hero headline |
-| <span class="hljs-code">`{typography.display-lg}`</span> | 56px | 600 | 1.10 | -1.8px | Section opener headlines |
-| <span class="hljs-code">`{typography.display-md}`</span> | 40px | 600 | 1.15 | -1.0px | Sub-section headlines |
-| <span class="hljs-code">`{typography.headline}`</span> | 28px | 600 | 1.20 | -0.6px | Pricing tier titles, CTA banner heading |
-| <span class="hljs-code">`{typography.card-title}`</span> | 22px | 500 | 1.25 | -0.4px | Feature card title |
-| <span class="hljs-code">`{typography.subhead}`</span> | 20px | 400 | 1.40 | -0.2px | Lead body, intro paragraphs |
-| <span class="hljs-code">`{typography.body-lg}`</span> | 18px | 400 | 1.50 | -0.1px | Hero subhead, lead paragraphs |
-| <span class="hljs-code">`{typography.body}`</span> | 16px | 400 | 1.50 | -0.05px | Default body |
-| <span class="hljs-code">`{typography.body-sm}`</span> | 14px | 400 | 1.50 | 0 | Card body, footer columns |
-| <span class="hljs-code">`{typography.caption}`</span> | 12px | 400 | 1.40 | 0 | Captions, meta, status |
-| <span class="hljs-code">`{typography.button}`</span> | 14px | 500 | 1.20 | 0 | All button labels |
-| <span class="hljs-code">`{typography.eyebrow}`</span> | 13px | 500 | 1.30 | 0.4px | Section eyebrow (slight positive tracking) |
-| <span class="hljs-code">`{typography.mono}`</span> | 13px | 400 | 1.50 | 0 | Linear Mono for code in product screenshots |
+Mono fontun sitede kalan **tek** meşru kullanım alanı: `MiniTerminal` widget'ının içeriği (zaten kod/terminal simülasyonu) ve proje kartındaki `/slug` gibi gerçek kod benzeri veri. Kategori/bölüm etiketi olarak bir daha kullanılmıyor.
 
-<span class="hljs-section">### Principles</span>
+## Şekil & Boşluk
 
-<span class="hljs-bullet">-</span> <span class="hljs-strong">**Aggressive negative tracking on display**</span> (-3.0px at 80px ≈ 4% of size).
-<span class="hljs-bullet">-</span> <span class="hljs-strong">**Single voice from display to body.**</span> Display-xl at 600 → body at 400 — same family, narrower weights.
-<span class="hljs-bullet">-</span> <span class="hljs-strong">**Eyebrow uses positive tracking**</span> (+0.4px) — contrast against the negative-tracked display marks the eyebrow as taxonomy.
-<span class="hljs-bullet">-</span> <span class="hljs-strong">**Mono only in code contexts.**</span> Linear Mono lives inside product screenshots — not on marketing chrome.
+Keskin köşeli border-kutu dili yerine yumuşak radius (`{radius.lg}` = 20px kart, `{radius.md}` = 12px buton) — bu tek değişiklik "kurumsal sert kutu" hissini önemli ölçüde "clean girl" tarafına yaklaştırıyor. Spacing skalası Linear referansındaki 4px bazlı sistemle aynı mantıkta (`xxs`→`section`), sayfa ritminde zaten var olan bolluk korunuyor.
 
-<span class="hljs-section">### Note on Font Substitutes</span>
+## Patlama Yerleşim Kuralı
 
-Linear&#x27;s custom typeface isn&#x27;t publicly distributed; the documented fallback <span class="hljs-code">`SF Pro Display, -apple-system, system-ui`</span> is the recommended substitute on macOS. For cross-platform implementation, <span class="hljs-strong">**Inter**</span> at weight 500 / 600 / 700 is the closest free substitute. <span class="hljs-strong">**Geist Sans**</span> is also viable. For mono, <span class="hljs-strong">**JetBrains Mono**</span> or <span class="hljs-strong">**Geist Mono**</span> at weight 400 closely approximates Linear Mono.
+**Var:**
+- Hero'daki "işe açığım" göstergesi → `badge-burst`, hafif eğik
+- Öne çıkan proje kartlarının sağ üst köşesi → aynı rozet pattern'i, farklı metin
 
-<span class="hljs-section">## Layout</span>
+**Yok (bilinçli karar):**
+- Nav linkleri, footer, form elemanları, admin panel — bunlar `nav-footer` tokenini kullanır, burst rengi görmez
+- Her kart/her bölüm — burst'ü yaygınlaştırmak onu sıradanlaştırır
 
-<span class="hljs-section">### Spacing System</span>
+## Gece Modu Felsefesi
 
-<span class="hljs-bullet">-</span> <span class="hljs-strong">**Base unit**</span>: 4px.
-<span class="hljs-bullet">-</span> <span class="hljs-strong">**Tokens (front matter)**</span>: <span class="hljs-code">`{spacing.xxs}`</span> 4px · <span class="hljs-code">`{spacing.xs}`</span> 8px · <span class="hljs-code">`{spacing.sm}`</span> 12px · <span class="hljs-code">`{spacing.md}`</span> 16px · <span class="hljs-code">`{spacing.lg}`</span> 24px · <span class="hljs-code">`{spacing.xl}`</span> 32px · <span class="hljs-code">`{spacing.xxl}`</span> 48px · <span class="hljs-code">`{spacing.section}`</span> 96px.
-<span class="hljs-bullet">-</span> Card interior padding: <span class="hljs-code">`{spacing.lg}`</span> 24px on feature/pricing cards; <span class="hljs-code">`{spacing.xl}`</span> 32px on testimonial cards; <span class="hljs-code">`{spacing.xxl}`</span> 48px on CTA banners.
-<span class="hljs-bullet">-</span> Pill button padding: 8px vertical · 14px horizontal — Linear&#x27;s compact button spec.
-<span class="hljs-bullet">-</span> Form input padding: 8px vertical · 12px horizontal.
+Gece modu "aydınlığın kapatılması" değil, "aynı sıcaklığın farklı bir saatte görünmesi." Bu yüzden ton kaymasını mavi-siyaha değil kahverengiye doğru yaptık — espresso fincanı gibi, dinlendirici ama kasvetli değil.
 
-<span class="hljs-section">### Grid &amp; Container</span>
+## Envanter & Uygulama Sırası
 
-<span class="hljs-bullet">-</span> Max content width sits around 1280px.
-<span class="hljs-bullet">-</span> Card grids are 3-up at desktop, 2-up at tablet, 1-up at mobile.
-<span class="hljs-bullet">-</span> Pricing tier grid is 3-up; comparison strip below shows checkmarks per tier.
-<span class="hljs-bullet">-</span> Product screenshot panels span full content width — they&#x27;re the protagonist.
+Admin panel bu redesign'ın kapsamına dahil edildi (ayrı bir dil olarak bırakılmıyor). Uygulama sırası:
 
-<span class="hljs-section">### Whitespace Philosophy</span>
-
-The dark canvas IS the whitespace. Sections separate by lift onto surface-1 panels, not by gaps in white. Within a panel, generous <span class="hljs-code">`{spacing.lg}`</span> 24px gaps between content blocks; <span class="hljs-code">`{spacing.section}`</span> 96px between sections.
-
-<span class="hljs-section">## Elevation &amp; Depth</span>
-
-| Level | Treatment | Use |
-|---|---|---|
-| 0 (flat) | No shadow, no border | Default for body type, hero text, footer |
-| 1 (charcoal lift) | <span class="hljs-code">`{colors.surface-1}`</span> background on canvas, 1px <span class="hljs-code">`{colors.hairline}`</span> | Default cards, product panels |
-| 2 (surface-2 lift) | <span class="hljs-code">`{colors.surface-2}`</span> background, 1px <span class="hljs-code">`{colors.hairline-strong}`</span> | Featured pricing card, hovered cards |
-| 3 (surface-3 lift) | <span class="hljs-code">`{colors.surface-3}`</span> background | Sub-nav, dropdown menus |
-| 4 (focus ring) | 2px <span class="hljs-code">`{colors.primary-focus}`</span> outline at 50% opacity | Focused input, focused button |
-
-Linear&#x27;s depth is carried by surface ladder + hairline borders. The brand resists drop shadows on dark almost entirely.
-
-<span class="hljs-section">### Decorative Depth</span>
-
-<span class="hljs-bullet">-</span> <span class="hljs-strong">**Product UI screenshots**</span> dominate as decorative depth.
-<span class="hljs-bullet">-</span> <span class="hljs-strong">**No atmospheric gradients, no spotlight cards.**</span>
-<span class="hljs-bullet">-</span> <span class="hljs-strong">**Subtle white edge highlight**</span> on the top edge of lifted panels — gives the dark surface a faint &quot;pixel rendered&quot; feel.
-
-<span class="hljs-section">## Shapes</span>
-
-<span class="hljs-section">### Border Radius Scale</span>
-
-| Token | Value | Use |
-|---|---|---|
-| <span class="hljs-code">`{rounded.xs}`</span> | 4px | Small chips, status badges |
-| <span class="hljs-code">`{rounded.sm}`</span> | 6px | Inline tags |
-| <span class="hljs-code">`{rounded.md}`</span> | 8px | All buttons, form inputs |
-| <span class="hljs-code">`{rounded.lg}`</span> | 12px | Pricing cards, feature cards, testimonial cards |
-| <span class="hljs-code">`{rounded.xl}`</span> | 16px | Product screenshot panels |
-| <span class="hljs-code">`{rounded.xxl}`</span> | 24px | Oversized CTA banners (rare) |
-| <span class="hljs-code">`{rounded.pill}`</span> | 9999px | Pricing tab toggles, status pills |
-| <span class="hljs-code">`{rounded.full}`</span> | 9999px | Avatar circles |
-
-<span class="hljs-section">### Photography &amp; Illustration Geometry</span>
-
-<span class="hljs-bullet">-</span> Product UI screenshots dominate; they sit in <span class="hljs-code">`{rounded.xl}`</span> 16px tiles with <span class="hljs-code">`{spacing.lg}`</span> 24px outer padding.
-<span class="hljs-bullet">-</span> Customer logo tiles render at small sizes (~24px logo height) on <span class="hljs-code">`{colors.canvas}`</span> with no border.
-<span class="hljs-bullet">-</span> Avatar circles in testimonial cards use <span class="hljs-code">`{rounded.full}`</span> at 32–40px sizes.
-
-<span class="hljs-section">## Components</span>
-
-<span class="hljs-section">### Buttons</span>
-
-<span class="hljs-strong">**`button-primary`**</span> — Lavender CTA. The default primary CTA across all pages.
-<span class="hljs-bullet">-</span> Background <span class="hljs-code">`{colors.primary}`</span>, text <span class="hljs-code">`{colors.on-primary}`</span>, type <span class="hljs-code">`{typography.button}`</span>, padding 8px 14px, rounded <span class="hljs-code">`{rounded.md}`</span>.
-<span class="hljs-bullet">-</span> Pressed state lives in <span class="hljs-code">`button-primary-pressed`</span> (background shifts to <span class="hljs-code">`{colors.primary-focus}`</span>).
-<span class="hljs-bullet">-</span> Hover state lives in <span class="hljs-code">`button-primary-hover`</span> (background shifts to <span class="hljs-code">`{colors.primary-hover}`</span> lighter lavender).
-
-<span class="hljs-strong">**`button-secondary`**</span> — Charcoal button. Used for secondary CTAs (&quot;Sign in&quot;, &quot;Read changelog&quot;).
-<span class="hljs-bullet">-</span> Background <span class="hljs-code">`{colors.surface-1}`</span>, text <span class="hljs-code">`{colors.ink}`</span>, type <span class="hljs-code">`{typography.button}`</span>, padding 8px 14px, rounded <span class="hljs-code">`{rounded.md}`</span>. 1px <span class="hljs-code">`{colors.hairline}`</span> border.
-
-<span class="hljs-strong">**`button-tertiary`**</span> — Plain text button.
-<span class="hljs-bullet">-</span> Background <span class="hljs-code">`{colors.canvas}`</span>, text <span class="hljs-code">`{colors.ink}`</span>, type <span class="hljs-code">`{typography.button}`</span>, rounded <span class="hljs-code">`{rounded.md}`</span>, padding 8px 14px.
-
-<span class="hljs-strong">**`button-inverse`**</span> — White-on-dark inverse CTA.
-<span class="hljs-bullet">-</span> Background <span class="hljs-code">`{colors.inverse-canvas}`</span>, text <span class="hljs-code">`{colors.inverse-ink}`</span>, type <span class="hljs-code">`{typography.button}`</span>, rounded <span class="hljs-code">`{rounded.md}`</span>, padding 8px 14px.
-
-<span class="hljs-section">### Pricing Tabs</span>
-
-<span class="hljs-strong">**`pricing-tab-default`**</span> + <span class="hljs-strong">**`pricing-tab-selected`**</span> — Pill-toggle on <span class="hljs-code">`/pricing`</span>.
-<span class="hljs-bullet">-</span> Default: <span class="hljs-code">`{colors.canvas}`</span> background, <span class="hljs-code">`{colors.ink-subtle}`</span> text, rounded <span class="hljs-code">`{rounded.pill}`</span>, padding 6px 14px.
-<span class="hljs-bullet">-</span> Selected: <span class="hljs-code">`{colors.surface-2}`</span> background, <span class="hljs-code">`{colors.ink}`</span> text — selected = surface lift.
-
-<span class="hljs-section">### Cards &amp; Containers</span>
-
-<span class="hljs-strong">**`pricing-card`**</span> — Each tier on <span class="hljs-code">`/pricing`</span>.
-<span class="hljs-bullet">-</span> Background <span class="hljs-code">`{colors.surface-1}`</span>, text <span class="hljs-code">`{colors.ink}`</span>, type <span class="hljs-code">`{typography.body}`</span>, rounded <span class="hljs-code">`{rounded.lg}`</span>, padding 24px. 1px <span class="hljs-code">`{colors.hairline}`</span> border.
-
-<span class="hljs-strong">**`pricing-card-featured`**</span> — Recommended tier — surface lift to surface-2.
-<span class="hljs-bullet">-</span> Background <span class="hljs-code">`{colors.surface-2}`</span>, otherwise identical structure.
-
-<span class="hljs-strong">**`feature-card`**</span> — Generic feature highlight tile.
-<span class="hljs-bullet">-</span> Background <span class="hljs-code">`{colors.surface-1}`</span>, text <span class="hljs-code">`{colors.ink}`</span>, type <span class="hljs-code">`{typography.body}`</span>, rounded <span class="hljs-code">`{rounded.lg}`</span>, padding 24px.
-
-<span class="hljs-strong">**`product-screenshot-card`**</span> — The dominant card type — frames a high-fidelity Linear app UI screenshot.
-<span class="hljs-bullet">-</span> Background <span class="hljs-code">`{colors.surface-1}`</span>, text <span class="hljs-code">`{colors.ink}`</span>, type <span class="hljs-code">`{typography.body}`</span>, rounded <span class="hljs-code">`{rounded.xl}`</span>, padding 24px.
-
-<span class="hljs-strong">**`testimonial-card`**</span> — Customer quote with avatar + name + role.
-<span class="hljs-bullet">-</span> Background <span class="hljs-code">`{colors.surface-1}`</span>, text <span class="hljs-code">`{colors.ink}`</span>, type <span class="hljs-code">`{typography.body-lg}`</span>, rounded <span class="hljs-code">`{rounded.lg}`</span>, padding 32px.
-
-<span class="hljs-strong">**`customer-logo-tile`**</span> — Small tile in the customer marquee.
-<span class="hljs-bullet">-</span> Background <span class="hljs-code">`{colors.canvas}`</span>, text <span class="hljs-code">`{colors.ink-subtle}`</span>, type <span class="hljs-code">`{typography.caption}`</span>, rounded <span class="hljs-code">`{rounded.xs}`</span>, padding 16px.
-
-<span class="hljs-strong">**`cta-banner`**</span> — Closing CTA panel near page bottom.
-<span class="hljs-bullet">-</span> Background <span class="hljs-code">`{colors.surface-1}`</span>, text <span class="hljs-code">`{colors.ink}`</span>, type <span class="hljs-code">`{typography.headline}`</span>, rounded <span class="hljs-code">`{rounded.lg}`</span>, padding 48px.
-
-<span class="hljs-section">### Inputs &amp; Forms</span>
-
-<span class="hljs-strong">**`text-input`**</span> + <span class="hljs-strong">**`text-input-focused`**</span> — Form fields on <span class="hljs-code">`/contact/sales`</span> and signup overlays.
-<span class="hljs-bullet">-</span> Background <span class="hljs-code">`{colors.surface-1}`</span>, text <span class="hljs-code">`{colors.ink}`</span>, type <span class="hljs-code">`{typography.body}`</span>, rounded <span class="hljs-code">`{rounded.md}`</span>, padding 8px 12px.
-<span class="hljs-bullet">-</span> Focused state retains the same surface; the focus ring is a 2px <span class="hljs-code">`{colors.primary-focus}`</span> outline at 50% opacity.
-
-<span class="hljs-section">### Status &amp; Build Page</span>
-
-<span class="hljs-strong">**`changelog-row`**</span> — Each row in <span class="hljs-code">`/build`</span> (changelog page) listing version, date, and changes.
-<span class="hljs-bullet">-</span> Background <span class="hljs-code">`{colors.canvas}`</span>, text <span class="hljs-code">`{colors.ink}`</span>, type <span class="hljs-code">`{typography.body}`</span>, rounded <span class="hljs-code">`{rounded.xs}`</span>, padding 24px 0. 1px <span class="hljs-code">`{colors.hairline}`</span> bottom rule.
-
-<span class="hljs-strong">**`status-badge`**</span> — Small status pill.
-<span class="hljs-bullet">-</span> Background <span class="hljs-code">`{colors.surface-2}`</span>, text <span class="hljs-code">`{colors.ink-muted}`</span>, type <span class="hljs-code">`{typography.caption}`</span>, rounded <span class="hljs-code">`{rounded.pill}`</span>, padding 2px 8px.
-
-<span class="hljs-section">### Navigation</span>
-
-<span class="hljs-strong">**`top-nav`**</span> — Sticky dark bar with the Linear wordmark left, primary nav links centered, and a <span class="hljs-code">`button-secondary`</span> (&quot;Sign in&quot;) + <span class="hljs-code">`button-primary`</span> (&quot;Get started&quot;) pair right.
-<span class="hljs-bullet">-</span> Background <span class="hljs-code">`{colors.canvas}`</span>, text <span class="hljs-code">`{colors.ink}`</span>, type <span class="hljs-code">`{typography.body-sm}`</span>, height 56px.
-
-<span class="hljs-section">### Footer</span>
-
-<span class="hljs-strong">**`footer`**</span> — Dense link grid on <span class="hljs-code">`{colors.canvas}`</span> with the Linear wordmark left.
-<span class="hljs-bullet">-</span> Background <span class="hljs-code">`{colors.canvas}`</span>, text <span class="hljs-code">`{colors.ink-subtle}`</span>, type <span class="hljs-code">`{typography.caption}`</span>, padding 64px 32px.
-
-<span class="hljs-section">## Do&#x27;s and Don&#x27;ts</span>
-
-<span class="hljs-section">### Do</span>
-
-<span class="hljs-bullet">-</span> Reserve <span class="hljs-code">`{colors.canvas}`</span> (#010102) as the system&#x27;s anchor surface — the faint blue tint is intentional.
-<span class="hljs-bullet">-</span> Use <span class="hljs-code">`{colors.primary}`</span> lavender ONLY for: brand mark, primary CTA, focus ring, link emphasis.
-<span class="hljs-bullet">-</span> Use the four-step surface ladder for hierarchy. Avoid skipping levels.
-<span class="hljs-bullet">-</span> Pair display weight 600 with body weight 400 — Linear resists 700+ display weights.
-<span class="hljs-bullet">-</span> Apply negative letter-spacing aggressively on display.
-<span class="hljs-bullet">-</span> Use product UI screenshots as the protagonist of every section.
-<span class="hljs-bullet">-</span> Compose CTAs as <span class="hljs-code">`{rounded.md}`</span> 8px corners.
-
-<span class="hljs-section">### Don&#x27;t</span>
-
-<span class="hljs-bullet">-</span> Don&#x27;t ship a light-mode marketing page.
-<span class="hljs-bullet">-</span> Don&#x27;t use lavender as a section background or card fill.
-<span class="hljs-bullet">-</span> Don&#x27;t introduce a second chromatic accent (orange, pink, green for marketing).
-<span class="hljs-bullet">-</span> Don&#x27;t add atmospheric gradients or spotlight cards.
-<span class="hljs-bullet">-</span> Don&#x27;t pill-round CTAs.
-<span class="hljs-bullet">-</span> Don&#x27;t use <span class="hljs-code">`#000000`</span> true black as the canvas.
-<span class="hljs-bullet">-</span> Don&#x27;t combine multiple bright accents in product screenshot mockups.
-
-<span class="hljs-section">## Responsive Behavior</span>
-
-<span class="hljs-section">### Breakpoints</span>
-
-| Name | Width | Key Changes |
-|---|---|---|
-| Desktop-XL | 1440px | Default desktop layout |
-| Desktop | 1280px | Card grid 3-up maintained |
-| Tablet | 1024px | Card grid 3-up → 2-up |
-| Mobile-Lg | 768px | Pricing comparison becomes accordion; nav hamburger |
-| Mobile | 480px | Single-column; display-xl scales 80px → ~36px |
-
-<span class="hljs-section">### Touch Targets</span>
-
-<span class="hljs-bullet">-</span> CTAs hold ≥40px tap height across viewports.
-<span class="hljs-bullet">-</span> Pricing tab pills hold ≥36px tap height; touch viewports grow to ≥44px.
-<span class="hljs-bullet">-</span> Form inputs hold ≥44px tap target on touch.
-
-<span class="hljs-section">### Collapsing Strategy</span>
-
-<span class="hljs-bullet">-</span> <span class="hljs-strong">**Top nav**</span>: links collapse to hamburger below 768px.
-<span class="hljs-bullet">-</span> <span class="hljs-strong">**Card grids**</span>: 3-up → 2-up at 1024px → 1-up below 768px.
-<span class="hljs-bullet">-</span> <span class="hljs-strong">**Pricing comparison**</span>: per-tier accordion below 768px.
-<span class="hljs-bullet">-</span> <span class="hljs-strong">**Display type**</span>: <span class="hljs-code">`{typography.display-xl}`</span> 80px scales toward <span class="hljs-code">`{typography.display-md}`</span> 40px on mobile.
-
-<span class="hljs-section">### Image Behavior</span>
-
-<span class="hljs-bullet">-</span> Product UI screenshots maintain aspect ratio and never crop.
-<span class="hljs-bullet">-</span> Customer logos in the marquee may collapse from 6-up to 3-up below 768px.
-
-<span class="hljs-section">## Iteration Guide</span>
-
-<span class="hljs-bullet">1.</span> Focus on ONE component at a time and reference it by its <span class="hljs-code">`components:`</span> token name.
-<span class="hljs-bullet">2.</span> When introducing a section, decide first which surface lift it lives on.
-<span class="hljs-bullet">3.</span> Default body to <span class="hljs-code">`{typography.body}`</span> at weight 400.
-<span class="hljs-bullet">4.</span> Run <span class="hljs-code">`npx @google/design.md lint DESIGN.md`</span> after edits.
-<span class="hljs-bullet">5.</span> Add new variants as separate component entries.
-<span class="hljs-bullet">6.</span> Treat lavender as scarce: brand mark, primary CTA, focus, link emphasis.
-<span class="hljs-bullet">7.</span> Lead every section with a product UI screenshot.
-
-<span class="hljs-section">## Known Gaps</span>
-
-<span class="hljs-bullet">-</span> The four-step surface ladder values are extracted directly from Linear&#x27;s <span class="hljs-code">`--color-bg-level-3`</span>, <span class="hljs-code">`--color-line-tint`</span>, etc. CSS variables; they are Linear&#x27;s canonical surface spec.
-<span class="hljs-bullet">-</span> Form-field error and validation styling is not visible on the inspected pages.
-<span class="hljs-bullet">-</span> Light mode is not documented because the marketing site does not ship a light theme.
-<span class="hljs-bullet">-</span> Linear&#x27;s actual product UI uses a richer color-tag palette (red, orange, yellow, green, blue, purple) for issue priorities and project labels — those colors live in the in-product surfaces shown in mockups.
-<span class="hljs-bullet">-</span> The custom display, text, and mono families are proprietary; an open-source substitute is acceptable.
-
-</code></pre></div></article></div></div></section><section class="mb-8" aria-labelledby="design-faq-heading"><h2 id="design-faq-heading" class="text-heading-20 mb-4" style="color:var(--color-gray-1000)">Linear<!-- --> DESIGN.md FAQ</h2><div style="border-top:1px solid var(--color-border)"><div class="py-4" style="border-bottom:1px solid var(--color-border)"><h3 class="text-label-14 mb-1.5" style="color:var(--color-gray-1000)">How do I use the Linear DESIGN.md with Claude Code, Cursor, or Codex?</h3><p class="text-copy-14 max-w-[75ch]" style="color:var(--color-gray-900)">Run<!-- --> <code style="font-family:var(--font-mono);color:var(--color-gray-1000)">npx getdesign@latest add <!-- -->linear.app</code> <!-- -->from your project root, then ask your AI assistant to use<!-- --> <span style="font-family:var(--font-mono)">DESIGN.md</span> for UI work.</p></div><div class="py-4" style="border-bottom:1px solid var(--color-border)"><h3 class="text-label-14 mb-1.5" style="color:var(--color-gray-1000)">What does the Linear DESIGN.md cover?</h3><p class="text-copy-14 max-w-[75ch]" style="color:var(--color-gray-900)">It covers <!-- -->overview, colors, typography, layout, elevation &amp; depth, shapes, components, do&#x27;s and don&#x27;ts, responsive behavior, iteration guide, and known gaps<!-- -->.</p></div><div class="py-4" style="border-bottom:1px solid var(--color-border)"><h3 class="text-label-14 mb-1.5" style="color:var(--color-gray-1000)">Is this an official Linear file?</h3><p class="text-copy-14 max-w-[75ch]" style="color:var(--color-gray-900)">No. It is an independent analysis of publicly observable patterns, curated as a starting point for inspiration. It is not affiliated with or endorsed by <!-- -->Linear<!-- -->.</p></div></div></section><section class="mb-8" aria-labelledby="similar-designs-heading"><h2 id="similar-designs-heading" class="text-heading-20 mb-4" style="color:var(--color-gray-1000)">Similar DESIGN.md files</h2><div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4"><a href="/mintlify/design-md" style="background:var(--color-background-100);border:1px solid var(--color-border)" class="group flex flex-col rounded-lg p-4 transition-colors duration-150 cursor-pointer"><h3 class="text-sm font-medium mb-1.5 transition-colors" style="font-family:var(--font-mono);color:var(--color-gray-1000)">Mintlify</h3><p class="text-xs leading-relaxed flex-1 mb-4 line-clamp-2" style="color:var(--color-gray-700)">Documentation platform. Clean, green-accented, reading-optimized.</p></a><a href="/resend/design-md" style="background:var(--color-background-100);border:1px solid var(--color-border)" class="group flex flex-col rounded-lg p-4 transition-colors duration-150 cursor-pointer"><h3 class="text-sm font-medium mb-1.5 transition-colors" style="font-family:var(--font-mono);color:var(--color-gray-1000)">Resend</h3><p class="text-xs leading-relaxed flex-1 mb-4 line-clamp-2" style="color:var(--color-gray-700)">Email API. Near-black canvas, oversized editorial serif headlines.</p></a><a href="/zapier/design-md" style="background:var(--color-background-100);border:1px solid var(--color-border)" class="group flex flex-col rounded-lg p-4 transition-colors duration-150 cursor-pointer"><h3 class="text-sm font-medium mb-1.5 transition-colors" style="font-family:var(--font-mono);color:var(--color-gray-1000)">Zapier</h3><p class="text-xs leading-relaxed flex-1 mb-4 line-clamp-2" style="color:var(--color-gray-700)">Automation platform. Warm orange, friendly illustration-driven.</p></a><a href="/cal/design-md" style="background:var(--color-background-100);border:1px solid var(--color-border)" class="group flex flex-col rounded-lg p-4 transition-colors duration-150 cursor-pointer"><h3 class="text-sm font-medium mb-1.5 transition-colors" style="font-family:var(--font-mono);color:var(--color-gray-1000)">Cal.com</h3><p class="text-xs leading-relaxed flex-1 mb-4 line-clamp-2" style="color:var(--color-gray-700)">Open-source scheduling. Clean neutral UI, developer-oriented simplicity.</p></a></div></section></main></div></div><footer class="mt-auto pb-20 sm:pb-8" style="border-top:1px solid var(--color-border)"><div class="mx-auto w-full max-w-6xl px-4 pt-10 sm:px-6"><div class="grid grid-cols-2 gap-x-8 gap-y-9 sm:grid-cols-2 lg:grid-cols-[1.4fr_1fr_1.15fr_1fr_1fr]"><div class="col-span-2 flex flex-col gap-3 lg:col-span-1"><a href="/" style="font-family:&#x27;GeistPixel-Square&#x27;, monospace;color:var(--color-gray-1000);letter-spacing:0.12em" class="inline-flex w-fit items-center text-[18px] tracking-widest">get<span style="color:var(--color-accent)">design</span>.md</a><p class="max-w-[34ch] text-[13px]" style="color:var(--color-gray-800);line-height:1.55">Design, build, launch and grow products with the AI you already use.</p><a href="https://github.com/VoltAgent/voltagent" target="_blank" rel="noopener noreferrer" class="mt-1 inline-flex w-fit items-center gap-2 text-[13px] transition-colors duration-150 hover:text-[var(--color-gray-1000)]" style="color:var(--color-gray-700)"><img src="https://github.com/VoltAgent.png?size=32" alt="" width="18" height="18" style="border-radius:4px"/>Maintained by the VoltAgent team</a></div><div class="flex flex-col"><div class="mb-3 text-[10.5px] uppercase" style="color:var(--color-gray-700);font-family:var(--font-mono);letter-spacing:0.1em">Products</div><div class="flex flex-col gap-2.5"><a href="/design-md" style="color:var(--color-gray-800)" class="text-[13px] transition-colors duration-150 hover:text-[var(--color-gray-1000)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent)]">Website catalog</a><a href="/request" style="color:var(--color-gray-800)" class="text-[13px] transition-colors duration-150 hover:text-[var(--color-gray-1000)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent)]">Private DESIGN.md</a><a href="/design-md-pass" style="color:var(--color-gray-800)" class="text-[13px] transition-colors duration-150 hover:text-[var(--color-gray-1000)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent)]">Catalog Pass</a><a href="/backgrounds" style="color:var(--color-gray-800)" class="text-[13px] transition-colors duration-150 hover:text-[var(--color-gray-1000)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent)]">Backgrounds</a><a href="/video-studio" style="color:var(--color-gray-800)" class="text-[13px] transition-colors duration-150 hover:text-[var(--color-gray-1000)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent)]">Video Templates</a><a href="https://starterkit.getdesign.md/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 text-[13px] transition-colors duration-150 hover:text-[var(--color-gray-1000)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent)]" style="color:var(--color-gray-800)">Website Starter Kit<svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="opacity:0.55"><path d="M7 17 17 7"></path><path d="M7 7h10v10"></path></svg></a></div></div><div class="flex flex-col"><div class="mb-3 text-[10.5px] uppercase" style="color:var(--color-gray-700);font-family:var(--font-mono);letter-spacing:0.1em">Free DESIGN.md</div><div class="flex flex-col gap-2.5"><a href="/designs/ai-ml" style="color:var(--color-gray-800)" class="text-[13px] transition-colors duration-150 hover:text-[var(--color-gray-1000)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent)]">AI &amp; LLM Platforms</a><a href="/designs/developer-tools" style="color:var(--color-gray-800)" class="text-[13px] transition-colors duration-150 hover:text-[var(--color-gray-1000)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent)]">Developer Tools &amp; IDEs</a><a href="/designs/backend-devops" style="color:var(--color-gray-800)" class="text-[13px] transition-colors duration-150 hover:text-[var(--color-gray-1000)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent)]">Backend, Database &amp; DevOps</a><a href="/designs/productivity-saas" style="color:var(--color-gray-800)" class="text-[13px] transition-colors duration-150 hover:text-[var(--color-gray-1000)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent)]">Productivity &amp; SaaS</a><a href="/designs/design-creative" style="color:var(--color-gray-800)" class="text-[13px] transition-colors duration-150 hover:text-[var(--color-gray-1000)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent)]">Design &amp; Creative Tools</a><a href="/designs/fintech" style="color:var(--color-gray-800)" class="text-[13px] transition-colors duration-150 hover:text-[var(--color-gray-1000)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent)]">Fintech &amp; Crypto</a><a href="/designs/ecommerce-retail" style="color:var(--color-gray-800)" class="text-[13px] transition-colors duration-150 hover:text-[var(--color-gray-1000)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent)]">E-commerce &amp; Retail</a><a href="/designs/media-consumer" style="color:var(--color-gray-800)" class="text-[13px] transition-colors duration-150 hover:text-[var(--color-gray-1000)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent)]">Media &amp; Consumer Tech</a><a href="/designs/automotive" style="color:var(--color-gray-800)" class="text-[13px] transition-colors duration-150 hover:text-[var(--color-gray-1000)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent)]">Automotive</a></div></div><div class="flex flex-col"><div class="mb-3 text-[10.5px] uppercase" style="color:var(--color-gray-700);font-family:var(--font-mono);letter-spacing:0.1em">Resources</div><div class="flex flex-col gap-2.5"><a rel="noopener noreferrer" href="/state-of-design-md" target="_blank" style="color:var(--color-gray-800)" class="text-[13px] transition-colors duration-150 hover:text-[var(--color-gray-1000)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent)]">State of DESIGN.md 2026</a><a href="/blog" style="color:var(--color-gray-800)" class="text-[13px] transition-colors duration-150 hover:text-[var(--color-gray-1000)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent)]">Blog</a><a href="/what-is-design-md" style="color:var(--color-gray-800)" class="text-[13px] transition-colors duration-150 hover:text-[var(--color-gray-1000)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent)]">What is DESIGN.md?</a><a href="/featured" style="color:var(--color-gray-800)" class="text-[13px] transition-colors duration-150 hover:text-[var(--color-gray-1000)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent)]">Wall of Love</a><a href="https://x.com/intent/follow?screen_name=getdesignmd" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 text-[13px] transition-colors duration-150 hover:text-[var(--color-gray-1000)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent)]" style="color:var(--color-gray-800)">@getdesignmd on X<svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="opacity:0.55"><path d="M7 17 17 7"></path><path d="M7 7h10v10"></path></svg></a></div></div><div class="flex flex-col"><div class="mb-3 text-[10.5px] uppercase" style="color:var(--color-gray-700);font-family:var(--font-mono);letter-spacing:0.1em">Company</div><div class="flex flex-col gap-2.5"><a rel="noreferrer" href="/about" target="_blank" style="color:var(--color-gray-800)" class="text-[13px] transition-colors duration-150 hover:text-[var(--color-gray-1000)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent)]">About</a><a href="/affiliate" style="color:var(--color-gray-800)" class="text-[13px] transition-colors duration-150 hover:text-[var(--color-gray-1000)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent)]">Affiliate Program</a><a rel="noreferrer" href="/terms" target="_blank" style="color:var(--color-gray-800)" class="text-[13px] transition-colors duration-150 hover:text-[var(--color-gray-1000)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent)]">Terms</a><a rel="noreferrer" href="/privacy" target="_blank" style="color:var(--color-gray-800)" class="text-[13px] transition-colors duration-150 hover:text-[var(--color-gray-1000)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent)]">Privacy</a><a href="/cookies" style="color:var(--color-gray-800)" class="text-[13px] transition-colors duration-150 hover:text-[var(--color-gray-1000)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent)]">Cookies</a><button type="button" class="cursor-pointer text-left text-[13px] transition-colors duration-150 hover:text-[var(--color-gray-1000)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent)]" style="color:var(--color-gray-800)">Cookie settings</button></div></div></div><div class="mt-10 pt-5 text-[12px]" style="border-top:1px solid var(--color-border);color:var(--color-gray-700)">getdesign.md, the DESIGN.md collection for AI coding agents.</div></div></footer></div><script></script><!--/$--></div></div><div style="position:fixed;right:20px;bottom:20px;z-index:70"><button type="button" aria-expanded="false" aria-label="Send feedback" class="inline-flex items-center gap-1.5 rounded-full px-3 py-2 text-label-13 transition-colors duration-150" style="background-color:var(--color-contrast);color:var(--color-contrast-foreground);border:1px solid;border-color:var(--color-contrast);box-shadow:0 10px 28px rgba(0,0,0,0.16)"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>Feedback</button></div><script class="$tsr" id="$tsr-stream-barrier">(self.$R=self.$R||{})["tsr"]=[];self.$_TSR={h(){this.hydrated=!0,this.c()},e(){this.streamEnded=!0,this.c()},c(){this.hydrated&&this.streamEnded&&(delete self.$_TSR,delete self.$R.tsr)},p(e){this.initialized?e():this.buffer.push(e)},buffer:[]};
-;$_TSR.router=($R=>$R[0]={manifest:$R[1]={routes:$R[2]={__root__:$R[3]={preloads:$R[4]=["/assets/main-BHxFPVi4.js"],assets:$R[5]=[$R[6]={tag:"link",attrs:$R[7]={rel:"stylesheet",href:"/assets/main-tiW_yGhv.css",type:"text/css"}},$R[8]={tag:"script",attrs:$R[9]={type:"module",async:!0},children:"import(\"/assets/main-BHxFPVi4.js\")"}]},"/":$R[10]={assets:$R[11]=[$R[12]={tag:"link",attrs:$R[13]={rel:"stylesheet",href:"/assets/main-tiW_yGhv.css",type:"text/css"}}]},"/about":$R[14]={assets:$R[15]=[$R[16]={tag:"link",attrs:$R[17]={rel:"stylesheet",href:"/assets/main-tiW_yGhv.css",type:"text/css"}}]},"/account":$R[18]={assets:$R[19]=[$R[20]={tag:"link",attrs:$R[21]={rel:"stylesheet",href:"/assets/main-tiW_yGhv.css",type:"text/css"}}]},"/affiliate":$R[22]={assets:$R[23]=[$R[24]={tag:"link",attrs:$R[25]={rel:"stylesheet",href:"/assets/main-tiW_yGhv.css",type:"text/css"}}]},"/auth":$R[26]={assets:$R[27]=[$R[28]={tag:"link",attrs:$R[29]={rel:"stylesheet",href:"/assets/main-tiW_yGhv.css",type:"text/css"}}]},"/backgrounds":$R[30]={assets:$R[31]=[$R[32]={tag:"link",attrs:$R[33]={rel:"stylesheet",href:"/assets/main-tiW_yGhv.css",type:"text/css"}}]},"/cookies":$R[34]={assets:$R[35]=[$R[36]={tag:"link",attrs:$R[37]={rel:"stylesheet",href:"/assets/main-tiW_yGhv.css",type:"text/css"}}]},"/design-md-pass":$R[38]={assets:$R[39]=[$R[40]={tag:"link",attrs:$R[41]={rel:"stylesheet",href:"/assets/main-tiW_yGhv.css",type:"text/css"}}]},"/featured":$R[42]={assets:$R[43]=[$R[44]={tag:"link",attrs:$R[45]={rel:"stylesheet",href:"/assets/main-tiW_yGhv.css",type:"text/css"}}]},"/mobile-starter-kit":$R[46]={assets:$R[47]=[$R[48]={tag:"link",attrs:$R[49]={rel:"stylesheet",href:"/assets/main-tiW_yGhv.css",type:"text/css"}}]},"/privacy":$R[50]={assets:$R[51]=[$R[52]={tag:"link",attrs:$R[53]={rel:"stylesheet",href:"/assets/main-tiW_yGhv.css",type:"text/css"}}]},"/request":$R[54]={assets:$R[55]=[$R[56]={tag:"link",attrs:$R[57]={rel:"stylesheet",href:"/assets/main-tiW_yGhv.css",type:"text/css"}}]},"/saved":$R[58]={assets:$R[59]=[$R[60]={tag:"link",attrs:$R[61]={rel:"stylesheet",href:"/assets/main-tiW_yGhv.css",type:"text/css"}}]},"/settings":$R[62]={assets:$R[63]=[$R[64]={tag:"link",attrs:$R[65]={rel:"stylesheet",href:"/assets/main-tiW_yGhv.css",type:"text/css"}}]},"/state-of-design-md":$R[66]={assets:$R[67]=[$R[68]={tag:"link",attrs:$R[69]={rel:"stylesheet",href:"/assets/main-tiW_yGhv.css",type:"text/css"}}]},"/terms":$R[70]={assets:$R[71]=[$R[72]={tag:"link",attrs:$R[73]={rel:"stylesheet",href:"/assets/main-tiW_yGhv.css",type:"text/css"}}]},"/video-studio":$R[74]={assets:$R[75]=[$R[76]={tag:"link",attrs:$R[77]={rel:"stylesheet",href:"/assets/main-tiW_yGhv.css",type:"text/css"}}]},"/website-starter-kit":$R[78]={assets:$R[79]=[$R[80]={tag:"link",attrs:$R[81]={rel:"stylesheet",href:"/assets/main-tiW_yGhv.css",type:"text/css"}}]},"/what-is-design-md":$R[82]={assets:$R[83]=[$R[84]={tag:"link",attrs:$R[85]={rel:"stylesheet",href:"/assets/what-is-design-md-By1Pwg6r.css",type:"text/css"}},$R[86]={tag:"link",attrs:$R[87]={rel:"stylesheet",href:"/assets/main-tiW_yGhv.css",type:"text/css"}}]},"/affiliate/dashboard":$R[88]={assets:$R[89]=[$R[90]={tag:"link",attrs:$R[91]={rel:"stylesheet",href:"/assets/main-tiW_yGhv.css",type:"text/css"}}]},"/affiliate/terms":$R[92]={assets:$R[93]=[$R[94]={tag:"link",attrs:$R[95]={rel:"stylesheet",href:"/assets/main-tiW_yGhv.css",type:"text/css"}}]},"/auth/callback":$R[96]={assets:$R[97]=[$R[98]={tag:"link",attrs:$R[99]={rel:"stylesheet",href:"/assets/main-tiW_yGhv.css",type:"text/css"}}]},"/blog/$slug":$R[100]={assets:$R[101]=[$R[102]={tag:"link",attrs:$R[103]={rel:"stylesheet",href:"/assets/main-tiW_yGhv.css",type:"text/css"}}]},"/checkout/success":$R[104]={assets:$R[105]=[$R[106]={tag:"link",attrs:$R[107]={rel:"stylesheet",href:"/assets/main-tiW_yGhv.css",type:"text/css"}}]},"/designs/$category":$R[108]={assets:$R[109]=[$R[110]={tag:"link",attrs:$R[111]={rel:"stylesheet",href:"/assets/main-tiW_yGhv.css",type:"text/css"}}]},"/landing-page-templates/$slug":$R[112]={assets:$R[113]=[$R[114]={tag:"link",attrs:$R[115]={rel:"stylesheet",href:"/assets/main-tiW_yGhv.css",type:"text/css"}}]},"/landing-page-templates/custom-design-md":$R[116]={assets:$R[117]=[$R[118]={tag:"link",attrs:$R[119]={rel:"stylesheet",href:"/assets/main-tiW_yGhv.css",type:"text/css"}}]},"/orders/$token":$R[120]={assets:$R[121]=[$R[122]={tag:"link",attrs:$R[123]={rel:"stylesheet",href:"/assets/main-tiW_yGhv.css",type:"text/css"}}]},"/studio/invite":$R[124]={assets:$R[125]=[$R[126]={tag:"link",attrs:$R[127]={rel:"stylesheet",href:"/assets/main-tiW_yGhv.css",type:"text/css"}}]},"/studio/return":$R[128]={assets:$R[129]=[$R[130]={tag:"link",attrs:$R[131]={rel:"stylesheet",href:"/assets/main-tiW_yGhv.css",type:"text/css"}}]},"/$owner/":$R[132]={assets:$R[133]=[$R[134]={tag:"link",attrs:$R[135]={rel:"stylesheet",href:"/assets/main-tiW_yGhv.css",type:"text/css"}}]},"/blog/":$R[136]={assets:$R[137]=[$R[138]={tag:"link",attrs:$R[139]={rel:"stylesheet",href:"/assets/main-tiW_yGhv.css",type:"text/css"}}]},"/design-md/":$R[140]={assets:$R[141]=[$R[142]={tag:"link",attrs:$R[143]={rel:"stylesheet",href:"/assets/main-tiW_yGhv.css",type:"text/css"}}]},"/vibecoder-kit-docs/":$R[144]={assets:$R[145]=[$R[146]={tag:"link",attrs:$R[147]={rel:"stylesheet",href:"/assets/main-tiW_yGhv.css",type:"text/css"}}]},"/$owner/design-md/kit":$R[148]={assets:$R[149]=[$R[150]={tag:"link",attrs:$R[151]={rel:"stylesheet",href:"/assets/main-tiW_yGhv.css",type:"text/css"}}]},"/admin/affiliates/$affiliateId":$R[152]={assets:$R[153]=[$R[154]={tag:"link",attrs:$R[155]={rel:"stylesheet",href:"/assets/main-tiW_yGhv.css",type:"text/css"}}]},"/admin/orders/$id":$R[156]={assets:$R[157]=[$R[158]={tag:"link",attrs:$R[159]={rel:"stylesheet",href:"/assets/main-tiW_yGhv.css",type:"text/css"}}]},"/admin/orders/new":$R[160]={assets:$R[161]=[$R[162]={tag:"link",attrs:$R[163]={rel:"stylesheet",href:"/assets/main-tiW_yGhv.css",type:"text/css"}}]},"/design-md/$slug/package":$R[164]={assets:$R[165]=[$R[166]={tag:"link",attrs:$R[167]={rel:"stylesheet",href:"/assets/main-tiW_yGhv.css",type:"text/css"}}]},"/design-md/$slug/request":$R[168]={assets:$R[169]=[$R[170]={tag:"link",attrs:$R[171]={rel:"stylesheet",href:"/assets/main-tiW_yGhv.css",type:"text/css"}}]},"/$owner/design-md/":$R[172]={preloads:$R[173]=["/assets/_owner.design-md.index-ByczZbv2.js","/assets/SaveDesignButton-Bzmuekzw.js","/assets/design-stars-B_qAispf.js","/assets/AuthMethodsCard-D6bwyy2e.js"],assets:$R[174]=[$R[175]={tag:"link",attrs:$R[176]={rel:"stylesheet",href:"/assets/main-tiW_yGhv.css",type:"text/css"}}]},"/admin/affiliates/":$R[177]={assets:$R[178]=[$R[179]={tag:"link",attrs:$R[180]={rel:"stylesheet",href:"/assets/main-tiW_yGhv.css",type:"text/css"}}]},"/admin/catalog-deliveries/":$R[181]={assets:$R[182]=[$R[183]={tag:"link",attrs:$R[184]={rel:"stylesheet",href:"/assets/main-tiW_yGhv.css",type:"text/css"}}]},"/admin/catalog-pass/":$R[185]={assets:$R[186]=[$R[187]={tag:"link",attrs:$R[188]={rel:"stylesheet",href:"/assets/main-tiW_yGhv.css",type:"text/css"}}]},"/admin/orders/":$R[189]={assets:$R[190]=[$R[191]={tag:"link",attrs:$R[192]={rel:"stylesheet",href:"/assets/main-tiW_yGhv.css",type:"text/css"}}]},"/design-md/$slug/":$R[193]={assets:$R[194]=[$R[195]={tag:"link",attrs:$R[196]={rel:"stylesheet",href:"/assets/main-tiW_yGhv.css",type:"text/css"}}]}}},matches:$R[197]=[$R[198]={i:"__root__ ",u:1794758595902,s:"success",l:$R[199]={user:null,savedDesigns:$R[200]=[],onboarding:null,affiliateStatus:null},ssr:!0},$R[201]={i:" $owner design-md  linear.app design-md ",u:1794758595902,s:"success",l:$R[202]={doc:$R[203]={description:"A near-black product-focused marketing canvas built around #010102 (the deepest dark surface of any tool in this collection), light gray text (#f7f8f8), and the signature Linear lavender-blue (#5e6ad2) used as the single chromatic accent. The system reads as software-craft documentation: dense, technical, and quietly luxurious. Display type is set in the Linear custom sans (SF Pro Display fallback) at 500–700 with measured negative tracking. Cards live as charcoal panels (#0f1011) with hairline borders. The accent lavender appears on the brand mark, focus rings, and a few intentional CTAs — never decoratively. Page rhythm leans on product UI screenshots framed in dark panels rather than atmospheric color.",sections:$R[204]=["Overview","Colors","Typography","Layout","Elevation & Depth","Shapes","Components","Do's and Don'ts","Responsive Behavior","Iteration Guide","Known Gaps"],raw:"---\nversion: alpha\nname: Linear-design-analysis\ndescription: \"A near-black product-focused marketing canvas built around #010102 (the deepest dark surface of any tool in this collection), light gray text (#f7f8f8), and the signature Linear lavender-blue (#5e6ad2) used as the single chromatic accent. The system reads as software-craft documentation: dense, technical, and quietly luxurious. Display type is set in the Linear custom sans (SF Pro Display fallback) at 500–700 with measured negative tracking. Cards live as charcoal panels (#0f1011) with hairline borders. The accent lavender appears on the brand mark, focus rings, and a few intentional CTAs — never decoratively. Page rhythm leans on product UI screenshots framed in dark panels rather than atmospheric color.\"\n\ncolors:\n  primary: \"#5e6ad2\"\n  on-primary: \"#ffffff\"\n  primary-hover: \"#828fff\"\n  primary-focus: \"#5e69d1\"\n  ink: \"#f7f8f8\"\n  ink-muted: \"#d0d6e0\"\n  ink-subtle: \"#8a8f98\"\n  ink-tertiary: \"#62666d\"\n  canvas: \"#010102\"\n  surface-1: \"#0f1011\"\n  surface-2: \"#141516\"\n  surface-3: \"#18191a\"\n  surface-4: \"#191a1b\"\n  hairline: \"#23252a\"\n  hairline-strong: \"#34343a\"\n  hairline-tertiary: \"#3e3e44\"\n  inverse-canvas: \"#ffffff\"\n  inverse-surface-1: \"#f5f6f6\"\n  inverse-surface-2: \"#f6f7f7\"\n  inverse-ink: \"#000000\"\n  brand-secure: \"#7a7fad\"\n  semantic-success: \"#27a644\"\n  semantic-overlay: \"#000000\"\n\ntypography:\n  display-xl:\n    fontFamily: Linear Display\n    fontSize: 80px\n    fontWeight: 600\n    lineHeight: 1.05\n    letterSpacing: -3.0px\n  display-lg:\n    fontFamily: Linear Display\n    fontSize: 56px\n    fontWeight: 600\n    lineHeight: 1.10\n    letterSpacing: -1.8px\n  display-md:\n    fontFamily: Linear Display\n    fontSize: 40px\n    fontWeight: 600\n    lineHeight: 1.15\n    letterSpacing: -1.0px\n  headline:\n    fontFamily: Linear Display\n    fontSize: 28px\n    fontWeight: 600\n    lineHeight: 1.20\n    letterSpacing: -0.6px\n  card-title:\n    fontFamily: Linear Display\n    fontSize: 22px\n    fontWeight: 500\n    lineHeight: 1.25\n    letterSpacing: -0.4px\n  subhead:\n    fontFamily: Linear Display\n    fontSize: 20px\n    fontWeight: 400\n    lineHeight: 1.40\n    letterSpacing: -0.2px\n  body-lg:\n    fontFamily: Linear Text\n    fontSize: 18px\n    fontWeight: 400\n    lineHeight: 1.50\n    letterSpacing: -0.1px\n  body:\n    fontFamily: Linear Text\n    fontSize: 16px\n    fontWeight: 400\n    lineHeight: 1.50\n    letterSpacing: -0.05px\n  body-sm:\n    fontFamily: Linear Text\n    fontSize: 14px\n    fontWeight: 400\n    lineHeight: 1.50\n    letterSpacing: 0\n  caption:\n    fontFamily: Linear Text\n    fontSize: 12px\n    fontWeight: 400\n    lineHeight: 1.40\n    letterSpacing: 0\n  button:\n    fontFamily: Linear Text\n    fontSize: 14px\n    fontWeight: 500\n    lineHeight: 1.20\n    letterSpacing: 0\n  eyebrow:\n    fontFamily: Linear Text\n    fontSize: 13px\n    fontWeight: 500\n    lineHeight: 1.30\n    letterSpacing: 0.4px\n  mono:\n    fontFamily: Linear Mono\n    fontSize: 13px\n    fontWeight: 400\n    lineHeight: 1.50\n    letterSpacing: 0\n\nrounded:\n  xs: 4px\n  sm: 6px\n  md: 8px\n  lg: 12px\n  xl: 16px\n  xxl: 24px\n  pill: 9999px\n  full: 9999px\n\nspacing:\n  xxs: 4px\n  xs: 8px\n  sm: 12px\n  md: 16px\n  lg: 24px\n  xl: 32px\n  xxl: 48px\n  section: 96px\n\ncomponents:\n  button-primary:\n    backgroundColor: \"{colors.primary}\"\n    textColor: \"{colors.on-primary}\"\n    typography: \"{typography.button}\"\n    rounded: \"{rounded.md}\"\n    padding: 8px 14px\n  button-primary-pressed:\n    backgroundColor: \"{colors.primary-focus}\"\n    textColor: \"{colors.on-primary}\"\n    typography: \"{typography.button}\"\n    rounded: \"{rounded.md}\"\n  button-primary-hover:\n    backgroundColor: \"{colors.primary-hover}\"\n    textColor: \"{colors.on-primary}\"\n    typography: \"{typography.button}\"\n    rounded: \"{rounded.md}\"\n  button-secondary:\n    backgroundColor: \"{colors.surface-1}\"\n    textColor: \"{colors.ink}\"\n    typography: \"{typography.button}\"\n    rounded: \"{rounded.md}\"\n    padding: 8px 14px\n  button-tertiary:\n    backgroundColor: \"{colors.canvas}\"\n    textColor: \"{colors.ink}\"\n    typography: \"{typography.button}\"\n    rounded: \"{rounded.md}\"\n    padding: 8px 14px\n  button-inverse:\n    backgroundColor: \"{colors.inverse-canvas}\"\n    textColor: \"{colors.inverse-ink}\"\n    typography: \"{typography.button}\"\n    rounded: \"{rounded.md}\"\n    padding: 8px 14px\n  pricing-card:\n    backgroundColor: \"{colors.surface-1}\"\n    textColor: \"{colors.ink}\"\n    typography: \"{typography.body}\"\n    rounded: \"{rounded.lg}\"\n    padding: 24px\n  pricing-card-featured:\n    backgroundColor: \"{colors.surface-2}\"\n    textColor: \"{colors.ink}\"\n    typography: \"{typography.body}\"\n    rounded: \"{rounded.lg}\"\n    padding: 24px\n  feature-card:\n    backgroundColor: \"{colors.surface-1}\"\n    textColor: \"{colors.ink}\"\n    typography: \"{typography.body}\"\n    rounded: \"{rounded.lg}\"\n    padding: 24px\n  product-screenshot-card:\n    backgroundColor: \"{colors.surface-1}\"\n    textColor: \"{colors.ink}\"\n    typography: \"{typography.body}\"\n    rounded: \"{rounded.xl}\"\n    padding: 24px\n  testimonial-card:\n    backgroundColor: \"{colors.surface-1}\"\n    textColor: \"{colors.ink}\"\n    typography: \"{typography.body-lg}\"\n    rounded: \"{rounded.lg}\"\n    padding: 32px\n  customer-logo-tile:\n    backgroundColor: \"{colors.canvas}\"\n    textColor: \"{colors.ink-subtle}\"\n    typography: \"{typography.caption}\"\n    rounded: \"{rounded.xs}\"\n    padding: 16px\n  text-input:\n    backgroundColor: \"{colors.surface-1}\"\n    textColor: \"{colors.ink}\"\n    typography: \"{typography.body}\"\n    rounded: \"{rounded.md}\"\n    padding: 8px 12px\n  text-input-focused:\n    backgroundColor: \"{colors.surface-1}\"\n    textColor: \"{colors.ink}\"\n    typography: \"{typography.body}\"\n    rounded: \"{rounded.md}\"\n    padding: 8px 12px\n  pricing-tab-default:\n    backgroundColor: \"{colors.canvas}\"\n    textColor: \"{colors.ink-subtle}\"\n    typography: \"{typography.button}\"\n    rounded: \"{rounded.pill}\"\n    padding: 6px 14px\n  pricing-tab-selected:\n    backgroundColor: \"{colors.surface-2}\"\n    textColor: \"{colors.ink}\"\n    typography: \"{typography.button}\"\n    rounded: \"{rounded.pill}\"\n    padding: 6px 14px\n  cta-banner:\n    backgroundColor: \"{colors.surface-1}\"\n    textColor: \"{colors.ink}\"\n    typography: \"{typography.headline}\"\n    rounded: \"{rounded.lg}\"\n    padding: 48px\n  changelog-row:\n    backgroundColor: \"{colors.canvas}\"\n    textColor: \"{colors.ink}\"\n    typography: \"{typography.body}\"\n    rounded: \"{rounded.xs}\"\n    padding: 24px 0\n  status-badge:\n    backgroundColor: \"{colors.surface-2}\"\n    textColor: \"{colors.ink-muted}\"\n    typography: \"{typography.caption}\"\n    rounded: \"{rounded.pill}\"\n    padding: 2px 8px\n  top-nav:\n    backgroundColor: \"{colors.canvas}\"\n    textColor: \"{colors.ink}\"\n    typography: \"{typography.body-sm}\"\n    rounded: \"{rounded.xs}\"\n    height: 56px\n  footer:\n    backgroundColor: \"{colors.canvas}\"\n    textColor: \"{colors.ink-subtle}\"\n    typography: \"{typography.caption}\"\n    rounded: \"{rounded.xs}\"\n    padding: 64px 32px\n---\n\n## Overview\n\nLinear's marketing canvas is the deepest dark surface in this collection — `{colors.canvas}` is #010102, essentially pure black with a faint blue tint. On top sits a four-step surface ladder (`{colors.surface-1}` through `{colors.surface-4}`) for cards, panels, and lifted tiles, with hairline borders running from `{colors.hairline}` (#23252a) up through `{colors.hairline-strong}` and `{colors.hairline-tertiary}`. Light gray text (`{colors.ink}` #f7f8f8) carries the body and headlines.\n\nThe single chromatic accent is **Linear lavender-blue** `{colors.primary}` (#5e6ad2) — used on the brand mark, focus rings, and the primary CTA button. A lighter hover state (`{colors.primary-hover}` #828fff) and a focus-tinted variant (`{colors.primary-focus}` #5e69d1) extend the same hue. Linear avoids saturated greens, oranges, reds, etc. on the marketing canvas — the only semantic color is `{colors.semantic-success}` (#27a644) for status pills and the rare success indicator.\n\nDisplay type runs Linear's custom sans (with `SF Pro Display` fallback) at weight 500–700 with negative letter-spacing scaling from -3.0px at 80px down to 0 at body. The body family is Linear's text cut, and a Linear Mono is reserved for code snippets in product screenshots.\n\nThe page rhythm is **dense product screenshots** — Linear's marketing leads with high-fidelity captures of the product UI (issue list, project view, dashboard) framed in `{colors.surface-1}` panels with `{rounded.xl}` 16px corners. The chrome is intentionally minimal so the app screenshots can do the heavy lifting.\n\n**Key Characteristics:**\n- **Dark-canvas marketing system** — `{colors.canvas}` (#010102) is the deepest dark in this collection.\n- **Lavender-blue brand accent** (`{colors.primary}` #5e6ad2) — used scarcely on brand mark, focus, and the primary CTA.\n- Four-step surface ladder (canvas → surface-1 → surface-2 → surface-3 → surface-4) carries hierarchy without shadow.\n- Display tracking pulls aggressively negative (-3.0px at 80px); body holds at -0.05px.\n- Cards use `{rounded.lg}` 12px corners with 1px hairline borders — never pill, rarely 16px.\n- **Product UI screenshots** dominate the page. The marketing chrome is a dark frame for the app.\n- No second chromatic color. No atmospheric gradients. No spotlight cards.\n\n## Colors\n\n> Source pages: linear.app (home), /intake, /pricing, /contact/sales, /build.\n\n### Brand & Accent\n- **Lavender-Blue** ({colors.primary}): The signature Linear accent — primary CTA, brand mark, link emphasis.\n- **Lavender Hover** ({colors.primary-hover}): Lighter lavender (#828fff) — hovered state of the primary CTA.\n- **Lavender Focus** ({colors.primary-focus}): Focus-ring tint (#5e69d1) — focused inputs, focused buttons.\n- **Brand Secure** ({colors.brand-secure}): Muted lavender-gray (#7a7fad) — used in \"Linear Security\" surfaces.\n\n### Surface\n- **Canvas** ({colors.canvas}): Default page background — #010102, near-pure black with a faint blue tint.\n- **Surface 1** ({colors.surface-1}): One step above canvas — feature cards, pricing cards, product screenshot panels.\n- **Surface 2** ({colors.surface-2}): Two steps above — featured pricing card, hovered cards.\n- **Surface 3** ({colors.surface-3}): Three steps above — line-tertiary backgrounds, sub-nav.\n- **Surface 4** ({colors.surface-4}): Four steps above — bg-level-3, deepest lifted surface.\n- **Hairline** ({colors.hairline}): 1px borders on cards and dividers.\n- **Hairline Strong** ({colors.hairline-strong}): Stronger 1px borders — input focus rings.\n- **Hairline Tertiary** ({colors.hairline-tertiary}): Tertiary borders for nested surfaces.\n- **Inverse Canvas** ({colors.inverse-canvas}): Pure white — surface of the inverse pill CTA on a small set of section openers.\n- **Inverse Surface 1** ({colors.inverse-surface-1}): One step above inverse canvas.\n- **Inverse Surface 2** ({colors.inverse-surface-2}): Two steps above inverse canvas.\n\n### Text\n- **Ink** ({colors.ink}): All headlines and emphasized body type — light gray #f7f8f8.\n- **Ink Muted** ({colors.ink-muted}): Secondary type at #d0d6e0 — meta info on hero panels.\n- **Ink Subtle** ({colors.ink-subtle}): Tertiary type at #8a8f98 — deselected pricing tabs, footer columns.\n- **Ink Tertiary** ({colors.ink-tertiary}): Quaternary at #62666d — disabled, footnotes.\n\n### Semantic\n- **Success Green** ({colors.semantic-success}): Status pills, success indicators. The only semantic color on marketing.\n- **Overlay** ({colors.semantic-overlay}): Pure black overlay scrim for modals.\n\n## Typography\n\n### Font Family\n\n- **Linear Display** — Linear's custom display sans; fallback `SF Pro Display, -apple-system, system-ui, Segoe UI, Roboto`. Carries display-xl through subhead.\n- **Linear Text** — Linear's custom text sans (a slightly different cut tuned for body sizes); same fallback stack. Carries body sizes, button labels, captions.\n- **Linear Mono** — Linear's custom mono; fallback `ui-monospace, SF Mono, Menlo`. Used for code snippets in product screenshots and for status / ID tokens.\n\nThe marketing surface treats Display and Text as one continuous voice; the family change is silent.\n\n### Hierarchy\n\n| Token | Size | Weight | Line Height | Letter Spacing | Use |\n|---|---|---|---|---|---|\n| `{typography.display-xl}` | 80px | 600 | 1.05 | -3.0px | Largest hero headline |\n| `{typography.display-lg}` | 56px | 600 | 1.10 | -1.8px | Section opener headlines |\n| `{typography.display-md}` | 40px | 600 | 1.15 | -1.0px | Sub-section headlines |\n| `{typography.headline}` | 28px | 600 | 1.20 | -0.6px | Pricing tier titles, CTA banner heading |\n| `{typography.card-title}` | 22px | 500 | 1.25 | -0.4px | Feature card title |\n| `{typography.subhead}` | 20px | 400 | 1.40 | -0.2px | Lead body, intro paragraphs |\n| `{typography.body-lg}` | 18px | 400 | 1.50 | -0.1px | Hero subhead, lead paragraphs |\n| `{typography.body}` | 16px | 400 | 1.50 | -0.05px | Default body |\n| `{typography.body-sm}` | 14px | 400 | 1.50 | 0 | Card body, footer columns |\n| `{typography.caption}` | 12px | 400 | 1.40 | 0 | Captions, meta, status |\n| `{typography.button}` | 14px | 500 | 1.20 | 0 | All button labels |\n| `{typography.eyebrow}` | 13px | 500 | 1.30 | 0.4px | Section eyebrow (slight positive tracking) |\n| `{typography.mono}` | 13px | 400 | 1.50 | 0 | Linear Mono for code in product screenshots |\n\n### Principles\n\n- **Aggressive negative tracking on display** (-3.0px at 80px ≈ 4% of size).\n- **Single voice from display to body.** Display-xl at 600 → body at 400 — same family, narrower weights.\n- **Eyebrow uses positive tracking** (+0.4px) — contrast against the negative-tracked display marks the eyebrow as taxonomy.\n- **Mono only in code contexts.** Linear Mono lives inside product screenshots — not on marketing chrome.\n\n### Note on Font Substitutes\n\nLinear's custom typeface isn't publicly distributed; the documented fallback `SF Pro Display, -apple-system, system-ui` is the recommended substitute on macOS. For cross-platform implementation, **Inter** at weight 500 / 600 / 700 is the closest free substitute. **Geist Sans** is also viable. For mono, **JetBrains Mono** or **Geist Mono** at weight 400 closely approximates Linear Mono.\n\n## Layout\n\n### Spacing System\n\n- **Base unit**: 4px.\n- **Tokens (front matter)**: `{spacing.xxs}` 4px · `{spacing.xs}` 8px · `{spacing.sm}` 12px · `{spacing.md}` 16px · `{spacing.lg}` 24px · `{spacing.xl}` 32px · `{spacing.xxl}` 48px · `{spacing.section}` 96px.\n- Card interior padding: `{spacing.lg}` 24px on feature/pricing cards; `{spacing.xl}` 32px on testimonial cards; `{spacing.xxl}` 48px on CTA banners.\n- Pill button padding: 8px vertical · 14px horizontal — Linear's compact button spec.\n- Form input padding: 8px vertical · 12px horizontal.\n\n### Grid & Container\n\n- Max content width sits around 1280px.\n- Card grids are 3-up at desktop, 2-up at tablet, 1-up at mobile.\n- Pricing tier grid is 3-up; comparison strip below shows checkmarks per tier.\n- Product screenshot panels span full content width — they're the protagonist.\n\n### Whitespace Philosophy\n\nThe dark canvas IS the whitespace. Sections separate by lift onto surface-1 panels, not by gaps in white. Within a panel, generous `{spacing.lg}` 24px gaps between content blocks; `{spacing.section}` 96px between sections.\n\n## Elevation & Depth\n\n| Level | Treatment | Use |\n|---|---|---|\n| 0 (flat) | No shadow, no border | Default for body type, hero text, footer |\n| 1 (charcoal lift) | `{colors.surface-1}` background on canvas, 1px `{colors.hairline}` | Default cards, product panels |\n| 2 (surface-2 lift) | `{colors.surface-2}` background, 1px `{colors.hairline-strong}` | Featured pricing card, hovered cards |\n| 3 (surface-3 lift) | `{colors.surface-3}` background | Sub-nav, dropdown menus |\n| 4 (focus ring) | 2px `{colors.primary-focus}` outline at 50% opacity | Focused input, focused button |\n\nLinear's depth is carried by surface ladder + hairline borders. The brand resists drop shadows on dark almost entirely.\n\n### Decorative Depth\n\n- **Product UI screenshots** dominate as decorative depth.\n- **No atmospheric gradients, no spotlight cards.**\n- **Subtle white edge highlight** on the top edge of lifted panels — gives the dark surface a faint \"pixel rendered\" feel.\n\n## Shapes\n\n### Border Radius Scale\n\n| Token | Value | Use |\n|---|---|---|\n| `{rounded.xs}` | 4px | Small chips, status badges |\n| `{rounded.sm}` | 6px | Inline tags |\n| `{rounded.md}` | 8px | All buttons, form inputs |\n| `{rounded.lg}` | 12px | Pricing cards, feature cards, testimonial cards |\n| `{rounded.xl}` | 16px | Product screenshot panels |\n| `{rounded.xxl}` | 24px | Oversized CTA banners (rare) |\n| `{rounded.pill}` | 9999px | Pricing tab toggles, status pills |\n| `{rounded.full}` | 9999px | Avatar circles |\n\n### Photography & Illustration Geometry\n\n- Product UI screenshots dominate; they sit in `{rounded.xl}` 16px tiles with `{spacing.lg}` 24px outer padding.\n- Customer logo tiles render at small sizes (~24px logo height) on `{colors.canvas}` with no border.\n- Avatar circles in testimonial cards use `{rounded.full}` at 32–40px sizes.\n\n## Components\n\n### Buttons\n\n**`button-primary`** — Lavender CTA. The default primary CTA across all pages.\n- Background `{colors.primary}`, text `{colors.on-primary}`, type `{typography.button}`, padding 8px 14px, rounded `{rounded.md}`.\n- Pressed state lives in `button-primary-pressed` (background shifts to `{colors.primary-focus}`).\n- Hover state lives in `button-primary-hover` (background shifts to `{colors.primary-hover}` lighter lavender).\n\n**`button-secondary`** — Charcoal button. Used for secondary CTAs (\"Sign in\", \"Read changelog\").\n- Background `{colors.surface-1}`, text `{colors.ink}`, type `{typography.button}`, padding 8px 14px, rounded `{rounded.md}`. 1px `{colors.hairline}` border.\n\n**`button-tertiary`** — Plain text button.\n- Background `{colors.canvas}`, text `{colors.ink}`, type `{typography.button}`, rounded `{rounded.md}`, padding 8px 14px.\n\n**`button-inverse`** — White-on-dark inverse CTA.\n- Background `{colors.inverse-canvas}`, text `{colors.inverse-ink}`, type `{typography.button}`, rounded `{rounded.md}`, padding 8px 14px.\n\n### Pricing Tabs\n\n**`pricing-tab-default`** + **`pricing-tab-selected`** — Pill-toggle on `/pricing`.\n- Default: `{colors.canvas}` background, `{colors.ink-subtle}` text, rounded `{rounded.pill}`, padding 6px 14px.\n- Selected: `{colors.surface-2}` background, `{colors.ink}` text — selected = surface lift.\n\n### Cards & Containers\n\n**`pricing-card`** — Each tier on `/pricing`.\n- Background `{colors.surface-1}`, text `{colors.ink}`, type `{typography.body}`, rounded `{rounded.lg}`, padding 24px. 1px `{colors.hairline}` border.\n\n**`pricing-card-featured`** — Recommended tier — surface lift to surface-2.\n- Background `{colors.surface-2}`, otherwise identical structure.\n\n**`feature-card`** — Generic feature highlight tile.\n- Background `{colors.surface-1}`, text `{colors.ink}`, type `{typography.body}`, rounded `{rounded.lg}`, padding 24px.\n\n**`product-screenshot-card`** — The dominant card type — frames a high-fidelity Linear app UI screenshot.\n- Background `{colors.surface-1}`, text `{colors.ink}`, type `{typography.body}`, rounded `{rounded.xl}`, padding 24px.\n\n**`testimonial-card`** — Customer quote with avatar + name + role.\n- Background `{colors.surface-1}`, text `{colors.ink}`, type `{typography.body-lg}`, rounded `{rounded.lg}`, padding 32px.\n\n**`customer-logo-tile`** — Small tile in the customer marquee.\n- Background `{colors.canvas}`, text `{colors.ink-subtle}`, type `{typography.caption}`, rounded `{rounded.xs}`, padding 16px.\n\n**`cta-banner`** — Closing CTA panel near page bottom.\n- Background `{colors.surface-1}`, text `{colors.ink}`, type `{typography.headline}`, rounded `{rounded.lg}`, padding 48px.\n\n### Inputs & Forms\n\n**`text-input`** + **`text-input-focused`** — Form fields on `/contact/sales` and signup overlays.\n- Background `{colors.surface-1}`, text `{colors.ink}`, type `{typography.body}`, rounded `{rounded.md}`, padding 8px 12px.\n- Focused state retains the same surface; the focus ring is a 2px `{colors.primary-focus}` outline at 50% opacity.\n\n### Status & Build Page\n\n**`changelog-row`** — Each row in `/build` (changelog page) listing version, date, and changes.\n- Background `{colors.canvas}`, text `{colors.ink}`, type `{typography.body}`, rounded `{rounded.xs}`, padding 24px 0. 1px `{colors.hairline}` bottom rule.\n\n**`status-badge`** — Small status pill.\n- Background `{colors.surface-2}`, text `{colors.ink-muted}`, type `{typography.caption}`, rounded `{rounded.pill}`, padding 2px 8px.\n\n### Navigation\n\n**`top-nav`** — Sticky dark bar with the Linear wordmark left, primary nav links centered, and a `button-secondary` (\"Sign in\") + `button-primary` (\"Get started\") pair right.\n- Background `{colors.canvas}`, text `{colors.ink}`, type `{typography.body-sm}`, height 56px.\n\n### Footer\n\n**`footer`** — Dense link grid on `{colors.canvas}` with the Linear wordmark left.\n- Background `{colors.canvas}`, text `{colors.ink-subtle}`, type `{typography.caption}`, padding 64px 32px.\n\n## Do's and Don'ts\n\n### Do\n\n- Reserve `{colors.canvas}` (#010102) as the system's anchor surface — the faint blue tint is intentional.\n- Use `{colors.primary}` lavender ONLY for: brand mark, primary CTA, focus ring, link emphasis.\n- Use the four-step surface ladder for hierarchy. Avoid skipping levels.\n- Pair display weight 600 with body weight 400 — Linear resists 700+ display weights.\n- Apply negative letter-spacing aggressively on display.\n- Use product UI screenshots as the protagonist of every section.\n- Compose CTAs as `{rounded.md}` 8px corners.\n\n### Don't\n\n- Don't ship a light-mode marketing page.\n- Don't use lavender as a section background or card fill.\n- Don't introduce a second chromatic accent (orange, pink, green for marketing).\n- Don't add atmospheric gradients or spotlight cards.\n- Don't pill-round CTAs.\n- Don't use `#000000` true black as the canvas.\n- Don't combine multiple bright accents in product screenshot mockups.\n\n## Responsive Behavior\n\n### Breakpoints\n\n| Name | Width | Key Changes |\n|---|---|---|\n| Desktop-XL | 1440px | Default desktop layout |\n| Desktop | 1280px | Card grid 3-up maintained |\n| Tablet | 1024px | Card grid 3-up → 2-up |\n| Mobile-Lg | 768px | Pricing comparison becomes accordion; nav hamburger |\n| Mobile | 480px | Single-column; display-xl scales 80px → ~36px |\n\n### Touch Targets\n\n- CTAs hold ≥40px tap height across viewports.\n- Pricing tab pills hold ≥36px tap height; touch viewports grow to ≥44px.\n- Form inputs hold ≥44px tap target on touch.\n\n### Collapsing Strategy\n\n- **Top nav**: links collapse to hamburger below 768px.\n- **Card grids**: 3-up → 2-up at 1024px → 1-up below 768px.\n- **Pricing comparison**: per-tier accordion below 768px.\n- **Display type**: `{typography.display-xl}` 80px scales toward `{typography.display-md}` 40px on mobile.\n\n### Image Behavior\n\n- Product UI screenshots maintain aspect ratio and never crop.\n- Customer logos in the marquee may collapse from 6-up to 3-up below 768px.\n\n## Iteration Guide\n\n1. Focus on ONE component at a time and reference it by its `components:` token name.\n2. When introducing a section, decide first which surface lift it lives on.\n3. Default body to `{typography.body}` at weight 400.\n4. Run `npx @google/design.md lint DESIGN.md` after edits.\n5. Add new variants as separate component entries.\n6. Treat lavender as scarce: brand mark, primary CTA, focus, link emphasis.\n7. Lead every section with a product UI screenshot.\n\n## Known Gaps\n\n- The four-step surface ladder values are extracted directly from Linear's `--color-bg-level-3`, `--color-line-tint`, etc. CSS variables; they are Linear's canonical surface spec.\n- Form-field error and validation styling is not visible on the inspected pages.\n- Light mode is not documented because the marketing site does not ship a light theme.\n- Linear's actual product UI uses a richer color-tag palette (red, orange, yellow, green, blue, purple) for issue priorities and project labels — those colors live in the in-product surfaces shown in mockups.\n- The custom display, text, and mono families are proprietary; an open-source substitute is acceptable.\n"}},ssr:!0}],lastMatchId:" $owner design-md  linear.app design-md "})($R["tsr"]);$_TSR.e();document.currentScript.remove()</script><script type="module" async="">import("/assets/main-BHxFPVi4.js")</script><script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"e0d432cd83a943f39c1136b449da636e","r":1,"spa":2}' crossorigin="anonymous"></script>
-</body></html>
+1. **Temel katman:** `globals.css` (yeni token seti), `components/ui/button.tsx` (yeni renklere geçiş; homepage CTA'larının ham `<a>` yerine bu bileşeni kullanıp kullanmayacağı burada netleşir)
+2. **Çerçeve (burst yok, sade):** `SiteHeader.tsx`, `SiteFooter.tsx`
+3. **İlk izlenim (burst #1 burada):** `page.tsx` hero + stats — "işe açığım" rozeti, `SectionHeading` etiket/numara temizliği
+4. **İçerik bölümleri (burst #2 burada):** `FeaturedProjects.tsx` (proje kartı köşe rozeti), Experience/skills ve Garden/Exploring blokları (etiket temizliği), `MiniTerminal.tsx` (minimal — sadece token geçişi, imza eleman korunuyor)
+5. **Form ve metin:** `ContactForm.tsx`, `translations.ts` (kaldırılan etiketlerin tr/en string temizliği, ilgili bileşenle paralel)
+6. **Admin panel:** `admin/login`, `admin/dashboard`, `admin/projects/new` — şu an koyu zinc-900/950 + amber-500 + rounded-xl/2xl kullanıyor, aynı token setine taşınacak. Açık soru (Tier 6'ya gelince netleşir): admin sabit koyu mu kalsın yoksa gündüz/gece toggle'ı da alsın mı?
