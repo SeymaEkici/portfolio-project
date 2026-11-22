@@ -6,6 +6,7 @@ import Link from 'next/link';
 import { ArrowLeft, Upload, Loader2, Plus, Check } from 'lucide-react';
 import { uploadImage } from '@/services/upload.service';
 import { createProject } from '@/services/project.service';
+import { Button } from '@/components/ui/button';
 
 export default function NewProjectPage() {
   const router = useRouter();
@@ -76,23 +77,23 @@ export default function NewProjectPage() {
   return (
     <div className="max-w-3xl mx-auto px-6 py-12 space-y-8">
       {/* Üst Yönlendirme */}
-      <div className="flex items-center justify-between border-b border-zinc-800 pb-6">
+      <div className="flex items-center justify-between border-b border-border pb-6">
         <div className="flex items-center gap-4">
           <Link
             href="/admin/dashboard"
-            className="p-2 rounded-lg bg-zinc-900 border border-zinc-800 text-zinc-400 hover:text-zinc-100 transition-colors"
+            className="p-2 rounded-[8px] bg-card border border-border text-muted-foreground hover:text-foreground transition-colors"
           >
             <ArrowLeft className="w-5 h-5" />
           </Link>
           <div>
-            <span className="text-xs font-mono text-amber-500 uppercase tracking-widest">Yönetim Paneli</span>
-            <h1 className="text-2xl font-bold text-zinc-100">Yeni Proje Ekle</h1>
+            <span className="text-xs font-mono text-primary uppercase tracking-widest">Yönetim Paneli</span>
+            <h1 className="text-2xl font-bold text-foreground">Yeni Proje Ekle</h1>
           </div>
         </div>
       </div>
 
       {error && (
-        <div className="p-4 rounded-xl bg-red-500/10 border border-red-500/20 text-red-400 text-sm font-mono">
+        <div className="p-4 rounded-[12px] bg-red-500/10 border border-red-500/20 text-red-400 text-sm font-mono">
           {error}
         </div>
       )}
@@ -101,55 +102,55 @@ export default function NewProjectPage() {
       <form onSubmit={handleSubmit} className="space-y-6">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="space-y-2">
-            <label className="text-xs font-mono text-zinc-400">Proje Başlığı *</label>
+            <label className="text-xs font-mono text-muted-foreground">Proje Başlığı *</label>
             <input
               type="text"
               required
               value={formData.title}
               onChange={handleTitleChange}
               placeholder="Örn: E-Commerce Microservice"
-              className="w-full px-4 py-2.5 rounded-xl bg-zinc-900/60 border border-zinc-800 text-zinc-100 text-sm focus:outline-none focus:border-zinc-600"
+              className="w-full px-4 py-2.5 rounded-[12px] bg-card/60 border border-border text-foreground text-sm focus:outline-none focus:border-ring"
             />
           </div>
 
           <div className="space-y-2">
-            <label className="text-xs font-mono text-zinc-400">Slug (URL) *</label>
+            <label className="text-xs font-mono text-muted-foreground">Slug (URL) *</label>
             <input
               type="text"
               required
               value={formData.slug}
               onChange={(e) => setFormData({ ...formData, slug: e.target.value })}
               placeholder="e-commerce-microservice"
-              className="w-full px-4 py-2.5 rounded-xl bg-zinc-900/60 border border-zinc-800 text-zinc-100 text-sm font-mono focus:outline-none focus:border-zinc-600"
+              className="w-full px-4 py-2.5 rounded-[12px] bg-card/60 border border-border text-foreground text-sm font-mono focus:outline-none focus:border-ring"
             />
           </div>
         </div>
 
         <div className="space-y-2">
-          <label className="text-xs font-mono text-zinc-400">Kısa Açıklama *</label>
+          <label className="text-xs font-mono text-muted-foreground">Kısa Açıklama *</label>
           <textarea
             required
             rows={3}
             value={formData.description}
             onChange={(e) => setFormData({ ...formData, description: e.target.value })}
             placeholder="Projenin amacını ve öne çıkan teknik detaylarını özetleyin..."
-            className="w-full px-4 py-2.5 rounded-xl bg-zinc-900/60 border border-zinc-800 text-zinc-100 text-sm focus:outline-none focus:border-zinc-600 resize-none"
+            className="w-full px-4 py-2.5 rounded-[12px] bg-card/60 border border-border text-foreground text-sm focus:outline-none focus:border-ring resize-none"
           />
         </div>
 
         {/* Görsel Yükleme Alanı */}
         <div className="space-y-2">
-          <label className="text-xs font-mono text-zinc-400">Proje Görseli (Cloudinary)</label>
+          <label className="text-xs font-mono text-muted-foreground">Proje Görseli (Cloudinary)</label>
           <div className="flex items-center gap-4">
-            <label className="cursor-pointer inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-zinc-900 border border-zinc-800 text-zinc-300 text-sm hover:bg-zinc-800 transition-colors">
+            <label className="cursor-pointer inline-flex items-center gap-2 px-4 py-2.5 rounded-[12px] bg-card border border-border text-muted-foreground text-sm hover:bg-muted transition-colors">
               {uploadingImage ? (
                 <>
-                  <Loader2 className="w-4 h-4 animate-spin text-amber-500" />
+                  <Loader2 className="w-4 h-4 animate-spin text-primary" />
                   Yükleniyor...
                 </>
               ) : (
                 <>
-                  <Upload className="w-4 h-4 text-zinc-400" />
+                  <Upload className="w-4 h-4 text-muted-foreground" />
                   Görsel Seç
                 </>
               )}
@@ -166,24 +167,24 @@ export default function NewProjectPage() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="space-y-2">
-            <label className="text-xs font-mono text-zinc-400">GitHub URL</label>
+            <label className="text-xs font-mono text-muted-foreground">GitHub URL</label>
             <input
               type="url"
               value={formData.githubUrl}
               onChange={(e) => setFormData({ ...formData, githubUrl: e.target.value })}
               placeholder="https://github.com/..."
-              className="w-full px-4 py-2.5 rounded-xl bg-zinc-900/60 border border-zinc-800 text-zinc-100 text-sm focus:outline-none focus:border-zinc-600"
+              className="w-full px-4 py-2.5 rounded-[12px] bg-card/60 border border-border text-foreground text-sm focus:outline-none focus:border-ring"
             />
           </div>
 
           <div className="space-y-2">
-            <label className="text-xs font-mono text-zinc-400">Live Demo URL</label>
+            <label className="text-xs font-mono text-muted-foreground">Live Demo URL</label>
             <input
               type="url"
               value={formData.liveUrl}
               onChange={(e) => setFormData({ ...formData, liveUrl: e.target.value })}
               placeholder="https://..."
-              className="w-full px-4 py-2.5 rounded-xl bg-zinc-900/60 border border-zinc-800 text-zinc-100 text-sm focus:outline-none focus:border-zinc-600"
+              className="w-full px-4 py-2.5 rounded-[12px] bg-card/60 border border-border text-foreground text-sm focus:outline-none focus:border-ring"
             />
           </div>
         </div>
@@ -194,22 +195,22 @@ export default function NewProjectPage() {
             id="isFeatured"
             checked={formData.isFeatured}
             onChange={(e) => setFormData({ ...formData, isFeatured: e.target.checked })}
-            className="w-4 h-4 rounded bg-zinc-900 border-zinc-800 text-amber-500 focus:ring-0"
+            className="w-4 h-4 rounded bg-card border-border text-primary focus:ring-0"
           />
-          <label htmlFor="isFeatured" className="text-sm text-zinc-300 cursor-pointer">
+          <label htmlFor="isFeatured" className="text-sm text-muted-foreground cursor-pointer">
             Ana sayfada öne çıkarılan proje olarak göster
           </label>
         </div>
 
-        <div className="pt-4 border-t border-zinc-800 flex justify-end">
-          <button
+        <div className="pt-4 border-t border-border flex justify-end">
+          <Button
             type="submit"
+            variant="default"
             disabled={loading || uploadingImage}
-            className="inline-flex items-center gap-2 px-6 py-2.5 rounded-xl bg-zinc-100 text-zinc-950 font-medium text-sm hover:bg-zinc-200 transition-colors disabled:opacity-50"
           >
             {loading ? <Loader2 className="w-4 h-4 animate-spin" /> : <Plus className="w-4 h-4" />}
             Projeyi Kaydet
-          </button>
+          </Button>
         </div>
       </form>
     </div>
