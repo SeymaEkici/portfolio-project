@@ -4,12 +4,12 @@ import { useEffect, useRef } from 'react';
 import { useTheme, type Theme } from '@/components/providers/ThemeProvider';
 
 /* ---------- Tunables ---------- */
-const CELL = 6; 
-const WAVE = 0.18; 
+const CELL = 5; 
+const WAVE = 0.15; 
 const DAMPING = 0.988; 
 const STEP_MS = 1000 / 60; 
 const IDLE_EPS = 0.003; 
-const MAX_HEIGHT = 2;
+const MAX_HEIGHT = 1.5;
 
 const COLORS = {
   light: { rgb: [224, 185, 58], maxAlpha: 150 },

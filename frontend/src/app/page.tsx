@@ -31,20 +31,17 @@ export default function HomePage() {
       <a href="#top" className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-50 focus:bg-background focus:text-foreground focus:px-4 focus:py-2 focus:rounded-md focus:border focus:border-border">{t('header.skipToContent')}</a>
       <SiteHeader />
       <main id="top" className="mx-auto w-full max-w-6xl px-5 sm:px-8">
-        <section className="relative isolate grid min-h-[620px] items-center gap-12 border-b border-zinc-200 py-20 dark:border-zinc-800 lg:grid-cols-[1.2fr_.8fr] lg:py-28">
-          <div className="relative z-10">
-            <div className="mb-8 inline-flex -rotate-6 items-center gap-2 rounded-full bg-burst px-3 py-1 text-xs text-burst-foreground">
-              <span className="size-2 rounded-full bg-emerald-500" aria-hidden="true" />
-              {t('hero.systemStatus')} {t('hero.operational')}
-            </div>
-            <p className="mb-5 text-sm text-muted-foreground">{t('hero.eyebrow')}</p>
-            <h1 className="max-w-3xl text-balance text-5xl font-medium leading-[1.05] tracking-[-.055em] sm:text-6xl lg:text-7xl">
-              {t('hero.titlePrefix')} <span className="text-zinc-400 dark:text-zinc-500">{t('hero.titleSuffix')}</span>
+        <section className="relative isolate flex min-h-[620px] flex-col items-center justify-center border-b border-zinc-200 py-20 text-center dark:border-zinc-800 lg:py-28">
+          <div className="relative z-10 flex flex-col items-center max-w-3xl mx-auto">
+            <p className="mb-5 text-sm font-medium text-amber-500 tracking-wide">{t('hero.eyebrow')}</p>
+            <h1 className="text-balance text-4xl font-medium tracking-tight sm:text-6xl lg:text-7xl space-y-2">
+              <span className="block text-zinc-100">Merhaba, ben Şeyma!</span>
+              <span className="block text-zinc-400 dark:text-zinc-500 font-normal text-3xl sm:text-5xl lg:text-6xl mt-2">Full-Stack Mühendis ve Sistem Kurucusuyum.</span>
             </h1>
             <p className="mt-7 max-w-xl text-base leading-7 text-zinc-600 dark:text-zinc-400 sm:text-lg">
               {t('hero.description')}
             </p>
-            <div className="mt-9 flex flex-wrap gap-3">
+            <div className="mt-9 flex flex-wrap justify-center gap-3">
               <Button variant="default" render={<a href="#projects" />}>{t('hero.ctaProjects')} <ArrowUpRight size={15} /></Button>
               <Button variant="outline" render={<a href="#contact" />}>{t('hero.ctaContact')} <ArrowDown size={15} /></Button>
             </div>
