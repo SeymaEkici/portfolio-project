@@ -31,14 +31,13 @@ export default function HomePage() {
       <a href="#top" className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-50 focus:bg-background focus:text-foreground focus:px-4 focus:py-2 focus:rounded-md focus:border focus:border-border">{t('header.skipToContent')}</a>
       <SiteHeader />
       <main id="top" className="mx-auto w-full max-w-6xl px-5 sm:px-8">
-        <section className="relative isolate flex min-h-[620px] flex-col items-center justify-center border-b border-zinc-200 py-20 text-center dark:border-zinc-800 lg:py-28">
+        <section className="relative isolate flex min-h-[620px] flex-col items-center justify-center border-b border-border py-20 text-center lg:py-28">
           <div className="relative z-10 flex flex-col items-center max-w-3xl mx-auto">
-            <p className="mb-5 text-sm font-medium text-amber-500 tracking-wide">{t('hero.eyebrow')}</p>
             <h1 className="text-balance text-4xl font-medium tracking-tight sm:text-6xl lg:text-7xl space-y-2">
-              <span className="block text-zinc-100">Merhaba, ben Şeyma!</span>
-              <span className="block text-zinc-400 dark:text-zinc-500 font-normal text-3xl sm:text-5xl lg:text-6xl mt-2">Full-Stack Mühendis ve Sistem Kurucusuyum.</span>
+              <span className="block text-foreground">{t('hero.greeting')}</span>
+              <span className="block text-muted-foreground mt-2 text-3xl font-normal sm:text-5xl lg:text-6xl">{t('hero.titleSuffix')}</span>
             </h1>
-            <p className="mt-7 max-w-xl text-base leading-7 text-zinc-600 dark:text-zinc-400 sm:text-lg">
+            <p className="mt-7 max-w-xl text-base leading-7 text-muted-foreground sm:text-lg">
               {t('hero.description')}
             </p>
             <div className="mt-9 flex flex-wrap justify-center gap-3">
@@ -54,12 +53,12 @@ export default function HomePage() {
         </section>
 
         <section id="projects" className="scroll-mt-24 py-20 sm:py-24">
-          <SectionHeading index="01" title={t('sections.selectedWork.title')} note={t('sections.selectedWork.note')} />
+          <SectionHeading title={t('sections.selectedWork.title')} note={t('sections.selectedWork.note')} />
           <FeaturedProjects />
         </section>
 
         <section id="experience" className="scroll-mt-24 border-t border-border py-20 sm:py-24">
-          <SectionHeading index="02" title={t('sections.experience.title')} note={t('sections.experience.note')} />
+          <SectionHeading title={t('sections.experience.title')} note={t('sections.experience.note')} />
           <div className="grid gap-12 lg:grid-cols-[.8fr_1.2fr]">
             <div className="border-l border-border pl-6">
               <p className="text-xs text-muted-foreground">{t('experienceBlock.currentPractice')}</p>
@@ -74,7 +73,7 @@ export default function HomePage() {
         </section>
 
         <section className="grid gap-5 border-t border-border py-20 md:grid-cols-[1fr_1fr] sm:py-24">
-          <div><SectionHeading index="03" title={t('sections.exploring.title')} note={t('sections.exploring.note')} /><p className="max-w-md text-sm leading-7 text-muted-foreground">{t('sections.exploring.text')}</p></div>
+          <div><SectionHeading title={t('sections.exploring.title')} note={t('sections.exploring.note')} /><p className="max-w-md text-sm leading-7 text-muted-foreground">{t('sections.exploring.text')}</p></div>
           <div className="grid gap-0 border border-border">
             <GardenRow icon={<Cpu size={16} />} label={t('garden.buildingLabel')} title={t('garden.buildingTitle')} />
             <GardenRow icon={<Layers3 size={16} />} label={t('garden.learningLabel')} title={t('garden.learningTitle')} />
@@ -83,12 +82,12 @@ export default function HomePage() {
         </section>
 
         <section id="lab" className="scroll-mt-24 border-t border-zinc-200 py-20 dark:border-zinc-800 sm:py-24">
-          <SectionHeading index="04" title={t('sections.lab.title')} note={t('sections.lab.note')} />
+          <SectionHeading title={t('sections.lab.title')} note={t('sections.lab.note')} />
           <MiniTerminal />
         </section>
 
         <section id="contact" className="scroll-mt-24 border-t border-zinc-200 py-20 dark:border-zinc-800 sm:py-24">
-          <SectionHeading index="05" title={t('sections.contact.title')} note={t('sections.contact.note')} />
+          <SectionHeading title={t('sections.contact.title')} note={t('sections.contact.note')} />
           <ContactForm />
         </section>
       </main>
@@ -96,7 +95,7 @@ export default function HomePage() {
   );
 }
 
-function SectionHeading({ title, note }: { index: string; title: string; note: string }) {
+function SectionHeading({ title, note }: { title: string; note: string }) {
   return <div className="mb-9 flex flex-col justify-between gap-3 sm:flex-row sm:items-end"><div><h2 className="text-balance text-3xl font-medium tracking-tight sm:text-4xl">{title}</h2></div><p className="max-w-sm text-sm text-zinc-500">{note}</p></div>;
 }
 
