@@ -7,6 +7,7 @@ import FeaturedProjects from '@/components/FeaturedProjects';
 import SiteHeader from '@/components/SiteHeader';
 import MiniTerminal from '@/components/MiniTerminal';
 import { useLanguage } from '@/components/providers/LanguageProvider';
+import HeroRipple from '@/components/HeroRipple';
 
 export default function HomePage() {
   const { t } = useLanguage();
@@ -30,8 +31,8 @@ export default function HomePage() {
       <a href="#top" className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-50 focus:bg-background focus:text-foreground focus:px-4 focus:py-2 focus:rounded-md focus:border focus:border-border">{t('header.skipToContent')}</a>
       <SiteHeader />
       <main id="top" className="mx-auto w-full max-w-6xl px-5 sm:px-8">
-        <section className="grid min-h-[620px] items-center gap-12 border-b border-zinc-200 py-20 dark:border-zinc-800 lg:grid-cols-[1.2fr_.8fr] lg:py-28">
-          <div>
+        <section className="relative isolate grid min-h-[620px] items-center gap-12 border-b border-zinc-200 py-20 dark:border-zinc-800 lg:grid-cols-[1.2fr_.8fr] lg:py-28">
+          <div className="relative z-10">
             <div className="mb-8 inline-flex -rotate-6 items-center gap-2 rounded-full bg-burst px-3 py-1 text-xs text-burst-foreground">
               <span className="size-2 rounded-full bg-emerald-500" aria-hidden="true" />
               {t('hero.systemStatus')} {t('hero.operational')}
@@ -48,14 +49,7 @@ export default function HomePage() {
               <Button variant="outline" render={<a href="#contact" />}>{t('hero.ctaContact')} <ArrowDown size={15} /></Button>
             </div>
           </div>
-          <div className="relative hidden aspect-square max-h-[360px] border border-zinc-200 p-6 dark:border-zinc-800 lg:block" aria-hidden="true">
-            <div className="absolute inset-6 grid grid-cols-6 grid-rows-6 border-l border-t border-zinc-200 dark:border-zinc-800">
-              {Array.from({ length: 36 }, (_, index) => <span key={index} className="border-b border-r border-zinc-200/70 dark:border-zinc-800/70" />)}
-            </div>
-            <div className="absolute left-[28%] top-[22%] flex size-28 items-center justify-center border border-zinc-400 bg-background font-mono text-xs tracking-widest shadow-[8px_8px_0_var(--color-zinc-200)] dark:border-zinc-600 dark:shadow-[8px_8px_0_var(--color-zinc-800)]">SYSTEM<br />01</div>
-            <div className="absolute bottom-[20%] right-[20%] flex size-20 items-center justify-center border border-zinc-300 bg-background font-mono text-[10px] text-zinc-500 dark:border-zinc-700">BUILD<br />DEPLOY</div>
-            <span className="absolute bottom-7 left-7 font-mono text-[10px] uppercase tracking-widest text-zinc-500">{t('hero.diagramCaption')}</span>
-          </div>
+          <HeroRipple />
         </section>
 
         <section aria-label="Quick information" className="grid grid-cols-2 border-b border-zinc-200 py-8 dark:border-zinc-800 md:grid-cols-4">

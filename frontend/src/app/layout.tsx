@@ -35,7 +35,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="tr">
-      <body className={`${geistSans.variable} ${geistMono.variable} bg-background text-foreground antialiased transition-colors duration-300 selection:bg-zinc-300 dark:selection:bg-zinc-700`}>
+      <body className={`${geistSans.variable} ${geistMono.variable} overflow-x-hidden bg-background text-foreground antialiased transition-colors duration-300 selection:bg-zinc-300 dark:selection:bg-zinc-700`}>
         <Providers>
           {children}
           <SiteFooter />
