@@ -66,6 +66,8 @@ export const translations = {
     featuredProjects: {
       heading: 'Öne çıkan projeler',
       loading: 'Projeler yükleniyor…',
+      loadError: 'Projeler yüklenemedi. Lütfen tekrar deneyin.',
+      retry: 'Tekrar dene',
       emptyTitle: 'Projeler hazırlanıyor.',
       emptyNote: 'Seçilmiş çalışmalar ve vaka analizleri için yakında tekrar kontrol edin.',
       viewSource: "{title} kaynak kodunu GitHub'da görüntüle",
@@ -170,6 +172,8 @@ export const translations = {
     featuredProjects: {
       heading: 'Featured projects',
       loading: 'Loading projects…',
+      loadError: 'Projects could not be loaded. Please try again.',
+      retry: 'Try again',
       emptyTitle: 'Projects are being curated.',
       emptyNote: 'Check back soon for selected work and case studies.',
       viewSource: 'View {title} source on GitHub',
