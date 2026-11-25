@@ -53,7 +53,7 @@ export default function HomePage() {
         </section>
 
         <section id="projects" className="scroll-mt-24 py-20 sm:py-24">
-          <SectionHeading title={t('sections.selectedWork.title')} note={t('sections.selectedWork.note')} />
+          <SectionHeading title={t('sections.selectedWork.title')} />
           <FeaturedProjects />
         </section>
 
@@ -95,8 +95,8 @@ export default function HomePage() {
   );
 }
 
-function SectionHeading({ title, note }: { title: string; note: string }) {
-  return <div className="mb-9 flex flex-col justify-between gap-3 sm:flex-row sm:items-end"><div><h2 className="text-balance text-3xl font-medium tracking-tight sm:text-4xl">{title}</h2></div><p className="max-w-sm text-sm text-zinc-500">{note}</p></div>;
+function SectionHeading({ title, note }: { title: string; note?: string }) {
+  return <div className="mb-9 flex flex-col justify-between gap-3 sm:flex-row sm:items-end"><div><h2 className="text-balance text-3xl font-medium tracking-tight sm:text-4xl">{title}</h2></div>{note && <p className="max-w-sm text-sm text-zinc-500">{note}</p>}</div>;
 }
 
 function GardenRow({ icon, label, title }: { icon: React.ReactNode; label: string; title: string }) {

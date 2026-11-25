@@ -38,7 +38,7 @@ export const translations = {
       locationValue: 'Türkiye · Uzaktan',
     },
     sections: {
-      selectedWork: { title: 'Projeler', note: 'Amaçla geliştirilmiş işlerden bir seçki.' },
+      selectedWork: { title: 'Projeler' },
       experience: { title: 'Deneyim ve yetkinlikler', note: 'Nasıl düşündüğüm, neler kullandığım ve nerede değer kattığım.' },
       exploring: {
         title: 'Şu anda keşfettiklerim',
@@ -65,12 +65,14 @@ export const translations = {
     },
     featuredProjects: {
       heading: 'Öne çıkan projeler',
-      entries: '{count} kayıt',
       loading: 'Projeler yükleniyor…',
       emptyTitle: 'Projeler hazırlanıyor.',
       emptyNote: 'Seçilmiş çalışmalar ve vaka analizleri için yakında tekrar kontrol edin.',
       viewSource: "{title} kaynak kodunu GitHub'da görüntüle",
       viewLive: '{title} canlı sitesini görüntüle',
+      liveLabel: 'Canlı site',
+      flipToDetails: '{title} detaylarını göster',
+      flipBack: 'Kartı ön yüze çevir',
     },
     miniTerminal: {
       interactiveTerminal: 'ETKİLEŞİMLİ TERMİNAL',
@@ -140,7 +142,7 @@ export const translations = {
       locationValue: 'Türkiye · Remote',
     },
     sections: {
-      selectedWork: { title: 'Projects', note: 'A selection of things built with purpose.' },
+      selectedWork: { title: 'Projects' },
       experience: { title: 'Experience & capabilities', note: 'How I think, what I use, and where I add value.' },
       exploring: {
         title: 'Currently exploring',
@@ -167,12 +169,14 @@ export const translations = {
     },
     featuredProjects: {
       heading: 'Featured projects',
-      entries: '{count} entries',
       loading: 'Loading projects…',
       emptyTitle: 'Projects are being curated.',
       emptyNote: 'Check back soon for selected work and case studies.',
       viewSource: 'View {title} source on GitHub',
       viewLive: 'View {title} live site',
+      liveLabel: 'Live site',
+      flipToDetails: 'Show {title} details',
+      flipBack: 'Flip card back',
     },
     miniTerminal: {
       interactiveTerminal: 'INTERACTIVE TERMINAL',
