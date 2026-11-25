@@ -1,7 +1,8 @@
 'use client';
 
-import { ArrowDown, ArrowUpRight, BookOpen, Braces, Cpu, Layers3, MapPin } from 'lucide-react';
+import { ArrowDown, ArrowUpRight, BookOpen, Braces, Cpu, Layers3 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import CareerTimeline from '@/components/CareerTimeline';
 import ContactForm from '@/components/ContactForm';
 import FeaturedProjects from '@/components/FeaturedProjects';
 import SiteHeader from '@/components/SiteHeader';
@@ -11,13 +12,6 @@ import HeroRipple from '@/components/HeroRipple';
 
 export default function HomePage() {
   const { t } = useLanguage();
-
-  const stats = [
-    { label: t('stats.experienceLabel'), value: t('stats.experienceValue') },
-    { label: t('stats.focusLabel'), value: t('stats.focusValue') },
-    { label: t('stats.architectureLabel'), value: t('stats.architectureValue') },
-    { label: t('stats.locationLabel'), value: t('stats.locationValue'), icon: MapPin },
-  ];
 
   const skills = [
     { group: t('skillsGroups.languages'), items: ['TypeScript', 'JavaScript', 'SQL', 'HTML / CSS'] },
@@ -48,9 +42,7 @@ export default function HomePage() {
           <HeroRipple />
         </section>
 
-        <section aria-label="Quick information" className="grid grid-cols-2 border-b border-zinc-200 py-8 dark:border-zinc-800 md:grid-cols-4">
-          {stats.map(({ label, value, icon: Icon }) => <div key={label} className="border-l border-zinc-200 py-2 pl-4 first:border-0 first:pl-0 dark:border-zinc-800 sm:pl-6"><p className="text-[10px] text-muted-foreground">{label}</p><p className="mt-2 flex items-center gap-2 text-sm font-medium">{Icon && <Icon size={14} className="text-zinc-500" />}{value}</p></div>)}
-        </section>
+        <CareerTimeline />
 
         <section id="projects" className="scroll-mt-24 py-20 sm:py-24">
           <SectionHeading title={t('sections.selectedWork.title')} />

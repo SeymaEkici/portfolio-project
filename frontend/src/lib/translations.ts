@@ -48,6 +48,11 @@ export const translations = {
       lab: { title: 'Küçük bir deney alanı', note: 'Merak ediyorsanız birkaç komut.' },
       contact: { title: 'Bir sohbet başlatalım', note: 'Aklınızda özenli bir proje mi var? Duymak isterim.' },
     },
+    careerTimeline: {
+      heading: 'Kariyer zaman çizelgesi',
+      note: 'Stajlardan bugüne kısa bir yolculuk.',
+      current: 'Güncel',
+    },
     experienceBlock: {
       currentPractice: 'Güncel çalışma',
       roleTitle: 'Full-stack geliştirici',
@@ -153,6 +158,11 @@ export const translations = {
       },
       lab: { title: 'A small sandbox', note: 'A few commands, if you are curious.' },
       contact: { title: 'Start a conversation', note: 'Have a thoughtful project in mind? I would love to hear about it.' },
+    },
+    careerTimeline: {
+      heading: 'Career timeline',
+      note: 'A short path from internships to today.',
+      current: 'Current',
     },
     experienceBlock: {
       currentPractice: 'Current practice',
