@@ -1,6 +1,6 @@
 'use client';
 
-import { ArrowDown, ArrowUpRight, BookOpen, Braces, Cpu, Layers3 } from 'lucide-react';
+import { ArrowDown, ArrowUpRight, Braces } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import CareerTimeline from '@/components/CareerTimeline';
 import ContactForm from '@/components/ContactForm';
@@ -64,15 +64,6 @@ export default function HomePage() {
           </div>
         </section>
 
-        <section className="grid gap-5 border-t border-border py-20 md:grid-cols-[1fr_1fr] sm:py-24">
-          <div><SectionHeading title={t('sections.exploring.title')} note={t('sections.exploring.note')} /><p className="max-w-md text-sm leading-7 text-muted-foreground">{t('sections.exploring.text')}</p></div>
-          <div className="grid gap-0 border border-border">
-            <GardenRow icon={<Cpu size={16} />} label={t('garden.buildingLabel')} title={t('garden.buildingTitle')} />
-            <GardenRow icon={<Layers3 size={16} />} label={t('garden.learningLabel')} title={t('garden.learningTitle')} />
-            <GardenRow icon={<BookOpen size={16} />} label={t('garden.readingLabel')} title={t('garden.readingTitle')} />
-          </div>
-        </section>
-
         <section id="lab" className="scroll-mt-24 border-t border-zinc-200 py-20 dark:border-zinc-800 sm:py-24">
           <SectionHeading title={t('sections.lab.title')} note={t('sections.lab.note')} />
           <MiniTerminal />
@@ -89,8 +80,4 @@ export default function HomePage() {
 
 function SectionHeading({ title, note }: { title: string; note?: string }) {
   return <div className="mb-9 flex flex-col justify-between gap-3 sm:flex-row sm:items-end"><div><h2 className="text-balance text-3xl font-medium tracking-tight sm:text-4xl">{title}</h2></div>{note && <p className="max-w-sm text-sm text-zinc-500">{note}</p>}</div>;
-}
-
-function GardenRow({ icon, label, title }: { icon: React.ReactNode; label: string; title: string }) {
-  return <div className="flex items-center gap-4 border-b border-border p-5 last:border-b-0"><span className="text-muted-foreground">{icon}</span><div className="flex-1"><p className="text-[10px] text-muted-foreground">{label}</p><p className="mt-1 text-sm">{title}</p></div></div>;
 }

@@ -27,19 +27,9 @@ export const translations = {
       ctaProjects: 'Projeleri keşfet',
       ctaContact: 'İletişime geç',
     },
-    stats: {
-      experienceLabel: 'Deneyim',
-      experienceValue: '1+ yıl',
-      focusLabel: 'Odak',
-      focusValue: 'Node.js · Next.js',
-      architectureLabel: 'Mimari',
-      architectureValue: 'Temiz · katmanlı',
-      locationLabel: 'Konum',
-      locationValue: 'Türkiye · Uzaktan',
-    },
     sections: {
       selectedWork: { title: 'Projeler' },
-      experience: { title: 'Deneyim ve yetkinlikler', note: 'Nasıl düşündüğüm, neler kullandığım ve nerede değer kattığım.' },
+      experience: { title: 'Deneyim ve Yetkinlikler', note: 'Nasıl düşündüğüm, neler kullandığım ve nerede değer kattığım.' },
       exploring: {
         title: 'Şu anda keşfettiklerim',
         note: 'Şu anda ilgimi çeken şeylerin canlı bir kaydı.',
@@ -49,7 +39,7 @@ export const translations = {
       contact: { title: 'Bir sohbet başlatalım', note: 'Aklınızda özenli bir proje mi var? Duymak isterim.' },
     },
     careerTimeline: {
-      heading: 'Kariyer zaman çizelgesi',
+      heading: 'Kariyer',
       note: 'Stajlardan bugüne kısa bir yolculuk.',
       current: 'Güncel',
     },
@@ -58,15 +48,6 @@ export const translations = {
       roleTitle: 'Full-stack geliştirici',
       roleDescription: "Uçtan uca web deneyimleri geliştiriyorum: özenli arayüzlerden güvenilir API'lere ve veri modellerine kadar.",
       remoteNote: 'Ürün mühendisliği · Uzaktan',
-    },
-    skillsGroups: { languages: 'Diller', frontend: 'Frontend', backend: 'Backend', practice: 'Pratik' },
-    garden: {
-      buildingLabel: 'Geliştiriyorum',
-      buildingTitle: 'Güvenilir, gözlemlenebilir backend sistemleri',
-      learningLabel: 'Öğreniyorum',
-      learningTitle: 'İleri seviye TypeScript ve domain modelleme',
-      readingLabel: 'Okuyorum',
-      readingTitle: 'Designing Data-Intensive Applications',
     },
     featuredProjects: {
       heading: 'Öne çıkan projeler',
@@ -138,19 +119,9 @@ export const translations = {
       ctaProjects: 'Explore projects',
       ctaContact: 'Get in touch',
     },
-    stats: {
-      experienceLabel: 'Experience',
-      experienceValue: '1+ years',
-      focusLabel: 'Focus',
-      focusValue: 'Node.js · Next.js',
-      architectureLabel: 'Architecture',
-      architectureValue: 'Clean · layered',
-      locationLabel: 'Location',
-      locationValue: 'Türkiye · Remote',
-    },
     sections: {
       selectedWork: { title: 'Projects' },
-      experience: { title: 'Experience & capabilities', note: 'How I think, what I use, and where I add value.' },
+      experience: { title: 'Experience & Capabilities', note: 'How I think, what I use, and where I add value.' },
       exploring: {
         title: 'Currently exploring',
         note: 'A living log of what has my attention right now.',
@@ -160,15 +131,9 @@ export const translations = {
       contact: { title: 'Start a conversation', note: 'Have a thoughtful project in mind? I would love to hear about it.' },
     },
     careerTimeline: {
-      heading: 'Career timeline',
+      heading: 'Career',
       note: 'A short path from internships to today.',
       current: 'Current',
-    },
-    experienceBlock: {
-      currentPractice: 'Current practice',
-      roleTitle: 'Full-stack developer',
-      roleDescription: 'Building end-to-end web experiences: from thoughtful interfaces to dependable APIs and data models.',
-      remoteNote: 'Product engineering · Remote',
     },
     skillsGroups: { languages: 'Languages', frontend: 'Frontend', backend: 'Backend', practice: 'Practice' },
     garden: {
