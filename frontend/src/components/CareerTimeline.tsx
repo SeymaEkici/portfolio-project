@@ -1,6 +1,6 @@
 'use client';
 
-import { useMemo } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { useLanguage } from '@/components/providers/LanguageProvider';
 
 interface TimelineItem {
@@ -87,13 +87,20 @@ const VIEWBOX_WIDTH = 1000;
 const BAND_HEIGHT = 120;
 const AMPLITUDE = 44;
 
-function buildWavePath(n: number) {
-  const step = VIEWBOX_WIDTH / (n - 1);
-  const points = Array.from({ length: n }, (_, i) => ({
-    x: i * step,
+// Points sit at the CENTER of each grid column (matching how the dots are
+// positioned with `left: 50%` inside an n-column grid), not spread edge to
+// edge across the full width. Those two spacings only coincide at the
+// midpoint for odd n, which is why only the middle node used to touch the
+// line.
+function buildWavePoints(n: number) {
+  const colWidth = VIEWBOX_WIDTH / n;
+  return Array.from({ length: n }, (_, i) => ({
+    x: (i + 0.5) * colWidth,
     y: BAND_HEIGHT / 2 + (i % 2 === 0 ? -AMPLITUDE / 2 : AMPLITUDE / 2),
   }));
+}
 
+function pathThrough(points: { x: number; y: number }[]) {
   let d = `M ${points[0].x} ${points[0].y}`;
   for (let i = 1; i < points.length; i++) {
     const prev = points[i - 1];
@@ -101,22 +108,66 @@ function buildWavePath(n: number) {
     const midX = (prev.x + curr.x) / 2;
     d += ` C ${midX} ${prev.y}, ${midX} ${curr.y}, ${curr.x} ${curr.y}`;
   }
-  return { d, points };
+  return d;
+}
+
+// A dot styled as a ring with a small filled center (image-2 reference).
+// The current node inverts the two layers instead of switching to an
+// accent color, so it stays inside the existing ink-on-cream palette
+// rather than adding a third place that uses primary/burst.
+function TimelineDot({ current, size = 'size-4' }: { current?: boolean; size?: string }) {
+  return (
+    <span
+      aria-hidden="true"
+      className={`flex ${current ? 'size-5' : size} items-center justify-center rounded-full border-2 ${
+        current ? 'border-foreground bg-foreground' : 'border-foreground/70 bg-background'
+      }`}
+    >
+      <span className={`size-1.5 rounded-full ${current ? 'bg-background' : 'bg-foreground'}`} />
+    </span>
+  );
 }
 
 export default function CareerTimeline() {
   const { lang, t } = useLanguage();
   const items = ITEMS[lang];
-  const { d, points } = useMemo(() => buildWavePath(items.length), [items.length]);
+
+  const points = useMemo(() => buildWavePoints(items.length), [items.length]);
+  const staticD = useMemo(() => pathThrough(points), [points]);
+  // Flow line travels oldest -> current: reverse the points so the path's
+  // start (dashoffset = pathLength) is the oldest node and its end
+  // (dashoffset = 0) lands exactly on the current node.
+  const flowD = useMemo(() => pathThrough([...points].reverse()), [points]);
+
+  const sectionRef = useRef<HTMLElement | null>(null);
+  const [inView, setInView] = useState(false);
+
+  useEffect(() => {
+    const mq = window.matchMedia('(prefers-reduced-motion: reduce)');
+    if (mq.matches) {
+      setInView(true);
+      return;
+    }
+    const node = sectionRef.current;
+    if (!node) return;
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setInView(true);
+          observer.disconnect();
+        }
+      },
+      { threshold: 0.4 }
+    );
+    observer.observe(node);
+    return () => observer.disconnect();
+  }, []);
 
   return (
-    <section aria-labelledby="career-timeline-heading" className="py-6">
-      <div className="mb-8 flex flex-col justify-between gap-3 sm:flex-row sm:items-end">
-        <h2 id="career-timeline-heading" className="text-balance text-2xl font-medium tracking-tight sm:text-3xl">
-          {t('careerTimeline.heading')}
-        </h2>
-        <p className="max-w-sm text-sm text-muted-foreground">{t('careerTimeline.note')}</p>
-      </div>
+    <section ref={sectionRef} aria-labelledby="career-timeline-heading" className="py-6">
+      <h2 id="career-timeline-heading" className="mb-8 text-balance text-2xl font-medium tracking-tight sm:text-3xl">
+        {t('careerTimeline.heading')}
+      </h2>
 
       {/* Wide viewports: squiggly horizontal wave */}
       <div className="hidden lg:block">
@@ -127,16 +178,40 @@ export default function CareerTimeline() {
             className="absolute inset-0 size-full"
             aria-hidden="true"
           >
-            <path d={d} fill="none" className="stroke-border" strokeWidth={2} />
+            {/* Base line: always-visible dashed path */}
+            <path
+              d={staticD}
+              fill="none"
+              className="stroke-border"
+              strokeWidth={2}
+              strokeDasharray="6 8"
+            />
+            {/* Flow line: solid, thicker, draws on once the section scrolls
+                into view. `pathLength={1}` normalizes the dash units to 1
+                regardless of the path's real geometric length, so no
+                getTotalLength() measurement/ref is needed and there's no
+                flash of a solid line before JS runs — it's hidden by
+                default via dashoffset=1. */}
+            <path
+              d={flowD}
+              fill="none"
+              pathLength={1}
+              className="stroke-foreground transition-[stroke-dashoffset] duration-[1400ms] ease-out"
+              strokeWidth={3}
+              strokeLinecap="round"
+              strokeDasharray={1}
+              strokeDashoffset={inView ? 0 : 1}
+            />
           </svg>
           <ol className="relative grid h-full" style={{ gridTemplateColumns: `repeat(${items.length}, 1fr)` }}>
             {items.map((item, i) => (
               <li key={item.title} className="relative">
-                <span
-                  aria-hidden="true"
-                  className="absolute size-3.5 -translate-x-1/2 -translate-y-1/2 rounded-full border-2 border-background bg-foreground"
+                <div
+                  className="absolute -translate-x-1/2 -translate-y-1/2"
                   style={{ left: '50%', top: `${(points[i].y / BAND_HEIGHT) * 100}%` }}
-                />
+                >
+                  <TimelineDot current={item.current} />
+                </div>
               </li>
             ))}
           </ol>
@@ -146,7 +221,7 @@ export default function CareerTimeline() {
           {items.map(item => (
             <li key={item.title} className="px-2" aria-current={item.current ? 'step' : undefined}>
               {item.current && (
-                <span className="mb-2 inline-block rounded-full border border-primary/40 bg-primary/15 px-2.5 py-0.5 text-[11px] text-foreground">
+                <span className="mb-2 inline-block rounded-full bg-foreground px-2.5 py-0.5 text-[11px] text-background">
                   {t('careerTimeline.current')}
                 </span>
               )}
@@ -159,17 +234,18 @@ export default function CareerTimeline() {
         </ol>
       </div>
 
-      {/* Narrower viewports: vertical fallback — a horizontal wave with 5
-          text-heavy columns does not hold up below ~1024px */}
+      {/* Narrower viewports: vertical fallback. No draw-on animation here —
+          the ask was specifically about the horizontal wave; a vertical
+          list re-triggering its own scroll animation is a separate
+          decision, not bundled in silently. */}
       <ol className="space-y-6 border-l border-border pl-6 lg:hidden">
         {items.map(item => (
-          <li key={item.title} className="relative" aria-current={item.current ? 'step' : undefined}>
-            <span
-              aria-hidden="true"
-              className="absolute -left-[29px] top-1 size-3 rounded-full border-2 border-background bg-foreground"
-            />
+          <li key={item.title} className="relative pl-2" aria-current={item.current ? 'step' : undefined}>
+            <div className="absolute -left-[33px] top-0">
+              <TimelineDot current={item.current} size="size-3.5" />
+            </div>
             {item.current && (
-              <span className="mb-1 inline-block rounded-full border border-primary/40 bg-primary/15 px-2.5 py-0.5 text-[11px] text-foreground">
+              <span className="mb-1 inline-block rounded-full bg-foreground px-2.5 py-0.5 text-[11px] text-background">
                 {t('careerTimeline.current')}
               </span>
             )}
