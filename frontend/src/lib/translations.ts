@@ -38,7 +38,7 @@ export const translations = {
       locationValue: 'Türkiye · Uzaktan',
     },
     sections: {
-      selectedWork: { title: 'Seçilmiş çalışmalar', note: 'Amaçla geliştirilmiş işlerden bir seçki.' },
+      selectedWork: { title: 'Projeler', note: 'Amaçla geliştirilmiş işlerden bir seçki.' },
       experience: { title: 'Deneyim ve yetkinlikler', note: 'Nasıl düşündüğüm, neler kullandığım ve nerede değer kattığım.' },
       exploring: {
         title: 'Şu anda keşfettiklerim',
@@ -140,7 +140,7 @@ export const translations = {
       locationValue: 'Türkiye · Remote',
     },
     sections: {
-      selectedWork: { title: 'Selected work', note: 'A selection of things built with purpose.' },
+      selectedWork: { title: 'Projects', note: 'A selection of things built with purpose.' },
       experience: { title: 'Experience & capabilities', note: 'How I think, what I use, and where I add value.' },
       exploring: {
         title: 'Currently exploring',
